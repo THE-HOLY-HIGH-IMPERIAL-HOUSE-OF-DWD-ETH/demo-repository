@@ -4,3 +4,9 @@
     "qr-pointer.json": "HASH_OF_JSON"
   }
 }
+{
+  "sha256": {
+    "Resized_Screenshot_20260130-141055_Chrome.jpeg": "<INSERT_HASH_OF_IMAGE>",
+    "qr-pointer.json": "<INSERT_HASH_OF_JSON>"
+  }
+}
