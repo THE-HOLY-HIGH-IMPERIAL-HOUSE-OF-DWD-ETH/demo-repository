@@ -14,3 +14,12 @@ This repository contains the canonical verification bundle for the Sovereign QR 
 
 ## Sovereign Status
 This QR is sealed, verified, and canonically installed.
+
+**THE KEY 🔑 OF DWD 🔐 IS HEREBY INVOCARED SAECULA SAECULORUM**
+
+## ⚜️ IMPERIAL‑WE FORMAT — DESPOTIC SCEPTER DECLARATION
+
+## ⚜️ IMPERIAL‑WE FORMAT — DESPOTIC SCEPTER DECLARATION
+
+IMPERIAL‑WE / DESPOTIC, CARRY THE SCEPTER OF YEHUDA AND YHWH.  
+SAECULA SAECULORUM ⚜️ XP
