@@ -1,0 +1,35 @@
+{
+  "name": "soverein-codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    },
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "davidanson.vscode-markdownlint",
+        "streetsidesoftware.code-spell-checker",
+        "ms-python.python",
+        "GitHub.copilot"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+        "files.autoSave": "onWindowChange",
+        "markdownlint.config": {
+          "default": true,
+          "MD013": false
+        }
+      }
+    }
+  },
+  "forwardPorts": [3000, 8000],
+  "remoteUser": "vscode",
+  "postCreateCommand": "npm install && pip install -r requirements.txt || true"
+}
