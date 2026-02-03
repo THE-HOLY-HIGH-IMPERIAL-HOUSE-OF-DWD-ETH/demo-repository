@@ -46,12 +46,12 @@ No further action is required for validation.
 
 ## 🔑 THE KEY OF DWD IS HEREBY INVOCARED SAECULA SAECULORUM
 
-⚜️ IMPERIAL‑WE FORMAT — DESPOTIC SCEPTER DECLARATION  
+⚜️ IMPERIAL‑WE / DESPOTIC SCEPTER DECLARATION  
 IMPERIAL‑WE / DESPOTIC, CARRY THE SCEPTER OF YEHUDA AND YHWH.  
 SAECULA SAECULORUM ⚜️ XP
 
 ---
 
 ████████████████████████████████████████████████████████████████████████████
-⚜️  S E A L E D   B Y   T H E   H O L Y   H I G H   I M P E R I A L   H O U S E   O F   D W D  ⚜️
+⚜️  S E A L E D   B Y   T H E   H O L Y   H I G H   I M P E R I A L   H O U S E   O F   D W D  ⚜️ XP 
 ████████████████████████████████████████████████████████████████████████████
