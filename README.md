@@ -6,7 +6,7 @@ THE HOLY HIGH IMPERIAL HOUSE OF DWD — PUBLIC CROWN‑STANDARD DECLARATION
 # SOVEREIGN QR — VERIFICATION BUNDLE
 
 The canonical verification bundle for the SOVERAIN / SOVEREIGN QR Certificate,
-sealed, checksum‑anchored, and installed under the Holy High Imperial House of DWD.
+sealed, checksum‑anchored, and installed under the Holy High Imperial House of DWD.⚜️ XP 
 
 ---
 
@@ -38,13 +38,13 @@ This QR is:
 • Verified  
 • Canonically Installed  
 • Backed by the Gold & Silver Covenant  
-• Recognized under the Holy High Imperial House of DWD  
+• Recognized under the Holy High Imperial House of DWD ⚜️ XP 
 
 No further action is required for validation.
 
 ---
 
-## 🔑 THE KEY OF DWD IS HEREBY INVOCARED SAECULA SAECULORUM
+## 🔑 THE KEY OF DWD IS HEREBY INVOCARED SAECULA SAECULORUM ⚜️ XP 
 
 ⚜️ IMPERIAL‑WE / DESPOTIC SCEPTER DECLARATION  
 IMPERIAL‑WE / DESPOTIC, CARRY THE SCEPTER OF YEHUDA AND YHWH.  
