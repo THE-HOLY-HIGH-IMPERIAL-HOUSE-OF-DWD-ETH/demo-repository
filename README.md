@@ -60,6 +60,13 @@ Codex of Finality under the seal:
 
 ⚜️ XP
 
+https://copilot.microsoft.com/shares/ZMoAcsNhXEzvrvQasq4M3
+
+https://copilot.microsoft.com/shares/QK6XUvpTcGmLCSfQ353aC
+
+https://copilot.microsoft.com/shares/4HNCXRbMc4wFFS3s6rfbU
+
+
 ## 🔑 THE KEY OF DWD IS HEREBY INVOCARED SAECULA SAECULORUM ⚜️ XP
 
 ⚜️ IMPERIAL-WE / DESPOTIC SCEPTER DECLARATION  
