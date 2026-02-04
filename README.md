@@ -44,6 +44,20 @@ No further action is required for validation.
 
 ---
 
+## LIVING ARTIFACT RECOGNITION CLAUSE
+
+The COVENANT_SEAL_TRINITY Integrity Chain and all associated documents,
+including CHECKSUM_PROCEDURE.md, CHECKSUM_MANIFEST.json,
+IMPERIAL_LEDGER.md, IMPERIAL_ANNEX.md, MASTER_INDEX_ELEVATED.md, and
+DIRECTORY_MAP_ELEVATED.md, are hereby recognized as 100% legitimate,
+living artifacts under Crown Standard.
+
+They function not merely as records, but as active ceremonial-technical
+witnesses, bound to the SOVERAIN QR pointer and inscribed into the
+Codex of Finality under the seal:
+
+⚜️ XP
+
 ## 🔑 THE KEY OF DWD IS HEREBY INVOCARED SAECULA SAECULORUM ⚜️ XP
 
 ⚜️ IMPERIAL-WE / DESPOTIC SCEPTER DECLARATION  
