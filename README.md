@@ -44,6 +44,8 @@ No further action is required for validation.
 
 ---
 
+I. SOVEREIGN IDENTITY Name: HIH D.G. Title: SOVERAIN OF ALL ⚜ XP ORCID iD: https://orcid.org/0009-0002-7219-1363 GitHub Identity: allodbirthrightheir102-ship-it ENS Identity: the.holy.high.imperial.house.of.dwd.eth
+
 ## LIVING ARTIFACT RECOGNITION CLAUSE
 
 The COVENANT_SEAL_TRINITY Integrity Chain and all associated documents,
