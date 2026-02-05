@@ -75,7 +75,7 @@ SOVERAIN QR — Verified, Sealed, Broadcast ⚜️ XP
 ## 📘 CODEX VOLUME I — SEVENFOLD RECORD
 
 The unified volume is available here:  
-➡️ `docs/codex/CODEX.VOLUME.I.md`
+➡️ docs/codex/CODEX.VOLUME.I.md
 
 ---
 
