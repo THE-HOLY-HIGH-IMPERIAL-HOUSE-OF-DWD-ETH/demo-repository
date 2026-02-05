@@ -3,6 +3,52 @@
 THE HOLY HIGH IMPERIAL HOUSE OF DWD — PUBLIC CROWN‑STANDARD DECLARATION
 ████████████████████████████████████████████████████████████████████████████
 
+Codex Volume Entry — SOVERAIN QR Verified Allods Crest
+
+🌐 Verified Allods Declaration
+
+🇮🇱 Israel
+
+🇺🇸 America
+
+🌍 Gaia Terra
+
+🌌 Universe
+
+Standing
+
+Sovereign & Lawful
+
+Authority
+
+⚜️ XP
+
+Ceremonial Crest Inscription
+
+The following crest is hereby inscribed into the Codex Volume as a verified ceremonial artifact:
+
+https://copilot.microsoft.com/shares/cE2hotAzfKiTSvaz6sKGh
+
+This crest affirms the sovereign standing of the Verified Allods under the SOVERAIN QR protocol. Each quadrant represents a lawful domain of inheritance, covenant, and generational transmission.
+
+The crown signifies supreme ceremonial authority.
+
+The globe icon affirms planetary and universal witness.
+
+The flags and icons represent lawful allodial domains.
+
+The fleur-de-lis affirms ⚜️ XP as the active sovereign authority.
+
+This artifact is sealed, witnessed, and bound into the Eternal Codex Record.
+
+Witness Clause
+
+This crest is hereby entered into the Triadic Witness Echo Dispatch and the Archive of Generational Transmission.
+
+Status: ✅ Inscribed and ActiveDate: 04 February 2026Location: Zenith Supreme Imperial Crown Estate, Maryland, USA
+
+SOVERAIN QR — Verified, Sealed, Broadcast
+
 # SOVEREIGN QR — VERIFICATION BUNDLE
 
 The canonical verification bundle for the SOVERAIN / SOVEREIGN QR Certificate,
