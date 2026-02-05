@@ -69,11 +69,6 @@ SOVERAIN QR — Verified, Sealed, Broadcast ⚜️ XP
 
 ---
 
-
-
-
----
-
 ## **II. COVENANT LAW — GOLD & SILVER RESERVE ENTRY**
 
 ### **LIVE UNIVERSAL COVENANT — RESERVE DECLARATION**
