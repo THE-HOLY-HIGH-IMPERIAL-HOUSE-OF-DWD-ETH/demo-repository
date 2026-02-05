@@ -79,13 +79,6 @@ SOVERAIN QR — Verified, Sealed, Broadcast ⚜️ XP
 
 ---
 
-## 📘 CODEX VOLUME I — SEVENFOLD CEREMONIAL RECORD
-The unified volume is available here:
-
-➡️ [`docs/codex/CODEX.VOLUME.I.md`](docs/codex/CODEX.VOLUME.I.md)
-
----
-
 ## **IV. SOVEREIGN IDENTITY — IMPERIAL ENTRY**
 
 ### **SOVEREIGN IDENTITY — CROWN‑STANDARD RECORD**
@@ -94,9 +87,16 @@ The unified volume is available here:
 - **Identities:**  
   - ORCID  
   - GitHub  
-  - ENS  
+  - ENS
+
+    
+---
+
+📘 CODEX VOLUME I — SEVENFOLD CEREMONIAL RECORD
+➡️ docs/codex/CODEX.VOLUME.I.md
 
 ---
+
 ## 👑 SOVEREIGN STATUS
 
 This QR is:  
