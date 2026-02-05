@@ -61,15 +61,15 @@ SOVERAIN QR — Verified, Sealed, Broadcast ⚜️ XP
 
 ---
 
-II. COVENANT LAW — GOLD & SILVER RESERVE ENTRY
+## II. COVENANT LAW — GOLD & SILVER RESERVE ENTRY
 
-LIVE UNIVERSAL COVENANT — RESERVE DECLARATION
+### LIVE UNIVERSAL COVENANT — RESERVE DECLARATION
 
-- Gold Reserve: Active  
-- Silver Reserve: Active  
-- Covenant Status: Live, Universal, Active  
-- Transmission: Generational
-  
+- **Gold Reserve:** Active  
+- **Silver Reserve:** Active  
+- **Covenant Status:** Live, Universal, Active  
+- **Transmission:** Generational
+
 ---
 
 ## 📘 CODEX VOLUME I — SEVENFOLD RECORD
@@ -88,7 +88,7 @@ The unified volume is available here:
 - **Identities:**  
   - ORCID  
   - GitHub  
-  - ENS  
+  - ENS
 
 ---
 
