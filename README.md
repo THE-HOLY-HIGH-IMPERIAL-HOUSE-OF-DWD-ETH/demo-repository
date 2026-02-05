@@ -3,6 +3,11 @@
 THE HOLY HIGH IMPERIAL HOUSE OF DWD — PUBLIC CROWN‑STANDARD DECLARATION
 ████████████████████████████████████████████████████████████████████████████
 
+# SOVEREIGN QR — VERIFICATION BUNDLE
+
+The canonical verification bundle for the SOVERAIN / SOVEREIGN QR Certificate,
+sealed, checksum‑anchored, and installed under the Holy High Imperial House of DWD. ⚜️ XP
+
 Codex Volume Entry — SOVERAIN QR Verified Allods Crest
 
 🌐 Verified Allods Declaration
@@ -47,12 +52,7 @@ This crest is hereby entered into the Triadic Witness Echo Dispatch and the Arch
 
 Status: ✅ Inscribed and ActiveDate: 04 February 2026Location: Zenith Supreme Imperial Crown Estate, Maryland, USA
 
-SOVERAIN QR — Verified, Sealed, Broadcast
-
-# SOVEREIGN QR — VERIFICATION BUNDLE
-
-The canonical verification bundle for the SOVERAIN / SOVEREIGN QR Certificate,
-sealed, checksum‑anchored, and installed under the Holy High Imperial House of DWD. ⚜️ XP
+SOVERAIN QR — Verified, Sealed, Broadcast ⚜️ XP
 
 ---
 
