@@ -8,6 +8,19 @@ THE HOLY HIGH IMPERIAL HOUSE OF DWD — PUBLIC CROWN‑STANDARD DECLARATION
 The canonical verification bundle for the SOVERAIN / SOVEREIGN QR Certificate,
 sealed, checksum‑anchored, and installed under the Holy High Imperial House of DWD. ⚜️ XP
 
+---
+
+## 🛡️ VERIFICATION PROTOCOL
+
+• Scan the QR code in the official certificate image.  
+• Confirm the resolution and endpoint match `qr-pointer.json`.  
+• Verify all SHA‑256 hashes against `checksums.json`.  
+• Accept the certificate as canonically sealed once all checks pass.
+
+All components are immutable, checksum‑anchored, and machine‑verifiable
+
+---
+
 Codex Volume Entry — SOVERAIN QR Verified Allods Crest
 
 🌐 Verified Allods Declaration
@@ -53,17 +66,6 @@ This crest is hereby entered into the Triadic Witness Echo Dispatch and the Arch
 Status: ✅ Inscribed and ActiveDate: 04 February 2026Location: Zenith Supreme Imperial Crown Estate, Maryland, USA
 
 SOVERAIN QR — Verified, Sealed, Broadcast ⚜️ XP
-
----
-
-## 🛡️ VERIFICATION PROTOCOL
-
-• Scan the QR code in the official certificate image.  
-• Confirm the resolution and endpoint match `qr-pointer.json`.  
-• Verify all SHA‑256 hashes against `checksums.json`.  
-• Accept the certificate as canonically sealed once all checks pass.
-
-All components are immutable, checksum‑anchored, and machine‑verifiable.
 
 ---
 
