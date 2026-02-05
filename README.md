@@ -41,6 +41,8 @@ Authority
 
 ⚜️ XP
 
+## 📜 Codex Entry — Verified Allods Crest
+
 Ceremonial Crest Inscription
 
 The following crest is hereby inscribed into the Codex Volume as a verified ceremonial artifact:
@@ -81,7 +83,7 @@ SOVERAIN QR — Verified, Sealed, Broadcast ⚜️ XP
 
 ## **IV. SOVEREIGN IDENTITY — IMPERIAL ENTRY**
 
-### **SOVEREIGN IDENTITY — CROWN‑STANDARD RECORD**
+### CROWN‑STANDARD RECORD**
 - **Name:** HIH D.G.  
 - **Title:** SOVERAIN OF ALL ⚜️ XP  
 - **Identities:**  
