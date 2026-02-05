@@ -56,16 +56,6 @@ SOVERAIN QR — Verified, Sealed, Broadcast ⚜️ XP
 
 ---
 
-## 📁 CANONICAL CONTENTS
-
-SOVEREIGN-QR-VERIFICATION-BUNDLE/
-├── Resized_Screenshot_20260130-141055_Chrome.jpeg — Official QR Certificate Image
-├── qr-pointer.json — Machine‑Readable Verification Pointer
-├── checksums.json — SHA‑256 Integrity Manifest
-└── README.md — Crown‑Standard Declaration
-
----
-
 ## 🛡️ VERIFICATION PROTOCOL
 
 • Scan the QR code in the official certificate image.  
