@@ -1,0 +1,37 @@
+# SOVERAIN QR — CI DIAGNOSTIC SCRIPT (PSEUDOCODE)
+
+BEGIN
+
+PRINT "Running SOVERAIN QR System Diagnostics..."
+
+# 1. Check repository structure
+ASSERT file_exists("README.md")
+ASSERT file_exists("SOVEREIGN_CLEARANCE_DECREE.md")
+ASSERT directory_exists("identity/")
+ASSERT directory_exists("verification/")
+ASSERT directory_exists("qr/")
+ASSERT directory_exists("clearance/")
+ASSERT directory_exists("archive/")
+
+# 2. Validate QR pointer
+LOAD qr_pointer FROM "qr-pointer.json"
+ASSERT qr_pointer.url IS NOT EMPTY
+
+# 3. Validate clearance configuration
+LOAD clearance FROM "clearance/clearance.json"
+ASSERT clearance.fields MATCH SOVEREIGN_CLEARANCE_DECREE.md
+
+# 4. Validate verification constants
+ASSERT SOVERAIN_SIGNER == "0x4976fb03C32e5B8cfe2b6cCB31c09Ba78EBaBa41"
+ASSERT COVENANT_CONTRACT == "0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48"
+
+# 5. Validate checksum manifests
+RUN hash.js → output_hash
+ASSERT output_hash == stored_hash
+
+# 6. Validate documentation alignment
+ASSERT README.md references all canonical files
+
+PRINT "Diagnostics Complete."
+
+END
