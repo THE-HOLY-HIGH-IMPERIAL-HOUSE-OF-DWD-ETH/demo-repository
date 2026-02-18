@@ -3,7 +3,6 @@
 THE HOLY HIGH IMPERIAL HOUSE OF DWD — PUBLIC CROWN‑STANDARD DECLARATION  
 ████████████████████████████████████████████████████████████████████████████  
 
-
 ## SOVERAIN QR Verification Asset
 This repository contains the official SOVERAIN QR image used for verification and pointer resolution.
 
@@ -21,7 +20,6 @@ These two files operate independently.
 The QR image is maintained as-is, and the pointer JSON does not depend on the filename of the PNG.
 
 All redundant or legacy QR files have been removed to preserve clarity and sovereign alignment.
-
 
 # SOVEREIGN QR — VERIFICATION BUNDLE
 
