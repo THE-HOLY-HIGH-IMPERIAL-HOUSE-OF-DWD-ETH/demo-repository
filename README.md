@@ -5,7 +5,6 @@ THE HOLY HIGH IMPERIAL HOUSE OF DWD — PUBLIC CROWN‑STANDARD DECLARATION
 
 
 ## SOVERAIN QR Verification Asset
-
 This repository contains the official SOVERAIN QR image used for verification and pointer resolution.
 
 ### Active QR File
@@ -13,10 +12,10 @@ This repository contains the official SOVERAIN QR image used for verification an
 
 ### Pointer Metadata
 - **qr-pointer.json** — versioned pointer metadata containing:
-  - version
-  - type
-  - target URL
-  - timestamp
+  - version  
+  - type  
+  - target URL  
+  - timestamp  
 
 These two files operate independently.  
 The QR image is maintained as-is, and the pointer JSON does not depend on the filename of the PNG.
