@@ -51,7 +51,7 @@ Authority Symbol: ⚜️ XP
 
 ### Crest Inscription
 The crest is entered into the Codex Volume as a verified artifact:  
-(Your link remains unchanged)
+https://copilot.microsoft.com/shares/cE2hotAzfKiTSvaz6sKGh
 
 ### Interpretation
 - Crown → authority  
