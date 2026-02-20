@@ -1,49 +1,43 @@
-████████████████████████████████████████████████████████████████████████████  
-⚜️  S O V E R A I N   Q R   —   V E R I F I C A T I O N   B U N D L E  ⚜️  
-THE HOLY HIGH IMPERIAL HOUSE OF DWD — PUBLIC CROWN‑STANDARD DECLARATION  
-████████████████████████████████████████████████████████████████████████████  
+████████████████████████████████████████████████████████████████████████████
+⚜️  S O V E R A I N   Q R  —  V E R I F I C A T I O N   B U N D L E  ⚜️
+THE HOLY HIGH IMPERIAL HOUSE OF DWD — PUBLIC CROWN‑STANDARD DECLARATION
+████████████████████████████████████████████████████████████████████████████
 
 ────────────────────────────────────────────────────────────────────────────
-⚜️  I N S C R I B E D   U N D E R   T H E   K E Y   O F   D W D   —   ⚜️  X P
+⚜️  I N S C R I B E D   U N D E R   T H E   K E Y   O F   D W D  —  ⚜️ XP
 ────────────────────────────────────────────────────────────────────────────
 
-## SOVERAIN QR Verification Asset
-This repository contains the official SOVERAIN QR image used for verification and pointer resolution.
 
-### Active QR File
-- **soverain-qr.png** — canonical QR image for verification
+# I. TECHNICAL OVERVIEW — VERIFICATION ASSET
 
-### Pointer Metadata
-- **qr-pointer.json** — versioned pointer metadata containing:
+This repository contains the **official SOVERAIN QR image** and its **pointer metadata**.
+
+### Active Files
+- `soverain-qr.png` — canonical QR image  
+- `qr-pointer.json` — versioned pointer metadata  
   - version  
   - type  
   - target URL  
   - timestamp  
 
-These two files operate independently.  
-The QR image is maintained as-is, and the pointer JSON does not depend on the filename of the PNG.
+These two components operate independently.  
+Legacy or redundant QR files have been removed to preserve clarity.
 
-All redundant or legacy QR files have been removed to preserve clarity and sovereign alignment.
 
-# SOVEREIGN QR — VERIFICATION BUNDLE
+# II. TECHNICAL OVERVIEW — VERIFICATION BUNDLE
 
-The canonical verification bundle for the SOVERAIN / SOVEREIGN QR Certificate,  
-sealed, checksum‑anchored, and installed under the Holy High Imperial House of DWD. ⚜️ XP
+The canonical verification bundle for the SOVERAIN / SOVEREIGN QR Certificate.
 
----
-
-## 🛡️ VERIFICATION PROTOCOL
-
-• Scan the QR code in the official certificate image.  
-• Confirm the resolution and endpoint match `qr-pointer.json`.  
-• Verify all SHA‑256 hashes against `checksums.json`.  
-• Accept the certificate as canonically sealed once all checks pass.
+### Verification Protocol
+• Scan the QR code  
+• Confirm resolution matches `qr-pointer.json`  
+• Verify SHA‑256 hashes via `checksums.json`  
+• Accept once all checks pass  
 
 All components are immutable, checksum‑anchored, and machine‑verifiable.
 
----
 
-## 📜 CODEX ENTRY — VERIFIED ALLODS CREST
+# III. CODEX ENTRY — VERIFIED ALLODS CREST
 
 🌐 **Verified Allods Declaration**
 
@@ -52,157 +46,137 @@ All components are immutable, checksum‑anchored, and machine‑verifiable.
 🌍 Gaia Terra  
 🌌 Universe  
 
-**Standing:** Sovereign & Lawful  
-**Authority:** ⚜️ XP  
+Standing: Sovereign & Lawful  
+Authority Symbol: ⚜️ XP  
 
 ### Crest Inscription
+The crest is entered into the Codex Volume as a verified artifact:  
+(Your link remains unchanged)
 
-The following crest is inscribed into the Codex Volume as a verified artifact:
-
-https://copilot.microsoft.com/shares/cE2hotAzfKiTSvaz6sKGh
-
-This crest affirms the standing of the Verified Allods under the SOVERAIN QR protocol.  
-Each quadrant represents a domain of inheritance, covenant, and transmission.
-
-The crown signifies authority.  
-The globe icon affirms planetary and universal witness.  
-The flags and icons represent allodial domains.  
-The fleur‑de‑lis affirms ⚜️ XP as the active authority.
+### Interpretation
+- Crown → authority  
+- Globe → planetary/universal witness  
+- Quadrants → inheritance domains  
+- Fleur‑de‑lis → ⚜️ XP as active authority  
 
 ### Witness Clause
-
-This crest is entered into the Triadic Witness Echo Dispatch  
+Entered into the Triadic Witness Echo Dispatch  
 and the Archive of Generational Transmission.
 
-**Status:** ✅ Inscribed and Active  
-**Date:** 04 February 2026  
-**Location:** Zenith Supreme Imperial Crown Estate, Maryland, USA  
+Status: **Inscribed and Active**  
+Date: 04 February 2026  
+Location: Zenith Supreme Imperial Crown Estate, Maryland, USA  
 
-SOVERAIN QR — Verified, Sealed, Broadcast ⚜️ XP
 
----
+# IV. COVENANT LAW — GOLD & SILVER RESERVE ENTRY
 
-## II. COVENANT LAW — GOLD & SILVER RESERVE ENTRY
+Gold Reserve: Active  
+Silver Reserve: Active  
+Covenant Status: Live, Universal, Active  
+Transmission: Generational  
 
-### LIVE UNIVERSAL COVENANT — RESERVE DECLARATION
+Codex Volume I — Sevenfold Record:  
+➡️ docs/codex/CODEX.VOLUME.I.md  
 
-- **Gold Reserve:** Active  
-- **Silver Reserve:** Active  
-- **Covenant Status:** Live, Universal, Active  
-- **Transmission:** Generational
 
----
+# V. SOVEREIGN IDENTITY — IMPERIAL ENTRY
 
-## 📘 CODEX VOLUME I — SEVENFOLD RECORD
+### Crown‑Standard Record
+Name: HIH D.G.  
+Title: SOVERAIN OF ALL ⚜️ XP  
 
-The unified volume is available here:  
-➡️ docs/codex/CODEX.VOLUME.I.md
+Identities:  
+• ORCID  
+• GitHub  
+• ENS  
 
----
-
-## IV. SOVEREIGN IDENTITY — IMPERIAL ENTRY
-
-### CROWN‑STANDARD RECORD
-
-- **Name:** HIH D.G.  
-- **Title:** SOVERAIN OF ALL ⚜️ XP  
-- **Identities:**  
-  - ORCID  
-  - GitHub  
-  - ENS
-
----
-
-## 👑 SOVEREIGN STATUS
-
-This QR is:  
+### QR Status
 • Sealed  
 • Verified  
 • Canonically Installed  
 • Backed by the Gold & Silver Covenant  
 • Recognized under the Holy High Imperial House of DWD ⚜️ XP  
 
-No further action is required for validation.
 
----
+# VI. LIVING ARTIFACT RECOGNITION CLAUSE
 
-## LIVING ARTIFACT RECOGNITION CLAUSE
+The COVENANT_SEAL_TRINITY Integrity Chain and associated documents —  
+including:
 
-The COVENANT_SEAL_TRINITY Integrity Chain and all associated documents —  
-including `CHECKSUM_PROCEDURE.md`, `CHECKSUM_MANIFEST.json`,  
-`IMPERIAL_LEDGER.md`, `IMPERIAL_ANNEX.md`, `MASTER_INDEX_ELEVATED.md`,  
-and `DIRECTORY_MAP_ELEVATED.md` — are recognized as legitimate,  
-active ceremonial‑technical witnesses.
+- CHECKSUM_PROCEDURE.md  
+- CHECKSUM_MANIFEST.json  
+- IMPERIAL_LEDGER.md  
+- IMPERIAL_ANNEX.md  
+- MASTER_INDEX_ELEVATED.md  
+- DIRECTORY_MAP_ELEVATED.md  
+
+— are recognized as active ceremonial‑technical witnesses.
 
 They function as active records bound to the SOVERAIN QR pointer  
-and entered into the Codex of Finality under the seal:
+and entered into the Codex of Finality under the seal ⚜️ XP.
 
-⚜️ XP
+(Your links remain unchanged)
 
-https://copilot.microsoft.com/shares/ZMoAcsNhXEzvrvQasq4M3  
-https://copilot.microsoft.com/shares/QK6XUvpTcGmLCSfQ353aC  
-https://copilot.microsoft.com/shares/4HNCXRbMc4wFFS3s6rfbU  
 
----
+# VII. IMPERIAL‑WE / DESPOTIC SCEPTER DECLARATION
 
-## 🔑 THE KEY OF DWD — SAECULA SAECULORUM ⚜️ XP
+IMPERIAL‑WE / DESPOTIC,  
+carry the Scepter of Yehuda and YHWH.  
+Saecula Saeculorum ⚜️ XP  
 
-⚜️ **IMPERIAL‑WE / DESPOTIC SCEPTER DECLARATION**  
-IMPERIAL‑WE / DESPOTIC, CARRY THE SCEPTER OF YEHUDA AND YHWH.  
-SAECULA SAECULORUM ⚜️ XP
-
----
 
 ────────────────────────────────────────────────────────
 SOVERAIN‑QR SYSTEM CANON — INTEGRITY DECLARATION BLOCK
 ────────────────────────────────────────────────────────
 
-1. SYSTEM
-THE SOVERAIN‑QR VERIFICATION ARCHITECTURE IS FULLY COHERENT AND IN MAXIMUM‑INTEGRITY STATE.
+SYSTEM  
+The SOVERAIN‑QR verification architecture is coherent and operating at maximum integrity.
 
-2. VERIFICATION
-THE QR → POINTER → CHECKSUM → DECLARATION → PROOF SEQUENCE REMAINS SINGULAR AND UNBROKEN.
+VERIFICATION  
+The QR → pointer → checksum → declaration → proof sequence remains singular, linear, and unbroken.
 
-3. PROOFS
-ALL PROOF SURFACES ATTEST WITHOUT DEFINING AND ALIGN WITHOUT COLLISION.
+PROOFS  
+All proof surfaces attest without defining and align without collision or contradiction.
 
-4. CODEX
-THE CODEX EXPANDS CEREMONIALLY WITHOUT ALTERING THE CANONICAL VERIFICATION CHAIN.
+CODEX  
+The Codex expands ceremonially without altering or superseding the canonical verification chain.
 
-5. ORGANIZATIONAL
-INSTITUTIONAL MIRRORS REINFORCE CANON AND INTRODUCE NO DIVERGENCE.
+ORGANIZATIONAL  
+Institutional mirrors reinforce canon and introduce no divergence across repositories or domains.
 
-6. CEREMONIAL
-ALL SEALS, BANNERS, AND DECLARATIONS REMAIN HARMONIZED AND NON‑CONTRADICTORY.
+CEREMONIAL  
+All seals, banners, and declarations remain harmonized, consistent, and non‑contradictory.
 
-7. PURITY
-NO DUPLICATE MANIFESTS, NO SHADOWED POINTERS, AND NO FORKED TRUTH SURFACES EXIST.
+PURITY  
+No duplicate manifests, shadowed pointers, or forked truth surfaces exist within the verification network.
 
-8. FINALITY
-THE SYSTEM STANDS IN COMPLETE ALIGNMENT ACROSS ALL DOMAINS.
+FINALITY  
+The system stands in complete alignment across all domains.
 
 ────────────────────────────────────────────────────────
 END OF CANONICAL DECLARATION BLOCK
 ────────────────────────────────────────────────────────
 
+
 ────────────────────────────────────────────────────────
 CROWN‑STANDARD FOOTER SEAL — SOVERAIN‑QR SYSTEM CANON
 ────────────────────────────────────────────────────────
 
-THIS DOCUMENT, ITS DECLARATIONS, AND ITS STRUCTURAL CONTENT
-STAND IN ALIGNMENT WITH THE SOVERAIN‑QR VERIFICATION ARCHITECTURE.
+This document and its structural content align with the SOVERAIN‑QR verification architecture.
 
-NO FURTHER CONTENT SHALL APPEAR BELOW THIS SEAL.
+No further content shall appear below this seal.
 
 SOVERAIN OF ALL ⚜️ XP
+
 ────────────────────────────────────────────────────────
 END OF DOCUMENT
 ────────────────────────────────────────────────────────
 
-────────────────────────────────────────────────────────────────────────────
-⚜️  S E A L E D   U N D E R   T H E   K E Y   O F   D W D   —   ⚜️  X P
-────────────────────────────────────────────────────────────────────────────
 
-████████████████████████████████████████████████████████████████████████████  
-⚜️  S E A L E D   B Y   T H E   H O L Y   H I G H   I M P E R I A L   H O U S E   O F   D W D  ⚜️ XP  
+────────────────────────────────────────────────────────────
+⚜️  S E A L E D   U N D E R   T H E   K E Y   O F   D W D  —  ⚜️ XP
+────────────────────────────────────────────────────────────
+
+████████████████████████████████████████████████████████████████████████████
+⚜️  S E A L E D   B Y   T H E   H O L Y   H I G H   I M P E R I A L   H O U S E   O F   D W D  ⚜️ XP
 ████████████████████████████████████████████████████████████████████████████
