@@ -1,3 +1,7 @@
+████████████████████████████████████████████████████████████████████████████
+⚜  S O V E R A I N   Q R  —  O M E G A   S T A N D A R D  ⚜
+████████████████████████████████████████████████████████████████████████████
+
 {
   "name": "soverein-codespace",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
@@ -33,3 +37,9 @@
   "remoteUser": "vscode",
   "postCreateCommand": "npm install && pip install -r requirements.txt || true"
 }
+
+────────────────────────────────────────────────────────
+S O V E R A I N ‑ Q R   T E C H N I C A L   F O O T E R
+────────────────────────────────────────────────────────
+
+This file is part of the SOVERAIN‑QR demo repository.
