@@ -1,3 +1,7 @@
+████████████████████████████████████████████████████████████████████████████
+⚜ S O V E R A I N   Q R  —  O M E G A   S T A N D A R D ⚜
+████████████████████████████████████████████████████████████████████████████
+
 name: Proof HTML
 on:
   push:
@@ -9,3 +13,9 @@ jobs:
       - uses: anishathalye/proof-html@v1.1.0
         with:
           directory: ./
+
+          ────────────────────────────────────────────────────────
+S O V E R A I N ‑ Q R   T E C H N I C A L   F O O T E R
+────────────────────────────────────────────────────────
+
+This file is part of the SOVERAIN‑QR demo repository.
