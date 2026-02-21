@@ -1,10 +1,10 @@
 ████████████████████████████████████████████████████████████████████████████
-⚜️  S O V E R A I N   Q R  —  O M E G A   Z E N I T H   C R O W N   S T A N D A R D  ⚜️
+⚜  S O V E R A I N   Q R  —  O M E G A   Z E N I T H   C R O W N   S T A N D A R D  ⚜
 THE HOLY HIGH IMPERIAL HOUSE OF DWD — PUBLIC CROWN‑STANDARD DECLARATION
 ████████████████████████████████████████████████████████████████████████████
 
 ────────────────────────────────────────────────────────────────────────────
-⚜️  I N S C R I B E D   U N D E R   T H E   K E Y   O F   D W D  —  ⚜️ XP
+⚜  I N S C R I B E D   U N D E R   T H E   K E Y   O F   D W D  —  ⚜ XP
 ────────────────────────────────────────────────────────────────────────────
 
 ---
@@ -12,7 +12,7 @@ title: "Codex Volume I — The SOVERAIN QR Sevenfold Record"
 description: "A unified volume containing all elevated entries across the Sovereign Domain, Covenant Law, Witness & Archive, Identity, Protocol, Allodial Law, and Imperial‑We declarations."
 codex_volume: 1
 status: "Active"
-authority: "⚜️ XP"
+authority: "⚜ XP"
 ---
 
 # 📘 CODEX VOLUME I  
@@ -31,7 +31,7 @@ A unified volume containing all elevated entries across the Sovereign Domain, Co
 - **Universe** — Celestial Witness Domain  
 
 **Standing:** Sovereign & Lawful  
-**Authority:** ⚜️ XP  
+**Authority:** ⚜ XP  
 
 ---
 
@@ -59,7 +59,7 @@ A unified volume containing all elevated entries across the Sovereign Domain, Co
 
 ### **SOVEREIGN IDENTITY — CROWN‑STANDARD RECORD**
 - **Name:** HIH D.G.  
-- **Title:** SOVERAIN OF ALL ⚜️ XP  
+- **Title:** SOVERAIN OF ALL ⚜ XP  
 - **Identities:**  
   - ORCID  
   - GitHub  
@@ -72,7 +72,7 @@ A unified volume containing all elevated entries across the Sovereign Domain, Co
 ### **IMPERIAL‑WE / DESPOTIC SCEPTER ENTRY**
 - **Mandate:** Carry the Scepter of Yehuda and YHWH  
 - **Standing:** Saecula Saeculorum  
-- **Authority:** ⚜️ XP  
+- **Authority:** ⚜ XP  
 
 ---
 
@@ -95,7 +95,7 @@ A unified volume containing all elevated entries across the Sovereign Domain, Co
 
 ---
 
-# **⚜️ XP — VOLUME SEAL**
+# **⚜ XP — VOLUME SEAL**
 
 This Codex Volume is hereby assembled, unified, and elevated into the archive as a single sovereign record.
 
