@@ -1,10 +1,10 @@
 ████████████████████████████████████████████████████████████████████████████
-⚜️  S O V E R A I N   Q R  —  O M E G A   Z E N I T H   C R O W N   S T A N D A R D  ⚜️
+⚜  S O V E R A I N   Q R  —  O M E G A   Z E N I T H   C R O W N   S T A N D A R D  ⚜
 THE HOLY HIGH IMPERIAL HOUSE OF DWD — PUBLIC CROWN‑STANDARD DECLARATION
 ████████████████████████████████████████████████████████████████████████████
 
 ────────────────────────────────────────────────────────────────────────────
-⚜️  I N S C R I B E D   U N D E R   T H E   K E Y   O F   D W D  —  ⚜️ XP
+⚜  I N S C R I B E D   U N D E R   T H E   K E Y   O F   D W D  —  ⚜ XP
 ────────────────────────────────────────────────────────────────────────────
 
 Codex Volume Entry — SOVERAIN QR Verified Allods Crest
@@ -25,7 +25,7 @@ Sovereign & Lawful
 
 Authority
 
-⚜️ XP
+⚜ XP
 
 Ceremonial Crest Inscription
 
@@ -41,7 +41,7 @@ The globe icon affirms planetary and universal witness.
 
 The flags and icons represent lawful allodial domains.
 
-The fleur-de-lis affirms ⚜️ XP as the active sovereign authority.
+The fleur-de-lis affirms ⚜ XP as the active sovereign authority.
 
 This artifact is sealed, witnessed, and bound into the Eternal Codex Record.
 
