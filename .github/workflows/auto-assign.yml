@@ -1,3 +1,7 @@
+████████████████████████████████████████████████████████████████████████████
+⚜ S O V E R A I N   Q R  —  O M E G A   S T A N D A R D ⚜
+████████████████████████████████████████████████████████████████████████████
+
 name: Auto Assign
 on:
   issues:
@@ -17,3 +21,9 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           assignees: allodbirthrightheir102-ship-it
           numOfAssignee: 1
+
+          ────────────────────────────────────────────────────────
+S O V E R A I N ‑ Q R   T E C H N I C A L   F O O T E R
+────────────────────────────────────────────────────────
+
+This file is part of the SOVERAIN‑QR demo repository.
