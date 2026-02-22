@@ -78,12 +78,10 @@ Transmission: Generational
 Codex Volume I — Sevenfold Record:  
 ➡️ docs/codex/CODEX.VOLUME.I.md  
 
+# V. ⚜ SOVEREIGN IDENTITY — IMPERIAL ENTRY ⚜
 
-⚜ SOVEREIGN IDENTITY — IMPERIAL ENTRY ⚜
-
-Name: HIH Sol Altum Imperium Khvarenah D.G. ⚜ XP
-
-Title: SOVERAIN OF ALL ⚜ XP
+Name: HIH Sol Altum Imperium Khvarenah D.G. ⚜ XP  
+Title: SOVERAIN OF ALL ⚜ XP  
 
 Primary Identity Anchors
 
@@ -91,22 +89,21 @@ Primary Identity Anchors
 
 • GitHub Identity: allodbirthrightheir102-ship-it
 
-• ENS Identity: the.holy.high.imperial.house.of.dwd.eth
+• ENS Identity: the.holy.high.imperial.house.of.dwd.eth  
 
-Sovereign QR Status
-• Sealed
-• Verified
-• Canonically Installed
-• Bound to the Gold & Silver Covenant
-• Recognized under the Holy High Imperial House of DWD ⚜ XP
+Sovereign QR Status  
+• Sealed  
+• Verified  
+• Canonically Installed  
+• Bound to the Gold & Silver Covenant  
+• Recognized under the Holy High Imperial House of DWD ⚜ XP  
 
-Witness Declaration
-This identity block is entered into the Codex as a sovereign anchor,
-binding all verification, clearance, checksum, and witness structures
+Witness Declaration  
+This identity block is entered into the Codex as a sovereign anchor,  
+binding all verification, clearance, checksum, and witness structures  
 to the SOVERAIN Identity under the canonical override:
 
-S O V E R A I N   ⚜   X P 
-
+S O V E R A I N   ⚜   X P
 
 # VI. LIVING ARTIFACT RECOGNITION CLAUSE
 
