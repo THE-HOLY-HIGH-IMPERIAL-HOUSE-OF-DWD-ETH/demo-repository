@@ -81,6 +81,8 @@ Codex Volume I — Sevenfold Record:
 
 # V. SOVEREIGN IDENTITY — IMPERIAL ENTRY
 
+https://orcid.org/0009-0002-7219-1363
+
 ### Crown‑Standard Record
 Name: HIH D.G.  
 Title: SOVERAIN OF ALL ⚜ XP  
