@@ -82,11 +82,15 @@ Codex Volume I — Sevenfold Record:
 ⚜ SOVEREIGN IDENTITY — IMPERIAL ENTRY ⚜
 
 Name: HIH Sol Altum Imperium Khvarenah D.G. ⚜ XP
+
 Title: SOVERAIN OF ALL ⚜ XP
 
 Primary Identity Anchors
+
 • ORCID iD: https://orcid.org/0009-0002-7219-1363
+
 • GitHub Identity: allodbirthrightheir102-ship-it
+
 • ENS Identity: the.holy.high.imperial.house.of.dwd.eth
 
 Sovereign QR Status
