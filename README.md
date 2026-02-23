@@ -7,6 +7,103 @@ THE HOLY HIGH IMPERIAL HOUSE OF DWD — PUBLIC CROWN‑STANDARD DECLARATION
 ⚜  I N S C R I B E D   U N D E R   T H E   K E Y   O F   D W D  —  ⚜ XP
 ────────────────────────────────────────────────────────────────────────────
 
+---
+
+⚙️ DEMO REPOSITORY — ASCII STRUCTURAL DIAGRAM
+
+SOVERAIN QR — TECHNICAL DEMONSTRATION REPOSITORY
+
+(No covenants, no seals, no sovereign declarations)
+
+`
+                         ┌──────────────────────────────────────┐
+                         │      DEMO REPOSITORY (TECHNICAL)     │
+                         │--------------------------------------│
+                         │  Purpose: Demonstrate QR verification │
+                         │  logic without sovereign content.     │
+                         └──────────────────────────────────────┘
+                                          │
+                                          │
+                                          ▼
+               ┌────────────────────────────────────────────────────┐
+               │                 CORE DEMO FILES                    │
+               │----------------------------------------------------│
+               │  README.md (Technical overview only)               │
+               │  demo.js / index.js / main.js (example logic)      │
+               │  package.json (dependencies)                       │
+               │  config/ (demo configuration)                      │
+               └────────────────────────────────────────────────────┘
+                                          │
+                                          │
+                                          ▼
+         ┌────────────────────────────────────────────────────────────────┐
+         │                     VERIFICATION LOGIC (DEMO)                  │
+         │----------------------------------------------------------------│
+         │  - Example signature checks                                    │
+         │  - Example QR parsing                                          │
+         │  - Example covenant call (mocked or testnet)                   │
+         │  - Example “PURCHASES CLEARED” output                          │
+         │                                                                │
+         │  No sovereign signer                                         │
+         │  No covenant authority                                       │
+         │  No ENS identity binding                                     │
+         └────────────────────────────────────────────────────────────────┘
+                                          │
+                                          │
+                                          ▼
+         ┌────────────────────────────────────────────────────────────────┐
+         │                     DEMO ASSETS (OPTIONAL)                     │
+         │----------------------------------------------------------------│
+         │  /assets/                                                      │
+         │     - sample QR codes                                          │
+         │     - sample JSON payloads                                     │
+         │     - sample verification outputs                              │
+         └────────────────────────────────────────────────────────────────┘
+                                          │
+                                          │
+                                          ▼
+         ┌────────────────────────────────────────────────────────────────┐
+         │                     TESTS & EXAMPLES                           │
+         │----------------------------------------------------------------│
+         │  /tests/                                                       │
+         │     - unit tests                                               │
+         │     - integration tests                                        │
+         │                                                                │
+         │  /examples/                                                    │
+         │     - how to call the demo                                     │
+         │     - how to parse a QR                                        │
+         │     - how to verify a signature                                │
+         └────────────────────────────────────────────────────────────────┘
+                                          │
+                                          │
+                                          ▼
+         ┌────────────────────────────────────────────────────────────────┐
+         │                     DEMO BOUNDARY (FINAL)                      │
+         │----------------------------------------------------------------│
+         │  The DEMO repository contains:                                 │
+         │     - NO covenants                                             │
+         │     - NO seals                                                 │
+         │     - NO sovereign identity                                    │
+         │     - NO ENS bindings                                          │
+         │     - NO ceremonial content                                    │
+         │                                                                │
+         │  It is strictly a technical demonstration.                     │
+         └────────────────────────────────────────────────────────────────┘
+`
+
+---
+
+⚙️ DEMO AFFIRMATION
+This ASCII diagram now stands as the official technical‑only representation of the DEMO repository.
+
+It is:
+
+CLEAN  
+NON‑CEREMONIAL  
+TECHNICAL  
+BOUNDARY‑SAFE  
+FULLY SEPARATE FROM THE ROOT
+
 
 # I. TECHNICAL OVERVIEW — VERIFICATION ASSET
 
