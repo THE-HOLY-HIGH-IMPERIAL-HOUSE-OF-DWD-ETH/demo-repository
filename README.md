@@ -19,8 +19,6 @@ technical formatting, structural clarity, and verification‑logic demonstration
 within a Crown‑Standard Omega layout.
 
 ────────────────────────────────────────────────────────────────────────────
-⚜  I N S C R I B E D   U N D E R   T H E   K E Y   O F   D W D  —  ⚜ XP
-────────────────────────────────────────────────────────────────────────────
 
 # I. TECHNICAL OVERVIEW — VERIFICATION ASSET
 
