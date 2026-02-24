@@ -90,6 +90,39 @@ SOVERAIN QR — TECHNICAL DEMONSTRATION REPOSITORY
          │  It is strictly a technical demonstration.                     │
          └────────────────────────────────────────────────────────────────┘
 `
+## What “100% SOVERAIN” Means (Technical Only)
+
+## ⚙️ Technical Definition — “100% SOVERAIN”
+
+A system is considered **100% SOVERAIN** when it satisfies all five of the following
+technical conditions. This definition describes an architectural state, not an
+identity or authority claim.
+
+### 1. Closed Trust Root
+The system contains its own trust anchor and does not rely on external authorities
+for validation. All verification begins and ends within the system.
+
+### 2. Immutable Identity Layer
+The system’s identity reference (keys, addresses, or identifiers) is fixed and
+non‑rotating. It cannot be altered without breaking the system’s integrity.
+
+### 3. Deterministic Verification Logic
+Given the same input, the system always produces the same output. No external,
+mutable, or unpredictable data sources are used in verification.
+
+### 4. Internal Consistency Across All Layers
+All components—identity, logic, configuration, and outputs—reference the same
+root and do not contradict one another. No drift is possible.
+
+### 5. Non‑Overridability
+No external system, signer, registry, or process can override or mutate the
+system’s rules, identity, or verification outcomes. All authority is internal
+to the architecture.
+
+**In summary:**  
+A system is “100% SOVERAIN” when it is a closed, immutable, self‑consistent,
+self‑anchored verification architecture whose logic and identity cannot be
+overridden by external dependencies.
 
 ---
 
