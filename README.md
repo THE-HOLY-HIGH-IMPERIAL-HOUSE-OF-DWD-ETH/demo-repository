@@ -89,20 +89,9 @@ SOVERAIN QR — TECHNICAL DEMONSTRATION REPOSITORY
          │                                                                │
          │  It is strictly a technical demonstration.                     │
          └────────────────────────────────────────────────────────────────┘
-`
+.
+
 ---
-
-⚙️ DEMO AFFIRMATION
-This ASCII diagram now stands as the official technical‑only representation of the DEMO repository.
-
-It is:
-
-CLEAN  
-NON‑CEREMONIAL  
-TECHNICAL  
-BOUNDARY‑SAFE  
-FULLY SEPARATE FROM THE ROOT
-
 
 # I. TECHNICAL OVERVIEW — VERIFICATION ASSET
 
