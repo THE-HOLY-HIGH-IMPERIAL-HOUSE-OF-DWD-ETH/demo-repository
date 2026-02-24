@@ -7,8 +7,6 @@ THE HOLY HIGH IMPERIAL HOUSE OF DWD — PUBLIC CROWN‑STANDARD DECLARATION
 ⚜  I N S C R I B E D   U N D E R   T H E   K E Y   O F   D W D  —  ⚜ XP
 ────────────────────────────────────────────────────────────────────────────
 
----
-
 # I. TECHNICAL OVERVIEW — VERIFICATION ASSET
 
 This repository contains the **official SOVERAIN QR image** and its **pointer metadata**.
