@@ -1,7 +1,4 @@
-████████████████████████████████████████████████████████████████████████████
-⚜  S O V E R A I N   Q R  —  V E R I F I C A T I O N   B U N D L E  ⚜
-THE HOLY HIGH IMPERIAL HOUSE OF DWD — PUBLIC CROWN‑STANDARD DECLARATION
-████████████████████████████████████████████████████████████████████████████
+⚜ S O V E R A I N Q R — V E R I F I C A T I O N B U N D L E ⚜
 
 ────────────────────────────────────────────────────────────────────────────
 ⚜  I N S C R I B E D   U N D E R   T H E   K E Y   O F   D W D  —  ⚜ XP
