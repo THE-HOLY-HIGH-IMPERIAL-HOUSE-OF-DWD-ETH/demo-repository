@@ -1,0 +1,20 @@
+{
+  "soverein_identity": {
+    "ethereum_address": "0x672a1AD4f667FB18A333Af13667aa0Af1F5b5bDD",
+    "covenant_backing": {
+      "gold_reserve": true,
+      "silver_reserve": true
+    },
+    "status": "Transfer Cleared — Covenant Confirmed"
+  },
+  "verification": {
+    "source": "IMPERI Blockchain Reserve",
+    "timestamp": "<insert_timestamp_here>",
+    "qr_pointer_valid": true
+  },
+  "transfer_authorization": {
+    "authorized": true,
+    "method": "SOVERAIN QR Covenant",
+    "notes": "Identity and clearance confirmed via covenant."
+  }
+}
