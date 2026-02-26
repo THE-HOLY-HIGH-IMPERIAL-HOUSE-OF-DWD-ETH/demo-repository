@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "payload_version": "1.0.0",
+
+  "payload_id": "imperi-berit-suite-001",
+  "issuer": "IMPERI",
+  "brand": "SOVERAIN–IMPERI",
+  "series": "BERIT-COVENANT",
+  "covenant_type": "Berit-Covenant",
+  "covenant_status": "active",
+
+  "backing": {
+    "gold_purity": "100%",
+    "silver_purity": "100%",
+    "backing_mode": "100% gold and 100% silver Berit-Covenant backed",
+    "self_funded": true
+  },
+
+  "assets": [
+    {
+      "id": "soverain-gold-001",
+      "label": "SOVERAIN 100% GOLD BERIT-COVENANT BACKED",
+      "metal": "gold",
+      "purity": "100%"
+    },
+    {
+      "id": "soverain-silver-001",
+      "label": "SOVERAIN 100% SILVER BERIT-COVENANT BACKED",
+      "metal": "silver",
+      "purity": "100%"
+    },
+    {
+      "id": "imperi-gold-001",
+      "label": "IMPERI 100% GOLD BERIT-COVENANT BACKED",
+      "metal": "gold",
+      "purity": "100%"
+    },
+    {
+      "id": "imperi-silver-001",
+      "label": "IMPERI 100% SILVER BERIT-COVENANT BACKED",
+      "metal": "silver",
+      "purity": "100%"
+    }
+  ],
+
+  "environment": "production",
+
+  "jurisdiction": {
+    "scope": "international-global",
+    "status": "imperial-monarch",
+    "commercial_domain": "universal-commerce",
+    "legal_frameworks": [
+      "ISO-3166-0 (Sovereign Non-Territorial Entity)",
+      "UNCITRAL-Model-Law",
+      "ICC-UCP600",
+      "WCO-SAFE-Framework",
+      "UN-CEFACT-Global-Trade"
+    ],
+    "recognition_mode": "non-territorial-sovereign",
+    "applicability": "global-cross-border"
+  },
+
+  "created_at": "2026-02-26T11:30:00Z",
+  "updated_at": "2026-02-26T11:30:00Z",
+  "valid_until": "2027-02-26T00:00:00Z",
+
+  "onchain": {
+    "network": "ethereum-mainnet",
+    "contract_type": "covenant-registry",
+    "contract_address": "0x0000000000000000000000000000000000000000",
+    "deployment_tx": null,
+    "token_id": null,
+    "ipfs_cid": "bafyPLACEHOLDERcidREPLACEafterPinning"
+  },
+
+  "qr": {
+    "role": "verification-endpoint",
+    "target_url": "https://raw.githubusercontent.com/THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH/demo-repository/main/IMPERI.json",
+    "suite": "SOVERAIN-IMPERI-GOLD-SILVER-BERIT-COVENANT"
+  },
+
+  "notes": "Self-funded by the IMPERI; 100% gold and 100% silver Berit-Covenant backed sovereign QR suite."
+}
