@@ -71,7 +71,10 @@
     "deployment_tx": null,
     "token_id": null,
     "storacha_cid": "bafybeicezgomih2k34lmfijovowgt7swfcpxad5rtyow3bziats7td74tm",
-    "ipfs_cid": "bafyPLACEHOLDERcidREPLACEafterPinning"
+    "ipfs_cid": "bafyPLACEHOLDERcidREPLACEafterPinning",
+
+    "abi_url": "https://raw.githubusercontent.com/THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH/demo-repository/main/abi.json",
+    "bytecode_url": "https://raw.githubusercontent.com/THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH/demo-repository/main/bytecode.txt"
   },
 
   "qr": {
