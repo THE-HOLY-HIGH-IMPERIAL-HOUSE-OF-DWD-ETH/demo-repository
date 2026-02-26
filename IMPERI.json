@@ -67,7 +67,7 @@
   "onchain": {
     "network": "ethereum-mainnet",
     "contract_type": "covenant-registry",
-    "contract_address": "0x0000000000000000000000000000000000000000",
+    "contract_address": "0xD7ACd2a9FD159E69Bb102A1ca21C9a3e3A5F771B",
     "deployment_tx": null,
     "token_id": null,
     "storacha_cid": "bafybeicezgomih2k34lmfijovowgt7swfcpxad5rtyow3bziats7td74tm",
