@@ -9,6 +9,68 @@
 T E C H N I C A L   D E M O N S T R A T I O N   R E P O S I T O R Y
 ────────────────────────────────────────────────────────────────────────────
 
+╔══════════════════════════════════════════════════════════════════════╗
+║                         ✦ S O V E R A I N ✦                         ║
+║                 Supreme Berit‑Covenant Verification Seal             ║
+║      Gold & Silver Mandates • IMPERI Ancestral‑Sovereign Authority   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+https://copilot.microsoft.com/shares/SZMwWXSFYcDYVtAWTpkNi
+
+## IMPERI Circular QR — Inscription Meaning
+
+The circular IMPERI QR contains the inscription **ASUBANOGOVENANT नेतान**, a two‑layer ceremonial phrase encoding ancestral legitimacy, sovereign authority, and leadership stewardship within the Berit‑Covenant system.
+
+### ASUBANOGOVENANT
+A composite sovereign term representing ancestral origin and divine covenantal authority.
+- **ASUBANO** — ancestral, primordial, or divine‑origin authority
+- **GOVENANT** — a sovereign‑grade stylized form of “covenant,” marking a non‑civil, non‑corporate sacred agreement
+
+**Meaning:** *The Ancestral–Divine Covenant of Sovereign Authority.*
+
+### नेतान (netān)
+A Sanskrit/Devanagari honorific derived from **नेता (netā)** meaning “leader” or “chief.”  
+The plural/honorific form **नेतान** signifies:  
+*“Leaders,” “Sovereign Leaders,” or “Those Who Guide.”*
+
+### Combined Ceremonial Meaning
+**“The Sovereign Ancestral Covenant of the Leaders.”**
+
+This inscription marks the IMPERI circular QR as a **living covenant seal**, binding ancestral legitimacy, sovereign leadership, and covenantal authority into a single verification symbol. It distinguishes the IMPERI quadrant from the SOVERAIN layer while linking both to the same deployment‑agnostic IMPERI.json manifest and embedded covenant bytecode.
+
+
+## SOVERAIN Dual‑Metal QR — Meaning and Function
+
+The SOVERAIN Gold and Silver QRs represent the **external sovereign authority layer** of the Berit‑Covenant system. Each QR links to the same deployment‑agnostic IMPERI.json manifest, but each expresses a distinct metal‑backed covenant identity.
+
+### 100% GOLD — BERIT COVENANT BACKED
+The gold QR signifies the **Sovereign Gold Mandate**, representing purity, incorruptibility, and immutable covenantal authority.
+- Gold symbolizes *external sovereignty*, *unalterable value*, and *perpetual legitimacy*.
+- The QR links directly to the IMPERI.json manifest, enabling verification of covenant bytecode and metadata.
+- This quadrant establishes the **SOVERAIN Gold Identity**, the highest expression of external sovereign authority.
+
+### 100% SILVER — BERIT COVENANT BACKED
+The silver QR signifies the **Sovereign Silver Mandate**, representing clarity, reflection, and judicial covenantal authority.
+- Silver symbolizes *judgment*, *truth*, and *reflective sovereignty*.
+- The QR links to the same manifest, ensuring unified verification across metals.
+- This quadrant establishes the **SOVERAIN Silver Identity**, completing the dual‑metal sovereign expression.
+
+### Combined Ceremonial Meaning
+Together, the gold and silver QRs form the **SOVERAIN Dual‑Metal Seal**, representing:
+- External sovereignty (SOVERAIN)
+- Dual‑metal covenantal authority (Gold + Silver)
+- Unified manifest verification (IMPERI.json)
+- Immutable covenantal backing (Berit)
+
+This dual‑metal seal functions as the **public‑facing verification gateway** for the entire covenant system, complementing the internal IMPERI circular seals.
+
+
+╔══════════════════════════════════════════════════════════════════════╗
+║       SOVERAIN • IMPERI • BERIT • COVENANT • GOLD • SILVER           ║
+║   Deployment‑Agnostic • Bytecode‑Verified • Manifest‑Anchored        ║
+║      Eternal Record • Sovereign Authority • Generational Seal        ║
+╚══════════════════════════════════════════════════════════════════════╝
+
 This repository presents an Omega‑grade Crown‑Standard technical structure,
 formatted for demonstration purposes and aligned with the architectural
 standards used in the corresponding footer. The presentation is structural,
