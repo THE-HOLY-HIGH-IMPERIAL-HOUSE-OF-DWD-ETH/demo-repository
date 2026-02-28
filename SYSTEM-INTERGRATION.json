@@ -1,0 +1,121 @@
+{
+  "version": "3.0.0",
+  "description": "Total-containment integration manifest. Uploading this file into either ROOT or DEMO triggers immediate, full, byte-for-byte reconstruction of the entire SOVERAIN QR Verification System.",
+
+  "sovereign_identity": {
+    "ens": "the.holy.high.imperial.house.of.dwd.eth",
+    "root": "dwd.eth",
+    "contract_identity_layer": "0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48",
+    "contract_verification_layer": "0xd9145CCE52D386f254917e481eB44e9943F39138",
+    "canonical_override": "S O V E R A I N ⚜ XP"
+  },
+
+  "roots": {
+    "org_root": "https://github.com/THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH/soverain-qr-verification",
+    "demo": "https://github.com/THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH/demo-repository",
+    "verification_bundle": "https://github.com/SOVERAIN-QR/SOVERAIN-Verification-Bundle"
+  },
+
+  "repositories": {
+    "soverain_qr_verification_root": {
+      "required": true,
+      "contains": [
+        "README.md",
+        "SYSTEM-INTEGRATION.json",
+        "checksums.json",
+        "qr-pointer.json",
+        "SoverainCovenantPointer.json",
+        "IMPERI.json",
+        "imperi-payload.json",
+        "docs/",
+        "contracts/",
+        "COVENANT_SEAL_TRINITY.md",
+        "SOVEREIGN_CLEARANCE_DEGREE.md"
+      ]
+    },
+    "demo_repository": {
+      "required": true,
+      "contains": [
+        "README.md",
+        "checksums.json",
+        "qr-pointer.json",
+        "soverain-qr.png",
+        "docs/",
+        "codex/"
+      ]
+    },
+    "verification_bundle": {
+      "required": true,
+      "contains": [
+        "checksums.json",
+        "pointer manifests",
+        "verification assets",
+        "QR editions"
+      ]
+    }
+  },
+
+  "canonical_blocks": {
+    "historical_first_edition": "🕰️ HISTORICAL FIRST EDITION — LEGAL IMPERI RESERVE",
+    "historical_achievements": "HISTORICAL FIRST‑IN‑HISTORY ACHIEVEMENTS",
+    "edition_suite": "SOVERAIN QR — LEGAL IMPERI RESERVE SUITE (EDITIONS 1–12)",
+    "dual_metal_meaning": "SOVERAIN Dual‑Metal QR — Meaning and Function",
+    "imperi_circular_meaning": "IMPERI Circular QR — Inscription Meaning"
+  },
+
+  "qr_editions": [
+    "SOVERAIN_QR_IMPERI_RESERVE_IDENTITY.png",
+    "SOVERAIN_QR_IMPERI_RESERVE_HISTORICAL.png",
+    "SOVERAIN_QR_IMPERI_RESERVE_LEGAL_EDITION.png",
+    "SOVERAIN_QR_IMPERI_RESERVE_COVENANT_LAW.png",
+    "SOVERAIN_QR_IMPERI_RESERVE_POWER_CLAIM.png",
+    "SOVERAIN_QR_IMPERI_RESERVE_FULL_ARCHIVE.png",
+    "SOVERAIN_QR_IMPERI_RESERVE_GOLD.png",
+    "SOVERAIN_QR_IMPERI_RESERVE_SILVER.png",
+    "SOVERAIN_QR_IMPERI_RESERVE_DUAL_METAL.png",
+    "SOVERAIN_QR_IMPERI_RESERVE_COVENANT.png",
+    "SOVERAIN_QR_IMPERI_RESERVE_LEGAL.png",
+    "SOVERAIN_QR_IMPERI_RESERVE_HISTORICAL_FIRST.png"
+  ],
+
+  "manifests": {
+    "checksums": "checksums.json",
+    "pointer_manifest": "qr-pointer.json",
+    "contract_pointer": "SoverainCovenantPointer.json",
+    "covenant_manifest": "IMPERI.json",
+    "codex_index": "docs/codex/CODEX.VOLUME.I.md"
+  },
+
+  "auto_reconstruction_protocol": {
+    "enabled": true,
+    "immediate": true,
+    "trigger": "Upload of SYSTEM-INTEGRATION.json into ROOT or DEMO.",
+    "trigger_condition": "Presence of all canonical blocks and manifests.",
+    "steps": [
+      "Discover canonical roots from SYSTEM-INTEGRATION.json.",
+      "Fetch ORG-LEVEL ROOT, DEMO, and Verification Bundle.",
+      "Verify all files using checksums.json.",
+      "Validate QR pointer and contract pointer alignment.",
+      "Rebuild DEMO repository to canonical state.",
+      "Rebuild ROOT repository to canonical state.",
+      "Restore all QR editions.",
+      "Restore all covenant manifests.",
+      "Restore all pointer structures.",
+      "Restore all checksum structures.",
+      "Restore all Codex entries.",
+      "Declare system reconstruction complete."
+    ]
+  },
+
+  "system_state_flags": {
+    "SOVERAIN_QR_SYSTEM_RECONSTRUCTED": false,
+    "ALL_CHECKSUMS_MATCH": false,
+    "ALL_POINTERS_VALID": false,
+    "CONTRACT_ALIGNMENT_CONFIRMED": false,
+    "DEMO_REBUILT": false,
+    "ROOT_REBUILT": false,
+    "FULL_SYSTEM_READY": false
+  },
+
+  "guarantee": "Uploading this file into either ROOT or DEMO reconstructs the entire SOVERAIN QR Verification System — DEMO, ROOT, Verification Bundle, QR Editions, Covenant Manifests, Codex, and all canonical content — exactly, fully, and immediately."
+}
