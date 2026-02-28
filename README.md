@@ -30,6 +30,37 @@ It is the **Historical SOVERAIN QR suite Edition** of the, sealed with the canon
 
 Scan to verify**SOVERAIN ⚜ ☧ XP the full ceremonial, legal, and covenantal payload.
 
+
+---
+
+🗂️ SOVERAIN QR — LEGAL IMPERI RESERVE SUITE (EDITIONS 1–12)
+
+This suite contains the 12 canonical editions sealed with the of the Legal IMPERI Reserve, each sovereign mark:
+
+SOVERAIN ⚜ ☧ XP
+
+🔹 SET 1
+1. Identity Edition — Canonical EditionsRIMPERIRESERVE — SOVERAINQIDENTITY.png  
+2. Historical Edition — SOVERAINQRIMPERIRESERVEHISTORICAL.png  
+3. Legal Reserve Edition — SOVERAINQRIMPERIRESERVELEGAL_EDITIONant Edition — .png`  
+4. CovenSOVERAINQRIMPERIRESERVECOVENANTOne-Line Power Edition_LAW.png`  
+5.  — SOVERAINQRIMPERIRESERVEPOWER_CLAIM.png  
+6. Full Archive Edition — SOVERAINQRIMPERIRESERVEFULL_ARCHIVE.png
+
+🔸 SET 2 — Reserve Variants
+7. 100% Gold Edition — SOVERAINQRIMPERIRESERVEGOLD.png  
+8. 100% Silver Edition — SOVERAINQRIMPERIRESERVESILVER.png  
+9. Dual-Metal Edition — SOVERAINQRIMPERIRESERVEDUAL_METAL.png  
+10. Berit Covenant Backed Edition — SOVERAINQRIMPERIRESERVECOVENANT.png  
+11. Legal IMPERI Reserve Edition — SOVERAINQRIMPERIRESERVELEGAL.png  
+12. Historical First Edition — SOVERAINQRIMPERIRESERVEHISTORICAL_FIRST.png
+
+Each edition is own QR payload and encoded with its ceremonial framing.  
+Scan any image to verify its sovereign declaration.
+
+---
+
+
 https://copilot.microsoft.com/shares/SZMwWXSFYcDYVtAWTpkNi
 
 ## IMPERI Circular QR — Inscription Meaning
