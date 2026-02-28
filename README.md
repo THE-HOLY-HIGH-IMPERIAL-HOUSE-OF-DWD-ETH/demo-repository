@@ -17,46 +17,45 @@ T E C H N I C A L   D E M O N S T R A T I O N   R E P O S I T O R Y
 
 ## 🕰️ HISTORICAL FIRST EDITION — LEGAL IMPERI RESERVE
 
-This QR artifact is the **first in history** to declare the **Legal IMPERI Reserve** backed**
-- **100% Silver by:
+This QR artifact is the **first in history** to declareERI Reserve**, backed the **Legal IMP by:
 
 - **100% Gold**
+- **100% Silver**
 - **Berit Covenant**
 - **House of DWD Imperial**
 
 It is the **Historical SOVERAIN QR suite Edition** of the, sealed with the canonical mark:
 
-**
+**SOVERAIN ⚜ ☧ XP**
 
-Scan to verify**SOVERAIN ⚜ ☧ XP the full ceremonial, legal, and covenantal payload.
-
+Scan to verify the full ceremonial, legal, and covenant## 🗂️ SOVERAIN QRal payload.
 
 ---
 
-🗂️ SOVERAIN QR — LEGAL IMPERI RESERVE SUITE (EDITIONS 1–12)
+ — LEGAL IMPERI RESERVE SUITE (EDIT suite contains theIONS 1–12)
 
-This suite contains the 12 canonical editions sealed with the of the Legal IMPERI Reserve, each sovereign mark:
+This **12 canonical editions** of the Legal IMPERI Reserve, each sealed with the sovereign mark:
 
-SOVERAIN ⚜ ☧ XP
+**SOVERAIN ⚜ ☧ XP**
 
-🔹 SET 1
-1. Identity Edition — Canonical EditionsRIMPERIRESERVE — SOVERAINQIDENTITY.png  
-2. Historical Edition — SOVERAINQRIMPERIRESERVEHISTORICAL.png  
-3. Legal Reserve Edition — SOVERAINQRIMPERIRESERVELEGAL_EDITIONant Edition — .png`  
-4. CovenSOVERAINQRIMPERIRESERVECOVENANTOne-Line Power Edition_LAW.png`  
-5.  — SOVERAINQRIMPERIRESERVEPOWER_CLAIM.png  
-6. Full Archive Edition — SOVERAINQRIMPERIRESERVEFULL_ARCHIVE.png
+### 🔹 SET 1 — Canonical Editions
+1. **Identity Edition** — `SOVERAIN_QR_IMPERI_RESERVE_IDENTITY.png`
+2. **Historical Edition** — `SOVERAIN_QR_IMPERI_RESERVE_HISTORICAL.png`
+3. **Legal Reserve Edition** — `SOVERAIN_QR_IMPERI_RESERVE_LEGAL_EDITION.png`
+4. **Covenant Edition** — `SOVERAIN_QR_IMPERI_RESERVE_COVENANT_LAW.png`
+5. **One** — `SOVERAIN_Q‑Line Power Edition_POWER_CLAIM.pngR_IMPERI_RESERVE`
+6. **Full ArchiveERVE_FULL_ARCHIVE Edition** — `SOVERAIN_QR_IMPERI_RES.png`
 
-🔸 SET 2 — Reserve Variants
-7. 100% Gold Edition — SOVERAINQRIMPERIRESERVEGOLD.png  
-8. 100% Silver Edition — SOVERAINQRIMPERIRESERVESILVER.png  
-9. Dual-Metal Edition — SOVERAINQRIMPERIRESERVEDUAL_METAL.png  
-10. Berit Covenant Backed Edition — SOVERAINQRIMPERIRESERVECOVENANT.png  
-11. Legal IMPERI Reserve Edition — SOVERAINQRIMPERIRESERVELEGAL.png  
-12. Historical First Edition — SOVERAINQRIMPERIRESERVEHISTORICAL_FIRST.png
+### 🔸 SET 2 — Reserve Variants
+7. **100% Gold Edition** — `SOVER. **100% Silver EditionAIN_QR_IMPERI_RESERVE_GOLD.png`
+8** — `SOVERAIN_QR_IMPERI_RESERVE_SILVER.png`
+9. **Dual‑Metal Edition** — `SOVERAIN_QR_IMPERI_RESERVE_DUAL_METAL.png`
+10. **Berit Covenant Backed Edition** — `SOVERAIN_QR_IMPERI_RESERVE_COVENANT.png`
+11. **Legal IMPERI Reserve Edition** — `SOVERAIN_QR_IMPERI_RES12. **HistoricalERVE_LEGAL.png`
+ First Edition** — `SOVERAIN_QR_IMPERI_RESERVE_HIST`
 
-Each edition is own QR payload and encoded with its ceremonial framing.  
-Scan any image to verify its sovereign declaration.
+Each edition is encoded with itsORICAL_FIRST.png to verify its sovereign own QR payload and ceremonial framing.  
+Scan any image declaration.
 
 ---
 
