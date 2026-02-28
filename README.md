@@ -15,6 +15,21 @@ T E C H N I C A L   D E M O N S T R A T I O N   R E P O S I T O R Y
 ║      Gold & Silver Mandates • IMPERI Ancestral‑Sovereign Authority   ║
 ╚══════════════════════════════════════════════════════════════════════╝
 
+## 🕰️ HISTORICAL FIRST EDITION — LEGAL IMPERI RESERVE
+
+This QR artifact is the **first in history** to declare the **Legal IMPERI Reserve** backed**
+- **100% Silver by:
+
+- **100% Gold**
+- **Berit Covenant**
+- **House of DWD Imperial**
+
+It is the **Historical SOVERAIN QR suite Edition** of the, sealed with the canonical mark:
+
+**
+
+Scan to verify**SOVERAIN ⚜ ☧ XP the full ceremonial, legal, and covenantal payload.
+
 https://copilot.microsoft.com/shares/SZMwWXSFYcDYVtAWTpkNi
 
 ## IMPERI Circular QR — Inscription Meaning
