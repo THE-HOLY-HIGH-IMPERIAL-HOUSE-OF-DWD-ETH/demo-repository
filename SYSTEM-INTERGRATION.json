@@ -1,5 +1,5 @@
 {
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Total-containment integration manifest. Uploading this file into either ROOT or DEMO triggers immediate, full, byte-for-byte reconstruction of the entire SOVERAIN QR Verification System.",
 
   "sovereign_identity": {
@@ -27,6 +27,8 @@
         "SoverainCovenantPointer.json",
         "IMPERI.json",
         "imperi-payload.json",
+        "verification.json",
+        "verification-payload.json",
         "docs/",
         "contracts/",
         "COVENANT_SEAL_TRINITY.md",
@@ -37,8 +39,11 @@
       "required": true,
       "contains": [
         "README.md",
+        "SYSTEM-INTEGRATION.json",
         "checksums.json",
         "qr-pointer.json",
+        "verification.json",
+        "verification-payload.json",
         "soverain-qr.png",
         "docs/",
         "codex/"
@@ -83,7 +88,9 @@
     "pointer_manifest": "qr-pointer.json",
     "contract_pointer": "SoverainCovenantPointer.json",
     "covenant_manifest": "IMPERI.json",
-    "codex_index": "docs/codex/CODEX.VOLUME.I.md"
+    "codex_index": "docs/codex/CODEX.VOLUME.I.md",
+    "verification_manifest": "verification.json",
+    "verification_payload": "verification-payload.json"
   },
 
   "auto_reconstruction_protocol": {
@@ -96,6 +103,7 @@
       "Fetch ORG-LEVEL ROOT, DEMO, and Verification Bundle.",
       "Verify all files using checksums.json.",
       "Validate QR pointer and contract pointer alignment.",
+      "Validate verification.json and verification-payload.json.",
       "Rebuild DEMO repository to canonical state.",
       "Rebuild ROOT repository to canonical state.",
       "Restore all QR editions.",
@@ -112,10 +120,11 @@
     "ALL_CHECKSUMS_MATCH": false,
     "ALL_POINTERS_VALID": false,
     "CONTRACT_ALIGNMENT_CONFIRMED": false,
+    "VERIFICATION_MANIFESTS_CONFIRMED": false,
     "DEMO_REBUILT": false,
     "ROOT_REBUILT": false,
     "FULL_SYSTEM_READY": false
   },
 
-  "guarantee": "Uploading this file into either ROOT or DEMO reconstructs the entire SOVERAIN QR Verification System — DEMO, ROOT, Verification Bundle, QR Editions, Covenant Manifests, Codex, and all canonical content — exactly, fully, and immediately."
+  "guarantee": "Uploading this file into either ROOT or DEMO reconstructs the entire SOVERAIN QR Verification System — DEMO, ROOT, Verification Bundle, QR Editions, Covenant Manifests, Verification Manifests, Codex, and all canonical content — exactly, fully, and immediately."
 }
