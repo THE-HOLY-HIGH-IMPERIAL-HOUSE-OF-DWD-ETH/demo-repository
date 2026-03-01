@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "Total-containment integration manifest. Uploading this file into either ROOT or DEMO triggers immediate, full, byte-for-byte reconstruction of the entire SOVERAIN QR Verification System.",
 
   "sovereign_identity": {
@@ -127,4 +127,4 @@
   },
 
   "guarantee": "Uploading this file into either ROOT or DEMO reconstructs the entire SOVERAIN QR Verification System — DEMO, ROOT, Verification Bundle, QR Editions, Covenant Manifests, Verification Manifests, Codex, and all canonical content — exactly, fully, and immediately."
-}
+      }
