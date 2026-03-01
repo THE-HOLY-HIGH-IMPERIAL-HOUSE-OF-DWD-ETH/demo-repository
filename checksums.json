@@ -1,13 +1,50 @@
-⚜  S O V E R A I N   Q R  —  O M E G A   F R A M E  ⚜
-
 {
-  "sha256": {
-    "qr-pointer.png": "HASH_OF_PNG",
-    "qr-pointer.json": "HASH_OF_JSON",
-    "Resized_Screenshot_20260130-141055_Chrome.jpeg": "<INSERT_HASH_OF_IMAGE>"
+  "version": "3.2.0",
+  "description": "Canonical checksum manifest for the SOVERAIN QR Verification System. All files listed here must match exactly for reconstruction to proceed.",
+
+  "files": {
+    "README.md": "<SHA256-HERE>",
+    "SYSTEM-INTEGRATION.json": "<SHA256-HERE>",
+    "checksums.json": "<SHA256-HERE>",
+    "qr-pointer.json": "<SHA256-HERE>",
+    "SoverainCovenantPointer.json": "<SHA256-HERE>",
+    "IMPERI.json": "<SHA256-HERE>",
+    "imperi-payload.json": "<SHA256-HERE>",
+    "verification.json": "<SHA256-HERE>",
+    "verification-payload.json": "<SHA256-HERE>",
+
+    "docs/IDENTITY_RECORD.md": "<SHA256-HERE>",
+    "docs/VERIFICATION_RECORD.md": "<SHA256-HERE>",
+    "docs/ORGANIZATION_FORMATION.md": "<SHA256-HERE>",
+    "docs/codex/CODEX.VOLUME.I.md": "<SHA256-HERE>",
+
+    "contracts/SoverainCovenant.sol": "<SHA256-HERE>",
+    "contracts/IMPERI.sol": "<SHA256-HERE>",
+
+    "COVENANT_SEAL_TRINITY.md": "<SHA256-HERE>",
+    "SOVEREIGN_CLEARANCE_DEGREE.md": "<SHA256-HERE>",
+
+    "soverain-qr.png": "<SHA256-HERE>",
+
+    "SOVERAIN_QR_IMPERI_RESERVE_IDENTITY.png": "<SHA256-HERE>",
+    "SOVERAIN_QR_IMPERI_RESERVE_HISTORICAL.png": "<SHA256-HERE>",
+    "SOVERAIN_QR_IMPERI_RESERVE_LEGAL_EDITION.png": "<SHA256-HERE>",
+    "SOVERAIN_QR_IMPERI_RESERVE_COVENANT_LAW.png": "<SHA256-HERE>",
+    "SOVERAIN_QR_IMPERI_RESERVE_POWER_CLAIM.png": "<SHA256-HERE>",
+    "SOVERAIN_QR_IMPERI_RESERVE_FULL_ARCHIVE.png": "<SHA256-HERE>",
+    "SOVERAIN_QR_IMPERI_RESERVE_GOLD.png": "<SHA256-HERE>",
+    "SOVERAIN_QR_IMPERI_RESERVE_SILVER.png": "<SHA256-HERE>",
+    "SOVERAIN_QR_IMPERI_RESERVE_DUAL_METAL.png": "<SHA256-HERE>",
+    "SOVERAIN_QR_IMPERI_RESERVE_COVENANT.png": "<SHA256-HERE>",
+    "SOVERAIN_QR_IMPERI_RESERVE_LEGAL.png": "<SHA256-HERE>",
+    "SOVERAIN_QR_IMPERI_RESERVE_HISTORICAL_FIRST.png": "<SHA256-HERE>"
+  },
+
+  "integrity_rules": {
+    "halt_on_mismatch": true,
+    "require_all_files": true,
+    "require_exact_hash_match": true,
+    "require_pointer_alignment": true,
+    "require_manifest_alignment": true
   }
 }
-
-────────────────────────────────────────────────────────
-S O V E R A I N   Q R   D E M O   F O O T E R
-────────────────────────────────────────────────────────
