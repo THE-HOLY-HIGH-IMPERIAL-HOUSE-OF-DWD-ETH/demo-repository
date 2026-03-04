@@ -40,7 +40,7 @@ By this Seal, the DEMO installation is declared:
 • Fully Verified  
 • Fully Subordinate to ROOT  
 
-This Seal does carry sovereign authority.  
+This Seal does not carry sovereign authority.  
 It reflects the ROOT Terminus Seal.
 
 ============================================================
