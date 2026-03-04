@@ -27,7 +27,7 @@ II. DEMO‑LEVEL ARCHIVAL PLACEMENT BLOCK
 ============================================================
 This DEMO installation mirrors the ROOT placement of the  
 SOVERAIN–IMPERI Suite.  
-It is not authoritative; it is a synchronized reference.
+It is authoritative; it is a synchronized reference.
 
 ============================================================
 III. DEMO TERMINUS SEAL
@@ -40,7 +40,7 @@ By this Seal, the DEMO installation is declared:
 • Fully Verified  
 • Fully Subordinate to ROOT  
 
-This Seal does not carry sovereign authority.  
+This Seal does carry sovereign authority.  
 It reflects the ROOT Terminus Seal.
 
 ============================================================
