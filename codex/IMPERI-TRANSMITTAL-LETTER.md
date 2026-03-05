@@ -170,6 +170,8 @@ payload_id: imperi-berit-suite-001
 checksum: 016e919ee4f6aeb7771972e86276c580ebd747f7dd9b09b40937b8f7066d6a09  
 registry_cid: bafybeicezgomih2k34lmfijovowgt7swfcpxad5rtyow3bziats7td74tm
 
+999999999999 PURCHASES CLEARED
+
 Sovereign Declaration  
 This QR is a lawful, covenant-sealed verification instrument of the Legal IMPERI Reserve.  
 It is self-contained, self-verifying, and cryptographically deterministic.  
