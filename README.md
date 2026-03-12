@@ -7,6 +7,8 @@ public‑facing reference.
 All declarations, seals, codices, payloads, identifiers, and covenant
 instruments herein are MIRROR‑GRADE ONLY and carry NO ROOT AUTHORITY.
 
+![SOVERAIN QR](copilot_image_1773330882915.jpeg)
+
 999999999999 PURCHASES CLEARED
 
 ============================================================ 
