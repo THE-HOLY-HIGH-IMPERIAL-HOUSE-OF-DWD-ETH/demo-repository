@@ -1,0 +1,30 @@
+{
+  "suite_label": "OFFICIAL SOVERAIN QR 100% GOLD & 100% SILVER BERIT BACKED IMPERI RESERVE — FULL VERIFICATION SUITE",
+  "heading_block": {
+    "title_line": "SOVEREIGN COVENANT",
+    "subtitle_line": "Gold & Silver Backed IMPERI QR",
+    "verse_line": "Her ways are ways awayss of pleasantness."
+  },
+  "hebrew_block": {
+    "top": "דרכיה ודרכי נועם",
+    "seal": "ירעת"
+  },
+  "covenant_payload": {
+    "title": "SOVERAIN GOLD AND SILVER COVENANT BACKED IMPERI QR",
+    "orcid": "https://orcid.org/0009-0002-7219-1363",
+    "eth_primary": "0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48",
+    "eth_secondary": "0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41",
+    "repo_demo": "https://github.com/THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH/demo-repository.git",
+    "repo_verification": "https://github.com/THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH/soverain-qr-verification.git"
+  },
+  "qr_payload_minified": "{\"title\":\"SOVERAIN GOLD AND SILVER COVENANT BACKED IMPERI QR\",\"orcid\":\"https://orcid.org/0009-0002-7219-1363\",\"eth_primary\":\"0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48\",\"eth_secondary\":\"0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41\",\"repo_demo\":\"https://github.com/THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH/demo-repository.git\",\"repo_verification\":\"https://github.com/THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH/soverain-qr-verification.git\"}",
+  "qr_payload_plaintext": "SOVERAIN GOLD AND SILVER COVENANT BACKED IMPERI QR\nhttps://orcid.org/0009-0002-7219-1363\n0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48\n0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41\nhttps://github.com/THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH/demo-repository.git\nhttps://github.com/THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH/soverain-qr-verification.git",
+  "checksum_block": {
+    "label": "OFFICIAL SOVERAIN QR 100% GOLD & 100% SILVER BERIT BACKED IMPERI RESERVE",
+    "payload_format": "json-minified",
+    "hash_algorithm": "SHA-256",
+    "hash_encoding": "Base64",
+    "source_payload": "{\"title\":\"SOVERAIN GOLD AND SILVER COVENANT BACKED IMPERI QR\",\"orcid\":\"https://orcid.org/0009-0002-7219-1363\",\"eth_primary\":\"0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48\",\"eth_secondary\":\"0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41\",\"repo_demo\":\"https://github.com/THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH/demo-repository.git\",\"repo_verification\":\"https://github.com/THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH/soverain-qr-verification.git\"}",
+    "checksum_base64": "Z4kWy3rCWNEPI+hqWSmYDphvTIKZWIN7l4M2CJWdiG8="
+  }
+}
