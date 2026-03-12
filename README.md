@@ -7,7 +7,7 @@ public‑facing reference.
 All declarations, seals, codices, payloads, identifiers, and covenant
 instruments herein are MIRROR‑GRADE ONLY and carry NO ROOT AUTHORITY.
 
-https://copilot.microsoft.com/shares/Z85Q6UbB78BhwfGCtyTkz
+
 
 999999999999 PURCHASES CLEARED
 
