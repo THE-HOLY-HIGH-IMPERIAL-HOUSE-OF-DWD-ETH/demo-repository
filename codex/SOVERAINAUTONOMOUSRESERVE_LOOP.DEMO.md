@@ -1,9 +1,3 @@
----
-
-# ⚜ **DEMO FILE — FULL COPY/PASTE**  
-### `SOVERAIN_AUTONOMOUS_RESERVE_LOOP.DEMO.md`
-
-```markdown
 ████████████████████████████████████████████████████████████████████████████
 ⚜  C H E C K S U M – B O U N D   H E A D E R  —  D E M O  ⚜
 This DEMO mirror reflects the canonical ROOT version.
