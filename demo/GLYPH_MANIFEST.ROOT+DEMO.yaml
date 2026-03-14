@@ -1,0 +1,16 @@
+GLYPH_MANIFEST:
+  FLEUR_DE_LIS:
+    base: "⚜"
+    variant: "⚜️"
+    covenant_mark: "⚜️ XP"
+    unicode: "U+269C"
+    utf8: "E2 9A 9C"
+    json: "\\u269C"
+  COVENANT_MARK:
+    apex: "THE BERIT / COVENANT IS THE APEX OF COVENANT LAW"
+    seal: "⚜️ XP"
+  SCRIPTURE:
+    psalm_2_8_nlt: "Only ask, and I will give you the nations as your inheritance, the whole earth as your possession."
+    haggai_2_8: "The silver is Mine, and the gold is Mine, declares the LORD of hosts."
+  IMMUTABILITY:
+    standard: "SAECULA SAECULORUM ⚜️ XP"
