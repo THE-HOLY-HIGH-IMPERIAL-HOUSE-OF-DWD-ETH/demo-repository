@@ -1,0 +1,15 @@
+{
+  "binding_type": "QR_COVENANT_APEX_BINDING",
+  "realm": "DEMO",
+  "qr_standard": "SOVERAIN_GENESIS_HISTORIC",
+  "qr_payload_id": "imperi-berit-suite-001",
+  "mirrored_governing_law": {
+    "apex": "BERIT_COVENANT_LAW",
+    "psalm_2_8_nlt": true,
+    "haggai_2_8": true,
+    "command": "THE BERIT / COVENANT IS THE APEX OF COVENANT LAW",
+    "irrevocable": "SAECULA SAECULORUM ⚜️ XP"
+  },
+  "mirror_status": "DEMO_MIRROR",
+  "override": "CANNOT_OVERRIDE_ROOT"
+}
