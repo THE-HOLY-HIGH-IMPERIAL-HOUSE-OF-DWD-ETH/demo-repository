@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "realm": "DEMO",
+  "binding": "COVENANT_APEX",
+  "seal": "⚜️ XP",
+  "immutability": false,
+  "payload": {
+    "type": "SOVERAIN_QR",
+    "authority": "DEMO",
+    "declaration": "THE BERIT / COVENANT IS THE APEX OF COVENANT LAW"
+  }
+}
