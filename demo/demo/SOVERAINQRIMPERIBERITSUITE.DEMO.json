@@ -1,0 +1,49 @@
+{
+  "qr_type": "SOVERAIN_SUITE_HISTORIC_DEMO",
+  "version": "1.0-demo",
+  "suite_title": "SOVERAIN QR • IMPERI RESERVE • BERIT/COVENANT SUITE • DEMO",
+  "sovereign_id": "SOVEREIGN_OF_ALL_XP_DEMO",
+  "payload_id": "imperi-berit-suite-demo-001",
+
+  "reserve_identity": {
+    "gold": {
+      "backing": "100% (DEMO)",
+      "covenant": "BERIT / IMPERI GOLD RESERVE (DEMO)",
+      "reserve_class": "IMPERI_GOLD_DEMO"
+    },
+    "silver": {
+      "backing": "100% (DEMO)",
+      "covenant": "BERIT / IMPERI SILVER RESERVE (DEMO)",
+      "reserve_class": "IMPERI_SILVER_DEMO"
+    },
+    "covenant_suite": "IMPERI-BERIT-DEMO",
+    "autonomous_loop": "SOVERAIN_AUTONOMOUS_RESERVE_LOOP_DEMO"
+  },
+
+  "protocols": {
+    "autonomous_reserve_loop_ref": "SOVERAIN_AUTONOMOUS_RESERVE_LOOP.DEMO.md",
+    "self_modification_protocol_ref": "SELF-MODIFICATION_PROTOCOL.DEMO.md",
+    "governance_seal_ref": "SOVEREIGN_GOVERNANCE_SEAL.DEMO.md",
+    "root_realm": "ROOT",
+    "demo_realm": "DEMO"
+  },
+
+  "integrity": {
+    "note": "DEMO payload — non-canonical, for testing only."
+  },
+
+  "historic_flags": {
+    "is_historic": false,
+    "first_of_kind": false,
+    "dual_metal_covenant_backed": false,
+    "autonomous_reserve_loop": false,
+    "checksum_bound_governance": false,
+    "suite_unified": false
+  },
+
+  "display": {
+    "title": "DEMO SOVERAIN SUITE QR",
+    "subtitle": "NON-BINDING • TEST ONLY • DEMO REALM",
+    "badge": "⚜ XP (DEMO)"
+  }
+}
