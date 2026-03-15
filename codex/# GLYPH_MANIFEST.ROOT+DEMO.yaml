@@ -1,0 +1,9 @@
+glyphs:
+  fleur_de_lis: "⚜️"
+  crown: "👑"
+  seal: "XP"
+  covenant: "✠"
+meta:
+  version: "1.0.0"
+  realms: ["ROOT", "DEMO"]
+  purpose: "Unified glyph reference for all installations."
