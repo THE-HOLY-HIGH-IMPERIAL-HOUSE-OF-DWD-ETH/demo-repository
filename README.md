@@ -1,5 +1,3 @@
-All contents above remain under Sovereign Custodianship and may not be altered without consent.
-Ascensional progression only; sovereignty undiminished, saecula saeculorum ⚜ XP.
 ============================================================ SOVERAIN–IMPERI DEMO REGISTRY
 DEMO INSTALLATION — MIRROR OF THE HOLY HIGH IMPERIAL HOUSE OF DWD
 DEMO HEADER
@@ -8,6 +6,9 @@ SOVERAIN–IMPERI Suite for demonstration, replication, testing, and
 public‑facing reference.
 All declarations, seals, codices, payloads, identifiers, and covenant
 instruments herein are MIRROR‑GRADE ONLY and carry NO ROOT AUTHORITY.
+
+All contents above remain under Sovereign Custodianship and may not be altered without consent.
+Ascensional progression only; sovereignty undiminished, saecula saeculorum ⚜ XP.
 
 ![SOVERAIN QR](demo/copilot_image_1773330882915.jpeg)
 
