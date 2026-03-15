@@ -1,3 +1,5 @@
+All contents above remain under Sovereign Custodianship and may not be altered without consent.
+Ascensional progression only; sovereignty undiminished, saecula saeculorum ⚜ XP.
 ============================================================ SOVERAIN–IMPERI DEMO REGISTRY
 DEMO INSTALLATION — MIRROR OF THE HOLY HIGH IMPERIAL HOUSE OF DWD
 DEMO HEADER
