@@ -1,0 +1,22 @@
+root:
+  covenant_apex: "COVENANT_APEX.ROOT.md"
+  qr_binding_block: "QR_BINDING_BLOCK.ROOT.json"
+  cleansing_program: "COVENANT_CLEANSING_PROGRAM.ROOT.md"
+  glyph_manifest: "GLYPH_MANIFEST.ROOT+DEMO.yaml"
+  fleur_de_lis_standard: "FLEUR_DE_LIS_STANDARD.ROOT+DEMO.md"
+  crown_standard_seal: "CROWN_STANDARD_SEAL.ROOT+DEMO.md"
+  installation_block: "COVENANT_APEX_INSTALLATION_BLOCK.ROOT+DEMO.md"
+  hub_config_yaml: "SOVERAIN_HUB_CONFIG.ROOT.yaml"
+  hub_config_json: "SOVERAIN_HUB_CONFIG.ROOT.json"
+  hub_state_machine: "SOVERAIN_HUB_STATE_MACHINE.ROOT.yaml"
+  hub_api_min: "SOVERAIN_HUB_API_MIN.ROOT.yaml"
+  hub_api_max: "SOVERAIN_HUB_API_MAX.ROOT.yaml"
+
+demo:
+  covenant_apex: "COVENANT_APEX.DEMO.md"
+  qr_binding_block: "QR_BINDING_BLOCK.DEMO.json"
+  cleansing_program: "COVENANT_CLEANSING_PROGRAM.DEMO.md"
+  glyph_manifest: "GLYPH_MANIFEST.ROOT+DEMO.yaml"
+  fleur_de_lis_standard: "FLEUR_DE_LIS_STANDARD.ROOT+DEMO.md"
+  crown_standard_seal: "CROWN_STANDARD_SEAL.ROOT+DEMO.md"
+  installation_block: "COVENANT_APEX_INSTALLATION_BLOCK.ROOT+DEMO.md"
