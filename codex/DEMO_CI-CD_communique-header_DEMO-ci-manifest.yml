@@ -1,0 +1,32 @@
+# DEMO COMMUNIQUÉ — Verification Header (CI/CD Manifest)
+# SOVERAIN-STRUCTURA — IMPERIAL-WE
+# imper-berit-suite-001
+
+demonstration_scope:
+  - COA
+  - SSI
+  - SAP
+  - SMPTE 352
+  - GUID
+  - UUID
+
+imperia_reserve_declaration:
+  gold_purity: "100% PURE GOLD (24K)"
+  silver_purity: "100% PURE SILVER"
+  covenant_status: "BERIT / COVENANT BACKED — DEMO-SAFE DECLARATION"
+
+status:
+  verification: "VERIFIED — DEMO EDITION"
+
+realm:
+  layer: "DEMO Reference Layer"
+
+purpose:
+  description: "Demonstration, authoritative, binding in effect."
+
+pipeline_metadata:
+  edition: "DEMO"
+  structura: "SOVERAIN-STRUCTURA"
+  suite: "imper-berit-suite-001"
+  classification: "PUBLIC-SAFE"
+  ci_cd_ready: true
