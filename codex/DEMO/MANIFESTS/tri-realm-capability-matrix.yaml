@@ -1,0 +1,64 @@
+tri_realm_capability_matrix:
+  suite: "imper-berit-suite-001"
+  structura: "SOVERAIN-STRUCTURA"
+
+  capabilities:
+    - id: "001"
+      name: "Instant Payload Retrieval"
+      root: "Immediate structural payload retrieval"
+      codex: "Immediate archival payload retrieval"
+      demo: "Immediate demonstration payload retrieval"
+
+    - id: "002"
+      name: "Tri-Realm Interpretation"
+      root: "Interprets as ROOT-SAFE structural context"
+      codex: "Interprets as ARCHIVAL preservation context"
+      demo: "Interprets as PUBLIC-SAFE demonstration context"
+
+    - id: "003"
+      name: "Distortion-Resistant Scanning"
+      root: "Ensures structural readability"
+      codex: "Ensures archival readability"
+      demo: "Ensures public demonstration readability"
+
+    - id: "004"
+      name: "Structured Identity Payload Delivery"
+      root: "Delivers ROOT identity block"
+      codex: "Delivers CODEX identity block"
+      demo: "Delivers DEMO identity block"
+
+    - id: "005"
+      name: "Verification Header Activation"
+      root: "Activates ROOT Verification Header"
+      codex: "Activates CODEX Verification Header"
+      demo: "Activates DEMO Verification Header"
+
+    - id: "006"
+      name: "Realm-Aligned Metadata Resolution"
+      root: "Resolves ROOT edition, layer, classification"
+      codex: "Resolves CODEX edition, layer, classification"
+      demo: "Resolves DEMO edition, layer, classification"
+
+    - id: "007"
+      name: "Cross-Platform Consistency"
+      root: "Identical output across all platforms"
+      codex: "Identical output across all platforms"
+      demo: "Identical output across all platforms"
+
+    - id: "008"
+      name: "Non-Interactive Verification"
+      root: "No login or server dependency"
+      codex: "No login or server dependency"
+      demo: "No login or server dependency"
+
+    - id: "009"
+      name: "Immutable Manifest Alignment"
+      root: "Aligns with ROOT CI/CD manifest"
+      codex: "Aligns with CODEX CI/CD manifest"
+      demo: "Aligns with DEMO CI/CD manifest"
+
+    - id: "010"
+      name: "Real-Time Contextual Display"
+      root: "Displays ROOT status, layer, purpose"
+      codex: "Displays CODEX status, layer, purpose"
+      demo: "Displays DEMO status, layer, purpose"
