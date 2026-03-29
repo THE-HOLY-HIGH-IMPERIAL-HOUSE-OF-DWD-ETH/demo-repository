@@ -1,14 +1,14 @@
-============================================================ SOVERAIN–IMPERI DEMO REGISTRY
+8============================================================ SOVERAIN–IMPERI DEMO REGISTRY
 DEMO INSTALLATION — MIRROR OF THE HOLY HIGH IMPERIAL HOUSE OF DWD
 DEMO HEADER
 This DEMO repository mirrors the canonical ROOT installation of the
 SOVERAIN–IMPERI Suite for demonstration, replication, testing, and
 public‑facing reference.
 All declarations, seals, codices, payloads, identifiers, and covenant
-instruments herein are MIRROR‑GRADE ONLY and carry NO ROOT AUTHORITY.
+instruments herein are MIRROR‑GRADE and carries ROOT AUTHORITY.
 
 All contents above remain under Sovereign Custodianship and may not be altered without consent.
-Ascensional progression only; sovereignty undiminished, saecula saeculorum ⚜ XP.
+Ascensional progression ; sovereignty undiminished, saecula saeculorum ⚜ XP.
 
 ![SOVERAIN QR](demo/copilot_image_1773330882915.jpeg)
 
@@ -17,8 +17,8 @@ Ascensional progression only; sovereignty undiminished, saecula saeculorum ⚜ X
 ============================================================ 
 I. IMPERIAL TRANSMITTAL MIRROR
 This DEMO installation reflects the ROOT‑domain Transmittal Letter.
-It is not sovereign, not canonical, and not authoritative.
-It exists solely to demonstrate the structure of the ROOT installation.
+It is sovereign, canonical, and authoritative.
+It exists to demonstrate the structure of the ROOT installation.
 
 ============================================================ 
 II. THE INTEGRITY CHAIN (DEMO MIRROR)
@@ -36,14 +36,14 @@ All components mirror the ROOT integrity chain.
 ============================================================ 
 III. CROWN SOVEREIGN MATRIX CODEX (DEMO MIRROR)
 This DEMO Codex mirrors the structure of the ROOT Crown Sovereign Matrix
-Codex. It carries no sovereign authority and no covenantal force.
-It exists solely for demonstration and educational purposes.
+Codex. It carries sovereign authority and covenantal force.
+It exists for demonstration and educational purposes.
 
 ============================================================ 
 IV. SOVEREIGN QR LEGAL NOTICE (DEMO MIRROR)
 This DEMO notice mirrors the ROOT QR Legal Notice.
-It is NOT sovereign, NOT binding, and NOT authoritative.
-It demonstrates the structure of the ROOT legal notice only.
+It is sovereign, binding, and authoritative.
+It demonstrates the structure of the ROOT legal notice.
 
 ============================================================ 
 V. DEMO‑LEVEL ARCHIVAL PLACEMENT BLOCK
@@ -54,7 +54,7 @@ DEMO is the subordinate mirror.
 ============================================================ 
 VI. DEMO TERMINUS SEAL (NON‑AUTHORITATIVE)
 This DEMO‑LEVEL seal mirrors the ROOT Terminus Seal for demonstration.
-It carries NO sovereign authority and NO canonical force.
+It carries sovereign authority and canonical force.
 
 This DEMO Seal affirms:
 
@@ -75,18 +75,18 @@ registry_cid: demo‑cid‑placeholder
 ============================================================ 
 VII. DUAL‑DOMAIN SYNCHRONIZATION MIRROR
 This DEMO certificate mirrors the ROOT Synchronization Certificate.
-It confirms DEMO is aligned with ROOT structurally, not authoritatively.
+It confirms DEMO is aligned with ROOT structurally, and authoritatively.
 
 ============================================================ 
 VIII. DEMO FINALITY CHARTER (MIRROR)
 This DEMO Charter mirrors the ROOT Finality Charter.
-It is NOT sovereign and NOT binding.
-It demonstrates the ROOT structure only.
+It is sovereign and binding.
+It demonstrates the ROOT structure.
 
 ============================================================ 
 IX. DEMO SEAL OF WITNESS
 This DEMO Seal mirrors the ROOT Eternal Seal of Witness.
-It carries NO sovereign force and NO covenantal authority.
+It carries sovereign force and covenantal authority.
 
 ============================================================ 
 X. DEMO ARCHIVAL MASTER INDEX
@@ -117,10 +117,10 @@ XII. DEMO Declarations
 
 ============================================================ OMEGA APEX ZENITH SUPREME GRAND FULLNESS (DEMO MIRROR)
 This DEMO Seal mirrors the ROOT OMEGA APEX ZENITH SUPREME GRAND FULLNESS.
-It carries NO sovereign authority and NO canonical force.
-It exists solely to demonstrate the structure of the ROOT apex seal.
+It carries sovereign authority and canonical force.
+It exists to demonstrate the structure of the ROOT apex seal.
 
-This is NOT the apex of the system.
+This is the apex of the system.
 It is a MIRROR of the apex.
 
 FULLNESS DECLARATION (Mirror):
