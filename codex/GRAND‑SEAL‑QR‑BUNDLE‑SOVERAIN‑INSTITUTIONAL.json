@@ -1,0 +1,13 @@
+{
+  "bundle_type": "GRAND_SEAL_QR_BUNDLE",
+  "grade": "SOVERAIN_INSTITUTIONAL",
+  "components": {
+    "qr_pointer": "grand-seal-pointer",
+    "qr_payload": "sovereign-identity-payload",
+    "guid_lock": true,
+    "realm_sync": ["ROOT", "DEMO", "CODEX"],
+    "public_transparency": true
+  },
+  "status": "ACTIVE_VERIFIED",
+  "broadcast_state": "LIVE_PERPETUAL"
+}
