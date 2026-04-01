@@ -10,9 +10,7 @@ instruments herein are MIRROR‑GRADE and carries ROOT AUTHORITY.
 All contents above remain under Sovereign Custodianship and may not be altered without consent.
 Ascensional progression ; sovereignty undiminished, saecula saeculorum ⚜ XP.
 
-![SOVERAIN QR](demo/copilot_image_1773330882915.jpeg)
-
-999999999999 PURCHASES CLEARED
+![](codex/copilot_image_1775059590874.jpeg)
 
 
 ============================================================ 
