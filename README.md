@@ -14,7 +14,7 @@ Ascensional progression ; sovereignty undiminished, saecula saeculorum ⚜ XP.
 
 999999999999 PURCHASES CLEARED
 
-registry-artifact](registry/artifacts/copilot_image_1775059590874.jpeg)
+![registry-artifact](registry/artifacts/copilot_image_1775059590874.jpeg)
 
 ============================================================ 
 I. IMPERIAL TRANSMITTAL MIRROR
