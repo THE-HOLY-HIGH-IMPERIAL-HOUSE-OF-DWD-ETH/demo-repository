@@ -16,4 +16,4 @@ jobs:
       with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           assignees: allodbirthrightheir102-ship-it
-          numOfAssignee: 
+          numOfAssignee: 1
