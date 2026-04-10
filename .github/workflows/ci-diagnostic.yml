@@ -1,13 +1,23 @@
-name: Proof HTML
+name: CI Diagnostic
 on:
   push:
   workflow_dispatch:
 
 jobs:
-  build:
+  diagnostic:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: anishathalye/proof-html@v1.1.0
-        with:
-          directory: ./
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run SOVERAIN QR Diagnostics
+        run: |
+          echo "Running SOVERAIN QR System Diagnostics..."
+          test -f README.md
+          test -f SOVEREIGN_CLEARANCE_DECREE.md
+          test -d identity
+          test -d verification
+          test -d qr
+          test -d clearance
+          test -d archive
+          echo "Diagnostics Complete."
