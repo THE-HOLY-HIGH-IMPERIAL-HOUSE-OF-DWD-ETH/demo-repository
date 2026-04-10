@@ -1,7 +1,3 @@
-████████████████████████████████████████████████████████████████████████████
-⚜ S O V E R A I N   Q R  —  O M E G A   S T A N D A R D ⚜
-████████████████████████████████████████████████████████████████████████████
-
 # SOVERAIN QR — CI DIAGNOSTIC SCRIPT (PSEUDOCODE)
 
 BEGIN
@@ -40,8 +36,3 @@ PRINT "Diagnostics Complete."
 
 END
 
-────────────────────────────────────────────────────────
-S O V E R A I N ‑ Q R   T E C H N I C A L   F O O T E R
-────────────────────────────────────────────────────────
-
-This file is part of the SOVERAIN‑QR demo repository.
