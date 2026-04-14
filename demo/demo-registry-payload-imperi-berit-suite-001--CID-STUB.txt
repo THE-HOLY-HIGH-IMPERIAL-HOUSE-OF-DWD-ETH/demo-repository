@@ -1,0 +1,33 @@
+REGISTRY-PAYLOAD:1.0
+REALM:DEMO
+ROLE:VERIFICATION-STUB
+TYPE:REGISTRY-BOUND-INTEGRITY
+FORMAT:UTF-8
+ENCODING:PLAIN
+
+PAYLOAD-ID: imperi-berit-suite-001--CID-STUB
+REGISTRY-CID: bafybeicezgomih2k34lmfijovowgt7swfcpxad5rtyow3bziats7td74tm
+
+INTEGRITY-ANCHOR:
+  RULE: "Verification requires matching this CID exactly."
+  MODE: CONTENT-ADDRESSED
+  VARIANCE: ZERO
+  FINALITY: PERMANENT
+
+CHECKSUM:
+  TYPE: SHA-256
+  VALUE: 016e919ee4f6aeb7771972e86276c580ebd747f7dd9b09b40937b8f7066d6a09
+
+VERIFICATION:
+  NON-INTERACTIVE: TRUE
+  NON-DERIVATIVE: TRUE
+  OFFLINE-CAPABLE: TRUE
+
+END-REGISTRY-PAYLOAD
+{
+  "cid": "bafybeicezgomih2k34lmfijovowgt7swfcpxad5rtyow3bziats7td74tm",
+  "sha256": "016e919ee4f6aeb7771972e86276c580ebd747f7dd9b09b40937b8f7066d6a09",
+  "mode": "non-interactive",
+  "integrity": "content-addressed",
+  "status": "valid"
+}
