@@ -2,7 +2,7 @@
   "version": "1.0.0",
   "realm": "DEMO",
   "binding": "COVENANT_APEX",
-  "seal": "⚜️ XP",
+  "seal": "⚜ XP",
   "immutability": false,
   "payload": {
     "type": "SOVERAIN_QR",
