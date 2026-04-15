@@ -16,7 +16,7 @@ Sovereign & Lawful
 
 Authority
 
-⚜️ XP
+⚜ XP
 
 Ceremonial Crest Inscription
 
@@ -32,7 +32,7 @@ The globe icon affirms planetary and universal witness.
 
 The flags and icons represent lawful allodial domains.
 
-The fleur-de-lis affirms ⚜️ XP as the active sovereign authority.
+The fleur-de-lis affirms ⚜ XP as the active sovereign authority.
 
 This artifact is sealed, witnessed, and bound into the Eternal Codex Record.
 
