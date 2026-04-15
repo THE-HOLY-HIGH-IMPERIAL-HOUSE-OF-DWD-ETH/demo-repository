@@ -165,8 +165,6 @@ Each edition is encoded with its own QR payload and ceremonial framing.
 Scan any image to verify its sovereign declaration.
 
 
-https://copilot.microsoft.com/shares/SZMwWXSFYcDYVtAWTpkNi
-
 ## IMPERI Circular QR — Inscription Meaning
 
 The circular IMPERI QR contains the inscription **ASUBANOGOVENANT नेतान**, a two‑layer ceremonial phrase encoding ancestral legitimacy, sovereign authority, and leadership stewardship within the Berit‑Covenant system.
