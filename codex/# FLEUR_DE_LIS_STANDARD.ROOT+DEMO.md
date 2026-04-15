@@ -1,5 +1,5 @@
 FLEUR-DE-LIS STANDARD
-Symbol: ⚜️
+Symbol: ⚜
 Meaning: Purity, sovereignty, covenantal authority.
 Usage:
 - Seal blocks
