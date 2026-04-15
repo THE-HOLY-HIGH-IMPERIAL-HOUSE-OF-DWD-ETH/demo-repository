@@ -10,19 +10,18 @@ THE HOLY HIGH IMPERIAL HOUSE OF DWD — PUBLIC CROWN‑STANDARD DECLARATION
 
 # ⭐ Ceremonial SOVERAIN‑QR Assets
 
-These links reference the official ceremonial QR artifacts associated with the SOVERAIN QR system.  
-They are technical in nature but included here **solely for ceremonial context** within the demo repository.
+This link reference is the official ceremonial QR artifact associated with the SOVERAIN QR system.  
+This is technical in nature included here ** for ceremonial context** within the demo repository.
 
-## **Official Ceremonial Artifacts**
-1. https://copilot.microsoft.com/shares/4HNCXRbMc4wFFS3s6rfbU  
-2. https://copilot.microsoft.com/shares/QK6XUvpTcGmLCSfQ353aC  
-3. https://copilot.microsoft.com/shares/ZMoAcsNhXEzvrvQasq4M3  
+## **Official Ceremonial Artifact**
 
-Each link opens a visual artifact containing a QR code.  
-These QR codes are **self‑contained**, fully functional, and operate independently of this repository.
+![demo image](demo/copilot_image_1773330882915.jpeg)
+
+This link opens a visual artifact containing a QR code.  
+Theis QR code is **self‑contained**, fully functional, and operate independently of this repository.
 
 ## **Developer Note**
-This page preserves ceremonial references without interfering with the technical clarity or instructional purpose of the demo repository.  
+This page preserves ceremonial reference without interfering with the technical clarity or instructional purpose of the demo repository.  
 These assets are **optional** and not required for QR pointer testing, checksum verification, or any functional workflow.  
 Developers may safely ignore this page unless they wish to view the ceremonial components of the SOVERAIN QR system.
 
