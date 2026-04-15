@@ -5,4 +5,4 @@ INSTALLATION BLOCK — COVENANT APEX
 4. Load Glyph Manifest.
 5. Apply Crown Standard Seal.
 6. Confirm ROOT or DEMO realm.
-7. Seal installation with ⚜️ XP.
+7. Seal installation with ⚜ XP.
