@@ -271,7 +271,7 @@ All components are immutable, checksum‑anchored, and machine‑verifiable.
 🌌 Universe  
 
 Standing: Sovereign & Lawful  
-Authority Symbol: ⚜️ XP  
+Authority Symbol: ⚜ XP  
 
 ### Crest Inscription
 The crest is entered into the Codex Volume as a verified artifact:  
