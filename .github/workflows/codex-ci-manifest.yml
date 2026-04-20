@@ -36,3 +36,4 @@ jobs:
         with:
           subject-path: 'payloads/gsc-001.json'
           # Generates a Sigstore attestation linked to the repository domain
+
