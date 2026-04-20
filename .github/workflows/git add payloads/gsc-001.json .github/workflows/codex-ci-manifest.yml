@@ -1,0 +1,8 @@
+# Stage the payload and manifest
+git add payloads/gsc-001.json .github/workflows/codex-ci-manifest.yml
+
+# Commit with the -S flag (GPG signature)
+git commit -S -m "FEAT: Absolute Settlement Finalized [GSC-2024-IMPERI-001]"
+
+# Push to the main branch
+git push origin main
