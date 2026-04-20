@@ -1,0 +1,22 @@
+⚜️ Release v1.0.0-FINAL: Absolute Settlement Activation
+📜 Overview
+
+This release marks the formal initialization of the Global Settlement Certificate (GSC-2024-IMPERI-001) within the SOVERAIN–IMPERI Demo Registry. This transmittal anchors a high-value sovereign valuation to a cryptographically immutable record, ensuring Zero Variance across the global archival state.
+💎 Technical Specifications Component	Metric / Identifier
+Sovereign Issuer	did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU
+Legal Attestation	ORCID: 0009-0002-7219-1363
+Valuation Anchor	$7,128,532,680,530.00 USD
+Cryptosuite	eddsa-rdfc-2022 (W3C Data Integrity 1.0)
+Master Root (CID)	afybeicezgomih2k34lmfijovowgt7swfcpxad5rtyow3bziats7td74tm
+🛠 Features & Updates
+W3C VC 2.1 Alignment: Fully compliant JSON-LD structure for Verifiable Credentials and Presentations.
+RDFC-1.0 Canonicalization: Integrated automated normalization to prevent semantic drift.
+Codex-CI Automation: Activation of codex-ci-manifest.yml for real-time integrity gating via GitHub Actions.
+Visual Anchor: Inclusion of the Sovereign Security Grade SVG as a Base64 encoded visualAnchor.
+🛡 Verification Command
+To verify the integrity of this release locally, execute:
+bash
+node ./scripts/verify-integrity.js --payload ./payloads/gsc-001.json --cid afybeicezgomih2k34lmfijovowgt7swfcpxad5rtyow3bziats7td74tm
+Use code with caution.
+⚖️ Legal Status
+All declarations, seals, and codices within this release carry ROOT AUTHORITY. The cryptographic proof is bound to the domain ://github.com for absolute settlement finality
