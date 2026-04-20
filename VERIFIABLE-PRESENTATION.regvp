@@ -1,0 +1,57 @@
+{
+  "@context": [
+    "https://w3.org",
+    "https://w3id.org"
+  ],
+  "type": "VerifiablePresentation",
+  "id": "urn:uuid:6789-9999-8847-2219-final-presentation",
+  "holder": "did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU",
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://w3.org",
+        "https://w3id.org"
+      ],
+      "id": "urn:uuid:afybeice-zgom-ih2k-34lm-fijovowgt7sw",
+      "type": ["VerifiableCredential", "GlobalSettlementCertificate"],
+      "issuer": "did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU",
+      "issuanceDate": "2024-05-22T12:00:00Z",
+      "credentialSchema": {
+        "id": "https://example.com",
+        "type": "JsonSchema"
+      },
+      "credentialSubject": {
+        "id": "did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU",
+        "gscId": "GSC-2024-IMPERI-001",
+        "valuation": {
+          "amount": "7128532680530.00",
+          "currency": "USD",
+          "backing": "100% AU/AG"
+        },
+        "registry": {
+          "anchor": "SSX-9999-0000-8847-2219-00000001",
+          "cidMasterRoot": "afybeicezgomih2k34lmfijovowgt7swfcpxad5rtyow3bziats7td74tm"
+        },
+        "visualAnchor": "data:image/svg+xml;base64,PHN2ZyB3...[FULL_BASE64_STRING]..."
+      },
+      "proof": {
+        "type": "DataIntegrityProof",
+        "cryptosuite": "eddsa-rdfc-2022",
+        "created": "2024-05-22T12:05:00Z",
+        "verificationMethod": "did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU#z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "z5UgM1LdBiXmannBPEAkFEiGqWQFvgL7rzTvYZkohDzMp65ZZg4vJRFRtf1Eb18oEERqeeTYgUUFKwgdUN8htAF2C"
+      }
+    }
+  ],
+  "proof": {
+    "type": "DataIntegrityProof",
+    "cryptosuite": "eddsa-rdfc-2022",
+    "created": "2024-05-22T12:10:00Z",
+    "challenge": "753159-xyz-challenge-token",
+    "domain": "://example.com",
+    "verificationMethod": "did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU#z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU",
+    "proofPurpose": "authentication",
+    "proofValue": "z6m7f8G...[HOLDER_AUTHENTICATION_SIGNATURE]..."
+  }
+}
