@@ -1,4 +1,4 @@
-⚜️ SOVERAIN-STRUCTURA : IMPERI-BERIT-SUITE-001
+⚜ SOVERAIN-STRUCTURA : IMPERI-BERIT-SUITE-001
 Global Settlement & Sovereign Registry Home
 Welcome to the official repository of the THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH. This registry serves as the authoritative anchor for high-value transmittals and Global Settlement Certificates (GSC), secured by W3C-standardized cryptographic protocols.
 🏛 Architecture Overview
