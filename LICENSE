@@ -1,130 +1,23 @@
-████████████████████████████████████████████████████████████████████████████
-⚜  S O V E R A I N   Q R  —  O M E G A   Z E N I T H   C R O W N   S T A N D A R D  ⚜
-THE HOLY HIGH IMPERIAL HOUSE OF DWD — PUBLIC CROWN‑STANDARD DECLARATION
-████████████████████████████████████████████████████████████████████████████
-
-────────────────────────────────────────────────────────────────────────────
-⚜  I N S C R I B E D   U N D E R   T H E   K E Y   O F   D W D  —  ⚜ XP
-────────────────────────────────────────────────────────────────────────────
-
-⚜ CROWN‑STANDARD LICENSE
-SOVERAIN QR PROTOCOL — AUTHORITY, CLEARANCE, AND BROADCAST RIGHTS
-
-This License governs the use, distribution, verification, and reproduction of all materials contained within this repository, including but not limited to: documentation, decrees, constants, bundles, hashes, pointers, and all Crown‑Standard artifacts of the SOVERAIN QR Verification System.
-
-By accessing or using any portion of this repository, the user acknowledges and accepts the terms of this License.
-
----
-
-👑 1. SOVEREIGN OWNERSHIP
-
-All contents of this repository are issued under the authority of IMPERIAL‑WE and the Holy High Imperial House of DWD.  
-All materials herein are sovereign works, sealed and broadcast under Crown authority.
-
-No external entity may claim ownership, authorship, or hierarchical superiority over any component of the SOVERAIN QR Protocol.
-
----
-
-🔐 2. PERMITTED USE
-
-You are granted permission to:
-
-- View, reference, and reproduce this material for academic, technical, institutional, or archival purposes.  
-- Implement the verification logic, constants, or structures for interoperability with the SOVERAIN QR Protocol.  
-- Fork, mirror, or archive the repository for preservation or institutional review.
-
-All permitted uses must preserve:
-
-- The SOVERAIN spelling  
-- The Crown‑Standard formatting  
-- The integrity of the verification logic  
-- The authority declarations contained herein  
-
----
-
-🛡️ 3. PROHIBITED ACTIONS
-
-You may not:
-
-- Alter, obscure, or remove Crown seals, signatures, or authority declarations.  
-- Misrepresent the SOVERAIN QR Protocol as subordinate to any external system.  
-- Forge, simulate, or falsify SOVERAIN QR verification outputs.  
-- Use this material to impersonate Crown authority or generate unauthorized signatures.  
-
-Any violation constitutes a breach of sovereign protocol.
-
----
-
-📡 4. BROADCAST RIGHTS
-
-This repository is broadcast perpetually under Crown authority.  
-Redistribution must preserve:
-
-- The broadcast status  
-- The verification chain  
-- The decree references  
-- The Codex citation  
-
-No derivative broadcast may supersede or override the original.
-
----
-
-🧩 5. INTEGRITY REQUIREMENT
-
-Any implementation, integration, or reproduction of the SOVERAIN QR Protocol must:
-
-- Maintain the canonical signer address  
-- Preserve the Authority Constants  
-- Uphold the Clearance Decree  
-- Respect the Covenant Contract reference  
-
-Deviation invalidates verification.
-
----
-
-✨ 6. SOVEREIGN SPELLING OVERRIDE
-
-The spelling SOVERAIN is sealed and mandatory across all identity, clearance, and verification layers.  
-All infiltrator variants are null, void, and overridden.
-
----
-
-⚖️ 7. LIABILITY
-
-All materials are provided as‑is, without warranty.  
-The Crown assumes no liability for misuse, misinterpretation, or unauthorized modification of this protocol.
-
-Verification authority remains exclusively with IMPERIAL‑WE.
-
----
-
-👑 8. SEAL OF THE CROWN
-
-This License is sealed under the authority of IMPERIAL‑WE.  
-All contents are verified, immutable, and upheld under the Crown.
-
-Thus recorded.  
-Thus sealed.  
-Thus sovereign. ⚜ XP
-
-----------------------------------------
-**IMPERIAL‑WE / DESPOTIC, CARRY THE SCEPTER OF YEHUDA AND YHWH.  
-SAECULA SAECULORUM ⚜ XP**
-----------------------------------------
-----------------------------------------
-THE KEY 🔑 OF DWD 🔐 IS HEREBY INVOCARED SAECULA SAECULORUM ⚜ XP 
-----------------------------------------
-
-────────────────────────────────────────────────────────
-C R O W N ‑ S T A N D A R D   F O O T E R   S E A L
-S O V E R A I N ‑ Q R   S Y S T E M   C A N O N
-────────────────────────────────────────────────────────
-
-This document aligns with the SOVERAIN‑QR verification architecture.
-No further content shall appear below this seal.
-
-SOVERAIN OF ALL ⚜ XP
-
-────────────────────────────────────────────────────────
-E N D   O F   D O C U M E N T
-────────────────────────────────────────────────────────
+LICENSE: SOVEREIGN OPEN-ACCESS (VERSION 1.0)
+Entity: THE HOLY HIGH IMPERIAL HOUSE OF DWD-ETH
+Suite Identifier: IMPERI-BERIT-SUITE-001
+Root Authority: did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU
+1. PREAMBLE
+This License governs the use, distribution, and verification of the Sovereign-Structura Payload and its associated metadata. It is established to ensure that the intellectual property and valuation anchors remain immutable and cryptographically bound to the Sovereign Issuer.
+2. GRANT OF OPEN-ACCESS
+Subject to the terms and conditions of this License, the Sovereign Issuer hereby grants a worldwide, royalty-free, non-exclusive license to:
+View & Audit: Access and inspect the JSON-LD schemas, SVGs, and verification scripts.
+Execute: Run the verify-integrity.js script to confirm Absolute Settlement status.
+Mirror: Maintain local copies of the registry for the purpose of distributed verification.
+3. RESTRICTIONS ON MODIFICATION
+Integrity Locking: Users may not modify the cidMasterRoot, GSC-ID, or valuation fields within any payload. Any unauthorized modification constitutes a breach of the Integrity Chain.
+Signature Preservation: No user shall attempt to strip, alter, or spoof the eddsa-rdfc-2022 proofs or the did:key identifiers.
+Sovereign Branding: The names "HIH SOL ALTUM IMPERIUM" and "SOVERAIN-STRUCTURA" are protected marks and may not be used to endorse third-party derivatives without a signed Verifiable Credential of authorization. 
+4. VERIFICATION MANDATE
+All deployments of this Suite must utilize the codex-ci-manifest.yml. A deployment is only considered "Valid" under this license if it returns a Zero Variance status through the RDFC-1.0 canonicalization process.
+5. NO WARRANTY
+THE SUITE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. THE SOVEREIGN ISSUER ACCEPTS NO LIABILITY FOR FINANCIAL DISCREPANCIES ARISING FROM UNAUTHORIZED FORKS OR ALTERED PAYLOADS. 
+6. TERMINATION
+This license terminates automatically if you fail to comply with the cryptographic integrity requirements herein.
+DATED: 2024-05-22
+SIGNED BY: did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU
