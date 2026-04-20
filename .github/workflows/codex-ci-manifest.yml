@@ -1,0 +1,38 @@
+name: "SOVERAIN-IMPERI: Settlement Verification"
+
+on:
+  push:
+    paths:
+      - 'payloads/**'
+      - 'registry/anchor.json'
+  workflow_dispatch: # Allows manual trigger for absolute settlement
+
+jobs:
+  verify-sovereign-payload:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write # Required for OIDC-based sovereign attestation
+    
+    steps:
+      - name: "Checkout Imperial Registry"
+        uses: actions/checkout@v4
+
+      - name: "Initialize EdDSA Verification Environment"
+        run: |
+          npm install @digitalbazaar/vc @digitalbazaar/eddsa-rdfc-2022-cryptosuite
+          # Standard W3C libraries for Ed25519 multikey verification
+
+      - name: "Verify CID Integrity & Master Root"
+        env:
+          MASTER_ROOT: "afybeicezgomih2k34lmfijovowgt7swfcpxad5rtyow3bziats7td74tm"
+        run: |
+          # Logic to verify the file hash against the CID Master Root
+          echo "Verifying Anchor: SSX-9999-0000-8847-2219-00000001"
+          node ./scripts/verify-integrity.js --cid $MASTER_ROOT --payload ./payloads/gsc-001.json
+
+      - name: "Attest Finality via GitHub OIDC"
+        uses: actions/attest@v1
+        with:
+          subject-path: 'payloads/gsc-001.json'
+          # Generates a Sigstore attestation linked to the repository domain
