@@ -11,7 +11,7 @@ Master Root (CID): The CID Master Root represents the immutable fingerprint of t
 W3C
 W3C
  +3
-2. ⚜️ Physical-to-Digital Bridge (COA & QR)
+2. ⚜ Physical-to-Digital Bridge (COA & QR)
 QR Payload Interpretation: The QR code on the Certificate of Authenticity (COA) is not merely a link; it is a transport mechanism for public/private key material that binds the ORCID identity to the authenticator.
 Integrity Checks: Auditors should perform a cross-check of the QR-encoded checksum against the SHA-256 Checksum Manifest stored in the centralized registry.
 Sovereign Seal Verification: The seal acts as a visual anchor. Its authenticity is secondary to the Identity-based data integrity auditing performed against the blockchain-anchored hash. 
