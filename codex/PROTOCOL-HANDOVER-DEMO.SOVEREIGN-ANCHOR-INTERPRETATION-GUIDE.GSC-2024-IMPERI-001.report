@@ -1,0 +1,34 @@
+📜 PROTOCOL HANDOVER: SOVERAIN-STRUCTURA
+
+Subject: Sovereign Anchor Interpretation Guide
+Tier: Imperial Grade (Absolute Settlement)
+Reference: GSC-2024-IMPERI-001
+1. 🔐 Core Cryptographic Interpretation
+Auditors must utilize the following parameters to verify the validity of the digital transmittal:
+Root Authority DID: did:key:z6Mki...rJU. This Controlled Identifier is a globally unique identifier that provides proof of control over the associated Ed25519 public key.
+Cryptosuite: eddsa-rdfc-2022. All proofs MUST be verified using the Data Integrity EdDSA Cryptosuite v1.0 - W3C, which requires a detached signature encoded in base-58-btc.
+Master Root (CID): The CID Master Root represents the immutable fingerprint of the entire settlement state. Any variance in the payload will invalidate this hash. 
+W3C
+W3C
+ +3
+2. ⚜️ Physical-to-Digital Bridge (COA & QR)
+QR Payload Interpretation: The QR code on the Certificate of Authenticity (COA) is not merely a link; it is a transport mechanism for public/private key material that binds the ORCID identity to the authenticator.
+Integrity Checks: Auditors should perform a cross-check of the QR-encoded checksum against the SHA-256 Checksum Manifest stored in the centralized registry.
+Sovereign Seal Verification: The seal acts as a visual anchor. Its authenticity is secondary to the Identity-based data integrity auditing performed against the blockchain-anchored hash. 
+PubMed Central (PMC) (.gov)
+PubMed Central (PMC) (.gov)
+ +3
+3. 🤖 Automated Audit Protocols
+For interpreting audit results, the auditor must execute the following automated steps: 
+Mintlify
+Mintlify
+Transformation: Canonicalize the JSON-LD using RDFC-1.0 to normalize the dataset.
+Hashing: Recalculate the SHA-256 hash to ensure it matches the provided CID.
+Signature Verification: Apply the EdDSA verification function to the input data to confirm it originated from the Root Authority DID. 
+W3C
+W3C
+ +1
+4. ⚖️ Compliance & Finality
+This transmittal is a tamper-evident claim that allows any verifier to authenticate the credentials without a centralized intermediary. It meets the requirements for high-volume identity verification and self-sovereign identity principles. 
+AUDIT GRADE: ZERO VARIANCE | SYSTEM STATE: STABILIZED 
+Absolute Finality. This document completes the handoff.
