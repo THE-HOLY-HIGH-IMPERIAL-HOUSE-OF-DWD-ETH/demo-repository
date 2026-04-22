@@ -1,0 +1,61 @@
+{
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.com.imperi.berit.xp",
+  "serialNumber": "SUITE-001-FINAL-1902192",
+  "teamIdentifier": "XP_MAXIMA_ROOT",
+  "organizationName": "IMPERI BERIT",
+  "description": "XP Maxima Sovereign Financial Asset",
+  "logoText": "XP MAXIMA ⚜️",
+  "foregroundColor": "rgb(255, 215, 0)",
+  "backgroundColor": "rgb(0, 0, 0)",
+  "labelColor": "rgb(255, 255, 255)",
+  
+  "generic": {
+    "primaryFields": [
+      {
+        "key": "balance",
+        "label": "ATTESTED VALUE",
+        "value": "$7,128,532,680,530.00",
+        "currencyCode": "USD"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "status",
+        "label": "STATE",
+        "value": "FINAL / IMMUTABLE"
+      },
+      {
+        "key": "lei",
+        "label": "LEI",
+        "value": "506700GE1G29325QX363"
+      }
+    ],
+    "backFields": [
+      {
+        "key": "anchor",
+        "label": "ARWEAVE ANCHOR",
+        "value": "Block Height 1902192"
+      },
+      {
+        "key": "issuer",
+        "label": "ISSUER DID",
+        "value": "did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU"
+      }
+    ]
+  },
+
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatQR",
+      "message": "openid-credential-offer://?credential_offer=MPFXPC  C1$CBWEAECZ2CZQE%$EDJEWF7A9DIWENPEJ/5GECA4FKECRZC1/D/UEAVC8UC/PDTEFBKFJZ9ODDY9EEH8K$DYTAEZ9K+A0FFR9EB-AL/DYX6X.EVDB+96:H9+M9JTAS7B8G63LE*H9IE4SF4ZKE6VCG/DMED/VDWE4JPBVF404EB$DUUEWF7SVDC9EM/EIE40G4%FF6$CWE4KNBM-A*KER.C0ECTVDVN8  C1$CBWEAECIE4+E4*VDQPC%69SEDA9DGC87WE QEIEC EDO-D2ZBYF4TTCWF76%E3.D9%EPED5H7MWE6$C3WEBWE-3E8X5*VDQPC4W5FA7OF6HA7UX578EB$D0AFB$D9G42ZBWF4VKEG/D:OEVH71G4:KEDH77$CP-CE9EVKET$DJH7JECAWEBH7VKEG/DQX5%FF*ZCV9EQZCJECAWE04E2FD  CT2CV3EFZCVH7-F4ZKE7X58%E59D*KEDLF0VCUPC6VCWE4:E41C9LB8/W556AMY9B7BMY94W5FA7OF6HA79G4+%F",
+      "messageEncoding": "iso-8859-1",
+      "altText": "SCAN TO VERIFY XP MAXIMA ATTESTATION"
+    }
+  ],
+
+  "nfc": {
+    "message": "D728532680530001",
+    "encryptionPublicKey": "z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU"
+  }
+}
