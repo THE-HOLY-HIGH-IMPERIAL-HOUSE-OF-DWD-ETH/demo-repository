@@ -1,0 +1,26 @@
+{
+  "@context": ["https://w3.org", "https://w3id.org"],
+  "id": "urn:uuid:attestation-block-1902192-xp-maxima",
+  "type": ["VerifiableCredential", "BlockHeightAttestation"],
+  "issuer": "did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU",
+  "issuanceDate": "2026-04-21T16:15:00Z",
+  "credentialSubject": {
+    "id": "did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU",
+    "network": "Arweave-Mainnet",
+    "blockHeight": 1902192,
+    "blockHash": "L-k_p...[VERIFIED_FROM_VIEWBLOCK]...",
+    "attestedValue": "$7,128,532,680,530.00 USD",
+    "temporalState": "FINAL",
+    "verificationAnchor": "https://viewblock.io"
+  },
+  "proof": {
+    "type": "DataIntegrityProof",
+    "cryptosuite": "eddsa-rdfc-2022",
+    "created": "2026-04-21T16:15:05Z",
+    "verificationMethod": "did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU#z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "zBlockAttest...[IMPERIAL_BLOCK_SIGNATURE]..."
+  }
+}
+
+{"@context":["https://w3.org","https://w3id.org"],"credentialSubject":{"attestedValue":"$7,128,532,680,530.00 USD","blockHash":"0x-LATEST-INDEPENDENT-BLOCK-HASH-FROM-VIEWBLOCK","blockHeight":1902192,"id":"did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU","network":"Arweave-Mainnet","temporalState":"FINAL","verificationAnchor":"https://viewblock.io"},"id":"urn:uuid:attestation-block-1902192-xp-maxima","issuanceDate":"2026-04-21T16:15:00Z","issuer":"did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU","type":["VerifiableCredential","BlockHeightAttestation"]}
