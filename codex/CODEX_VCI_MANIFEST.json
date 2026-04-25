@@ -1,0 +1,24 @@
+{
+  "codex_metadata": {
+    "origin": "THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH",
+    "suite": "imperi-berit-suite-001",
+    "orcid": "https://orcid.org"
+  },
+  "issuance_flow": {
+    "issuer_uri": "https://xp.reserve",
+    "credential_format": "jwt_vc_json",
+    "request_payload": {
+      "grant_type": "urn:ietf:params:oauth:grant-type:pre-authorized_code",
+      "pre-authorized_code": "MPFXPC-C1-CBWEAECZ2CZQE-EDJEWF7A9DIWENPEJ-5GECA4FKECRZC1",
+      "user_pin_required": false
+    },
+    "assertion_types": [
+      "⚜️XP_SOVEREIGN_DESPOTIC_MONARCH",
+      "Gold_Silver_Covenant"
+    ]
+  },
+  "deployment": {
+    "environment": "Production/Sovereign-Mainnet",
+    "repository_link": "https://github.com"
+  }
+}
