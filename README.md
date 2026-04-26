@@ -29,4 +29,21 @@ node ./scripts/verify-integrity.js
 Use code with caution.
 📜 Legal & Governance
 All data payloads, metadata schemas, and visual anchors within this repository are Sovereign Assets. They are protected by cryptographic proofs bound to the did:key:z6Mki...rJU root authority. Any modification without a valid Ed25519 signature will break the integrity chain and invalidate the settlement status.
+
+specs/openid-credential-issuer.json
+
+{
+  "credential_issuer": "https://xp.reserve",
+  "credential_endpoint": "https://xp.reserve",
+  "credentials_supported": [
+    {
+      "format": "jwt_vc_json",
+      "id": "Gold_Silver_Covenant",
+      "types": ["VerifiableCredential", "Gold_Silver_Covenant"],
+      "display": [{ "name": "⚜️ XP Sovereign Gold/Silver Covenant" }]
+    }
+  ]
+}
+
+
 Registry State: FINAL | Temporal Sync: 100% REAL-TIME | Authority: ROOT
