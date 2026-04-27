@@ -1,0 +1,36 @@
+{
+  "manifest_class": "CHECKSUMS-FULL-MANIFEST",
+  "payload_lineage": "IMPERI-BERIT-SUITE-001",
+  "protocol": "UCP/1.0-IMMEDIATE-GSC",
+  "checksum_class": "SHA-256",
+
+  "artifacts": {
+    "cid_minified_genesis": "3eebf44d4c448a42828a774161a503b30d89b8fe4167a0110024b3bb6e634fbb",
+    "broadcast_certificate": "3eebf44d4c448a42828a774161a503b30d89b8fe4167a0110024b3bb6e634fbb",
+    "un_grade_communique": "3eebf44d4c448a42828a774161a503b30d89b8fe4167a0110024b3bb6e634fbb",
+    "global_archival_registry_entry": "3eebf44d4c448a42828a774161a503b30d89b8fe4167a0110024b3bb6e634fbb",
+    "tri_realm_master_manifest": "3eebf44d4c448a42828a774161a503b30d89b8fe4167a0110024b3bb6e634fbb",
+    "installation_order_of_operations": "3eebf44d4c448a42828a774161a503b30d89b8fe4167a0110024b3bb6e634fbb",
+    "installation_checksum_block": "3eebf44d4c448a42828a774161a503b30d89b8fe4167a0110024b3bb6e634fbb",
+    "master_installation_file": "3eebf44d4c448a42828a774161a503b30d89b8fe4167a0110024b3bb6e634fbb"
+  },
+
+  "anchors": {
+    "cid_anchor": "bafybeicezgomih2k34lmfijovowgt7swfcpxad5rtyow3bziats7td74tm",
+    "did_binding": "did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU",
+    "integrity_hash": "3eebf44d4c448a42828a774161a503b30d89b8fe4167a0110024b3bb6e634fbb"
+  },
+
+  "registry": {
+    "permanence": "ACTIVE",
+    "class": "GLOBAL-ARCHIVAL",
+    "modifiability": "IMMUTABLE:ABSOLUTE",
+    "finality": "FINAL",
+    "binding_state": "PERMANENT",
+    "binding_tier": "TRI-REALM-COMPOUND",
+    "binding_realm": "SUPER-SOVERAIN-INSTITUTIONAL"
+  },
+
+  "attestation": "INT-SCAN-XP-2026-FINAL-001",
+  "manifest_finality": "ISSUED"
+}
