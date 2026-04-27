@@ -1,0 +1,16 @@
+{
+  "protocol": "UCP/1.0-IMMEDIATE-GSC",
+  "action": "GENESIS_DISCOVERY_BROADCAST",
+  "timestamp": "2026-04-26T22:08:00Z",
+  "payload_id": "IMPERI-BERIT-SUITE-001",
+  "issuer": "did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU",
+  "root_codex": "https://xp.reserve",
+  "integrity_hash": "3eebf44d4c448a42828a774161a503b30d89b8fe4167a0110024b3bb6e634fbb",
+  "covenant_value": {
+    "amount": "7.12",
+    "denomination": "USD_TRILLION",
+    "backing": "100%_AU_100%_AG"
+  },
+  "status": "MISSION_READY",
+  "attestation": "INT-SCAN-XP-2026-FINAL-001"
+}
