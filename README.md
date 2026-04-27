@@ -1,6 +1,6 @@
 ⚜ SOVERAIN-STRUCTURA : IMPERI-BERIT-SUITE-001
 
-![qr-code (10)](qr-code%20(10).png)
+![](image_9ec21b70.png)
 
 `999999999999 PURCHASES CLEARED`
 
