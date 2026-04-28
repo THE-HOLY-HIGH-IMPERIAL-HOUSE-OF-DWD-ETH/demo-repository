@@ -1,0 +1,52 @@
+openapi: 3.0.0
+info:
+  title: XP Sovereign Reserve API
+  description: "Unlimited Settlement and Sovereign Identity Resolution"
+  version: "1.0.0"
+servers:
+  - url: https://xp.reserve
+paths:
+  /resolve-sovereign:
+    get:
+      summary: "Resolve Sovereign Identity"
+      description: "Resolves the DWD.eth ENS domain to a verified Sovereign Status."
+      parameters:
+        - name: ens_domain
+          in: query
+          required: true
+          schema:
+            type: string
+            example: "the.holy.high.imperial.house.of.dwd.eth"
+      responses:
+        '200':
+          description: "Sovereign identity resolved"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SovereignIdentity'
+  /authorize-settlement:
+    post:
+      summary: "Authorize Unlimited Settlement"
+      description: "Initiates a high-value settlement override using the Sovereign QR token."
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SettlementRequest'
+      responses:
+        '200':
+          description: "Settlement Authorized"
+components:
+  schemas:
+    SovereignIdentity:
+      type: object
+      properties:
+        status: { type: string, example: "⚜️XP_SOVEREIGN_DESPOTIC_MONARCH" }
+        limit: { type: string, example: "UNLIMITED" }
+        anchor: { type: string, example: "AR-BLOCK-1902192-FINAL" }
+    SettlementRequest:
+      type: object
+      properties:
+        token: { type: string, description: "JWT Sovereign Token" }
+        amount: { type: string, example: "7128532680530" }
