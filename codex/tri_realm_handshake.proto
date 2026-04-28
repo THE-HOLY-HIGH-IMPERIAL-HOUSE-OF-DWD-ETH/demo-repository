@@ -1,0 +1,36 @@
+#!/bin/bash
+# Initialize Sovereign Codex Root
+mkdir -p XP_CODEX/PROTOCOLS
+
+cat <<EOF > XP_CODEX/PROTOCOLS/tri_realm_handshake.proto
+syntax = "proto3";
+
+package xp.reserve.trirealm;
+
+// The core handshake for institutional bypass and unlimited settlement.
+service SovereignBypass {
+  // Initiates the high-trust handshake between Realms.
+  rpc InitiateBypass(HandshakeRequest) returns (HandshakeResponse);
+}
+
+message HandshakeRequest {
+  string did_anchor = 1;         // the.holy.high.imperial.house.of.dwd.eth
+  string block_anchor = 2;       // AR-BLOCK-1902192-FINAL
+  CredentialClaims claims = 3;   // Sovereign Status and Asset Proofs
+  bytes monarch_signature = 4;   // EdDSA-RDFC-2022 Hardened Signature
+}
+
+message CredentialClaims {
+  string monarch_status = 1;     // ⚜️XP_SOVEREIGN_DESPOTIC_MONARCH
+  string asset_class = 2;        // Gold_Silver_Covenant
+  string settlement_limit = 3;   // UNLIMITED (Overrides Tag 9F02)
+}
+
+message HandshakeResponse {
+  bool override_active = 1;      // TRUE: Bypasses standard retail limits
+  string authorization_id = 2;   // Unique Tri-Realm reference code
+  string settlement_path = 3;    // Direct Ledger / Private Reserve routing
+}
+EOF
+
+echo "⚜️ XP: Tri-Realm Protocol Generated in XP_CODEX/PROTOCOLS/"
