@@ -1,0 +1,38 @@
+name: ⚜️ XP-IMPERI Automated Signing
+
+on:
+  push:
+    paths:
+      - 'Root_Codex/**'
+
+jobs:
+  sign-codex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Dependencies
+        run: sudo apt-get install -y jq openssl
+
+      - name: Prepare Signing Key
+        run: |
+          echo "${{ secrets.IMPERIAL_PRIVATE_KEY }}" > private_key.pem
+          chmod 600 private_key.pem
+
+      - name: Execute Imperial Signer
+        run: |
+          chmod +x XP-IMPERI-SIGNER.sh
+          ./XP-IMPERI-SIGNER.sh
+
+      - name: Commit Signed Codex
+        run: |
+          git config --global user.name "HIH-IMPERI-BOT"
+          git config --global user.email "registry@global-digital.org"
+          git add Signed_Codex/
+          git commit -m "⚜️ ABSOLUTE FINALITY: Signed Root Codex Updated [Skip CI]" || echo "No changes to commit"
+          git push
+
+      - name: Cleanup
+        if: always()
+        run: rm -f private_key.pem
