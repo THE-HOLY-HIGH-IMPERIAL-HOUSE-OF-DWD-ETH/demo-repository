@@ -1,0 +1,14 @@
+{
+  "theme": {
+    "id": "IMPERIAL_XP_GOLD_BLACK",
+    "assets": {
+      "logo": { "uri": "https://xp.reserve" },
+      "hero_image": { "uri": "https://xp.reserve" }
+    },
+    "styling": {
+      "colors": { "primary": "#D4AF37", "secondary": "#000000" },
+      "fonts": { "family": "Cinzel, serif" },
+      "lock_screen": { "show_valuation": true }
+    }
+  }
+}
