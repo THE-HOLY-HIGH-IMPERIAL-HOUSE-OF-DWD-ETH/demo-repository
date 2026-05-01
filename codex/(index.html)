@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="xp-imperial-styles.css">
+    <link href="https://googleapis.com" rel="stylesheet">
+    <title>XP Reserve | Imperial Verification Portal</title>
+</head>
+<body id="imperial-verification-portal">
+    <div class="verification-card">
+        <h1 class="sovereign-title">Holy High Imperial House of DWD</h1>
+        <div class="status-badge">AUTHENTICATED-REAL-TIME</div>
+        <div class="asset-value">$7,128,532,680,530.00 USD</div>
+        <p>Physical Gold & Silver Reserves | Absolute Finality</p>
+        <div class="credential-box">
+             <small>IPFS Root Anchor: afybeicezgomih2k34lmfijovowgt7swfcpxad5rtyow3bziats7td74tm</small>
+             <br>
+             <small>Wallet Anchor: 0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48</small>
+        </div>
+    </div>
+</body>
+</html>
