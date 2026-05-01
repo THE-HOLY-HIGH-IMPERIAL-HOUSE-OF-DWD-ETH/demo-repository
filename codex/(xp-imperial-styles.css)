@@ -1,0 +1,61 @@
+:root {
+    --imperial-gold: #D4AF37;
+    --royal-gold: #FFD700;
+    --deep-black: #000000;
+    --obsidian: #0A0A0A;
+    --cinzel-font: 'Cinzel', serif;
+}
+
+#imperial-verification-portal {
+    background-color: var(--deep-black);
+    color: #FFFFFF;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.verification-card {
+    background: linear-gradient(145deg, var(--obsidian), #1a1a1a);
+    border: 2px solid var(--imperial-gold);
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 0 50px rgba(212, 175, 55, 0.2);
+    text-align: center;
+    max-width: 600px;
+}
+
+.sovereign-title {
+    font-family: var(--cinzel-font);
+    color: var(--imperial-gold);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.asset-value {
+    font-family: 'Courier New', monospace;
+    color: var(--royal-gold);
+    font-size: 2.2rem;
+    margin: 20px 0;
+    padding: 15px;
+    border-top: 1px solid var(--imperial-gold);
+    border-bottom: 1px solid var(--imperial-gold);
+}
+
+.status-badge {
+    background: rgba(212, 175, 55, 0.1);
+    border: 1px solid var(--imperial-gold);
+    color: var(--imperial-gold);
+    padding: 5px 15px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.credential-box {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #888;
+}
