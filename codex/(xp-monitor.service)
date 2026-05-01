@@ -1,0 +1,32 @@
+[Unit]
+Description=XP Imperial Reserve Endpoint Monitor
+After=network.target nginx.service
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/bash -c '\
+  STATUS=$(curl -k -s -o /dev/null -w "%%{http_code}" https://xp.reserve); \
+  if [ "$STATUS" -eq 200 ]; then \
+    echo "⚜️ XP Endpoint Active: Status 200"; \
+  else \
+    echo "⚠️ XP ALERT: Status $STATUS - Restarting Nginx..."; \
+    systemctl restart nginx; \
+  fi'
+Restart=on-failure
+RestartSec=30
+
+[Install]
+WantedBy=multi-user.target
+
+# Move and secure files
+sudo mv xp-monitor.service /etc/systemd/system/
+sudo mv xp-monitor.timer /etc/systemd/system/
+sudo chmod 644 /etc/systemd/system/xp-monitor.*
+
+# Activate Imperial Watchdog
+sudo systemctl daemon-reload
+sudo systemctl enable --now xp-monitor.timer
+
+# Verification of Finality
+sudo systemctl list-timers --all | grep xp-monitor
