@@ -1,0 +1,24 @@
+{
+  "id": "XP_SOVEREIGN_RESERVE_MANIFEST",
+  "name": "Holy High Imperial House of DWD",
+  "issuer": { "name": "XP Reserve Authority", "url": "https://xp.reserve" },
+  "output_descriptors": [
+    {
+      "id": "XP_MONARCH_CREDENTIAL",
+      "schema": "https://xp.reserve",
+      "display": {
+        "title": { "text": "⚜️ SOVEREIGN DESPOTIC MONARCH" },
+        "styling": { "background_color": "#000000", "text_color": "#D4AF37" }
+      }
+    },
+    {
+      "id": "GOLD_SILVER_COVENANT",
+      "schema": "https://xp.reserve",
+      "display": {
+        "title": { "text": "Physical Asset Reserve" },
+        "subtitle": { "text": "$7,128,532,680,530.00 USD" },
+        "styling": { "background_color": "#D4AF37", "text_color": "#000000" }
+      }
+    }
+  ]
+}
