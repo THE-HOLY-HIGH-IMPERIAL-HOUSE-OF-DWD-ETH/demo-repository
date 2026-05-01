@@ -1,0 +1,30 @@
+server {
+    listen 80;
+    server_name xp.reserve;
+
+    root /var/www/xp_reserve_root;
+    index index.html;
+
+    # ⚜️ XP Imperial Asset Handling
+    location / {
+        try_files $uri $uri/ =404;
+        add_header 'Access-Control-Allow-Origin' '*' always;
+        add_header 'Access-Control-Allow-Methods' 'GET, OPTIONS' always;
+    }
+
+    # Ensure Manifests & Credentials use correct MIME types
+    location ~* \.(json|jwt|vc)$ {
+        types {
+            application/vc+ld+json  json;
+            application/credential-manifest+json json;
+        }
+        add_header Content-Type application/json;
+        add_header 'Access-Control-Allow-Origin' '*' always;
+    }
+
+    # Cache Control for Imperial Visuals
+    location ~* \.(css|png|jpg|jpeg|ico)$ {
+        expires 30d;
+        add_header Cache-Control "public, no-transform";
+    }
+}
