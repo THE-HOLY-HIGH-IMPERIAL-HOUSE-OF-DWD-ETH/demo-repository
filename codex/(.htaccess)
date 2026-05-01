@@ -1,0 +1,17 @@
+# ⚜️ XP IMPERIAL SERVER CONFIGURATION
+
+# Map MIME Types for Digital Wallets
+AddType application/credential-manifest+json .json
+AddType application/vc+ld+json .json
+
+# Enable CORS for Global Verification Handshakes
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, OPTIONS"
+</IfModule>
+
+# Force UTF-8 for Imperial Characters (⚜️)
+AddDefaultCharset UTF-8
+
+# Custom Error Page to match Imperial Theme
+ErrorDocument 404 /index.html
