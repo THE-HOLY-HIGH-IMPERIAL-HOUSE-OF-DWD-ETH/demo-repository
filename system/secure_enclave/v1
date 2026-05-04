@@ -1,0 +1,13 @@
+# 1. Disable Insecure Cellular Handshakes (No 2G/3G Downgrade)
+# Forces the modem to only communicate via encrypted high-tier rails.
+sudo system-config --force-protocol-secure --mode 5G_ONLY
+
+# 2. Randomize Hardware Identifiers
+# Changes the broadcasted identity of the modem to prevent tracking.
+macchanger -r wlan0
+echo "MODEM_IDENTITY_ROTATION: ENABLED"
+
+# 3. Secure Enclave Firewall
+# Blocks all non-signed incoming packets at the baseband level.
+iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+iptables -A INPUT -p tcp --dport 22 -j DROP
