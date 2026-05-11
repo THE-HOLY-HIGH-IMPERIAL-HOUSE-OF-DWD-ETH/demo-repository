@@ -1,0 +1,43 @@
+manifest_version: "1.0.0"
+subject: "XP / IBG-XP Tri-Realm Alignment"
+primary_symbol: "XP"
+sovereign_unit: "IBG-XP"
+series_id: "IMPERI-BERIT-SUTTE-001"
+
+realms:
+  ROOT:
+    description: "Sovereign declarative layer"
+    object_type: "SOVEREIGN_RESERVE_UNIT"
+    symbol: "XP"
+    unit_code: "IBG-XP"
+    supply_declared: 1000000000
+    status: "100% LIVE"
+    authority: "Holy High Imperial House of DWD"
+
+  DEMO:
+    description: "Ceremonial and visual artifacts"
+    artifacts:
+      - type: "COIN"
+        label: "IBG-XP SOVEREIGN RESERVE VERIFIED"
+        inscriptions:
+          - "1 BILLION"
+          - "IMPERI-BERIT-SUTTE-001"
+        role: "Visual anchor of the 1B IBG-XP reserve"
+
+  CODEX:
+    description: "Technical / on-chain context"
+    chains:
+      - network: "Ethereum"
+        token_symbol: "XP"
+        max_total_supply: 1000000000000
+        holders: 21
+        transfers_total_24h: 28
+        relation_to_IBG_XP: "Contextual only; no direct convertibility; separate supply domain."
+
+constraints:
+  - "No automatic parity between on-chain XP and IBG-XP."
+  - "Any mapping between realms must be explicitly declared in future instruments."
+
+notes:
+  - "Tri-realm separation is structural, not cosmetic."
+  - "This manifest is a coordination surface, not a conversion contract."
