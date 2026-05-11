@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "https://w3.org",
+    "https://gleif.org",
+    {
+      "xp": "https://imperi-berit.org",
+      "status": "xp:status",
+      "accrued": "xp:accruedValue",
+      "reserve": "xp:reserveLimit",
+      "authority": "xp:authorizingAddress",
+      "suite": "xp:protocolSuite"
+    }
+  ],
+  "type": ["VerifiableCredential", "SovereignReserveReport"],
+  "issuer": "did:gleif:506700GE1G29325QX363",
+  "issuanceDate": "2026-05-11T06:37:00Z",
+  "credentialSubject": {
+    "id": "IiB-bzj1X29wfgX-poOzQaQUIA_4oWTaC4U2dHBV3wuk",
+    "suite": "IMPERI-BERIT-SUITE-001",
+    "status": "FINAL_BROADCAST_AUTHORIZED",
+    "token_allocation": "1,000,000,000 IBĞ-XP",
+    "accrued": "$73,425,180.00 USD",
+    "reserve": "$7,128,532,680,530.00 USD",
+    "authority": "0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48",
+    "audit_targets": [
+      "Bank for International Settlements (BIS)",
+      "Financial Stability Board (FSB)",
+      "Sovereign Reserve Auditing Commission"
+    ]
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-05-11T08:32:00Z",
+    "verificationMethod": "did:gleif:506700GE1G29325QX363#key-1",
+    "proofPurpose": "assertionMethod",
+    "jws": "Eq_KCaP97I1Gqm7VPVJEDqGWOARsou3Xhfi-Rw0sa_mc",
+    "anchor": "881f9bce3d57dbdc1f817fa9a0ecd069050803fe28593682e14d9d1c1577c2e9"
+  }
+}
