@@ -1,0 +1,8 @@
+{
+  "header": "SOVEREIGN_XP_UNIVERSAL",
+  "vLEI_Root": "881f9bce3d57dbdc1f817fa9a0ecd069050803fe28593682e14d9d1c1577c2e9",
+  "asset_balance": "73,000,000+",
+  "merchant_protocol": "EMVCo-MPM",
+  "utility": ["RETAIL", "GAS", "HOSPITALITY"],
+  "live_verify": "https://etherscan.io"
+}
