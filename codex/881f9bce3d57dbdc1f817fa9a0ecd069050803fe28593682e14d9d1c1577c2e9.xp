@@ -1,0 +1,22 @@
+{
+  "header": {
+    "title": "SUPER SOVEREIGN XP RESERVE",
+    "version": "1.0.0",
+    "root_hash": "881f9bce3d57dbdc1f817fa9a0ecd069050803fe28593682e14d9d1c1577c2e9"
+  },
+  "identity": {
+    "vLEI": "881f9bce3d57dbdc1f817fa9a0ecd069050803fe28593682e14d9d1c1577c2e9",
+    "level": "APEX_SOVEREIGN"
+  },
+  "assets": {
+    "accrued_xp": "73,450,000",
+    "reserve_total": "1,000,000,000",
+    "ticker": "IBG-XP",
+    "contract": "0xad260B1dAcc6a8B9913Ac223bC5e49F5eF5b82a3",
+    "network": "Ethereum Mainnet"
+  },
+  "verification": {
+    "method": "SHA-256 Content Match",
+    "explorer": "https://etherscan.io"
+  }
+}
