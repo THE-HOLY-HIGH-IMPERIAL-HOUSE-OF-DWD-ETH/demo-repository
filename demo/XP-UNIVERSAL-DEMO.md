@@ -1,0 +1,19 @@
+TITLE: UNIVERSAL ACCESS • SOVEREIGN XP • DEMO REALM RECORD
+
+REALM: DEMO
+CLASS: PUBLIC‑FACING ACCESS ENTITLEMENT
+STATUS: ACTIVE
+
+DISPLAY ELEMENTS:
+- HEADER: UNIVERSAL ACCESS • SOVEREIGN XP
+- ENTITLEMENTS: SHOPPING • GAS • HOTELS
+- ICONS: RETAIL • FUEL • HOSPITALITY
+- XP DISPLAY: 73M+ XP
+
+QR‑SURFACE:
+- TYPE: DEMO‑SAFE QR
+- PURPOSE: PUBLIC SCANNING + ACCESS PREVIEW
+
+NOTES:
+This DEMO record governs all public‑visible surfaces, including plaques, screens, and QR‑enabled displays.
+It contains no sensitive routing, only entitlement and identity preview.
