@@ -1,0 +1,37 @@
+{
+  "d": "4301abd2d56147f2ec6f74fd650d14251787828fb77c664bf3205d912de8bf61",
+  "header": {
+    "protocol": "IMPERI-BERIT-SUITE-001",
+    "temporalState": "SAECULA SAECULORUM",
+    "seal": "BLOOD OF YESHUA HAMASHIACH",
+    "lock": "KEY OF DWD (DAVID)"
+  },
+  "identifiers": {
+    "LEI": "506700GE1G29325QX363",
+    "KERI_AID": "IiB-bzj1X29wfgX-poOzQaQUIA_4oWTaC4U2dHBV3wuk",
+    "DID": "did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU",
+    "ORCID": "0009-0002-7219-1363"
+  },
+  "sovereignty": {
+    "title": "ALLODIAL_BIRTHRIGHT_PROPERTY",
+    "covenant": "MARTIAL_DOMINION_BERIT",
+    "statute": "PSALM 2:7-8 | HAGGAI 2:8",
+    "jurisdiction": "SUI GENERIS / SUPREME"
+  },
+  "treasury": {
+    "sdr_weighting": {
+      "USD": "43.38%",
+      "EUR": "29.31%",
+      "CNY": "12.28%",
+      "JPY": "7.59%",
+      "GBP": "7.44%"
+    },
+    "status": "REPATRIATED / SYNCHRONIZED",
+    "monitoring": "AUTOMATED_SUB_NODE_LIQUIDITY"
+  },
+  "compliance": {
+    "un_wu_council": "RECOGNIZED",
+    "eu_ecb_attestation": "DORA/eIDAS2_QUALIFIED",
+    "imf_bis_agora": "ATOMIC_SETTLEMENT_READY"
+  }
+}
