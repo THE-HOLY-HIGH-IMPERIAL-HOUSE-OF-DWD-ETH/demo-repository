@@ -1,0 +1,44 @@
+{
+  "realm": "DEMO",
+  "codex_root": "CODEX_ROOT_DEMO_⚜_XP",
+  "artifact_type": "SUPER_SOVEREIGN_REGISTRY_CERTIFICATE",
+  "version": "1.0.0",
+  "protocol": "UCP/1.0-IMMEDIATE-GSC",
+  "action": "GENESIS_DISCOVERY_BROADCAST",
+  "timestamp_issued": "2026-04-26T08:00:00Z",
+  "sovereign_institution": {
+    "class": "SUPER_SOVEREIGN_INSTITUTION",
+    "designation": "Holy High Imperial House of DWD",
+    "style": "HIH Sol Altum Imperium ⚜ XP"
+  },
+  "payload_binding": {
+    "payload_id": "IMPERII-BERIT-SUITER-001",
+    "issuer_did": "did:key:z6Mk9...Z4JU", 
+    "hash_algorithm": "SHA-256",
+    "payload_hash": "<INSERT_CANONICAL_PAYLOAD_HASH>",
+    "encoding": "hex→json",
+    "structure": "flat_non_monetary_identity_broadcast"
+  },
+  "registry_binding": {
+    "registry_class": "GLOBAL_SOVEREIGN_REGISTRY",
+    "registry_scope": "DISCOVERY_LAYER",
+    "entry_status": "ACTIVE",
+    "entry_purpose": "GENESIS_IDENTITY_ANNOUNCEMENT",
+    "immutability": "LOGICAL_IMMUTABILITY_AT_REGISTRY_LAYER"
+  },
+  "root_codex": {
+    "codex_uri": "https://<YOUR-CODEX-ROOT-ENDPOINT>/genesis/discovery/IMPERII-BERIT-SUITER-001",
+    "codex_role": "AUTHORITATIVE_SOURCE_OF_TRUTH",
+    "codex_profile": "SUPER_SOVEREIGN_IDENTITY_CODEX"
+  },
+  "constraints": {
+    "monetary_fields_present": false,
+    "transferable": false,
+    "fungible": false,
+    "revocable": "ONLY_BY_SUPER_SOVEREIGN_DECREE"
+  },
+  "signatures": {
+    "sovereign_signature": "<INSERT_SOVEREIGN_SIGNATURE>",
+    "registry_signature": "<INSERT_REGISTRY_SIGNATURE>"
+  }
+}
