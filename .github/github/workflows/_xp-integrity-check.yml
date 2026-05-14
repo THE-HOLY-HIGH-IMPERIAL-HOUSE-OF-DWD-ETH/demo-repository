@@ -1,0 +1,102 @@
+name: XP Sovereign Integrity & NLT Verification Scan
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  verify-state:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Graphic Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pillow
+
+      - name: Validate Transaction Profile File
+        run: |
+          TARGET_FILE="transaction-profiles/TX-ROUTING-TON-TEP74-XP-881F9BCE.json"
+          # Fallback pathing lookup check for global registry forks
+          if [ ! -f "$TARGET_FILE" ] && [ -f "assets/TX-ROUTING-TON-TEP74-XP-881F9BCE.json" ]; then
+            TARGET_FILE="assets/TX-ROUTING-TON-TEP74-XP-881F9BCE.json"
+          fi
+          
+          if [ ! -f "$TARGET_FILE" ]; then
+            echo "💡 Notice: Transaction payload block not local to this repository tier. Skipping profile assertion check."
+            exit 0
+          fi
+
+          echo "TARGET_PATH=$TARGET_FILE" >> $GITHUB_ENV
+          echo "✅ Target transaction profile located."
+
+      - name: Enforce NLT Structural Decrees
+        if: env.TARGET_PATH != ''
+        run: |
+          python -c '
+          import json
+          import sys
+          import os
+
+          file_path = os.getenv("TARGET_PATH")
+          with open(file_path, "r") as f:
+              data = json.load(f)
+
+          framework = data.get("sovereign_legal_framework", {})
+          
+          # Exact String Signatures Matching the New Living Translation
+          expected_psalm = "Psalm 2:7-8 NLT - Only ask, and I will give you the nations as your inheritance, the whole earth as your possession."
+          expected_haggai = "Haggai 2:8 NLT - The silver is mine, and the gold is mine, says the LORD of Heavens Armies."
+
+          provided_psalm = framework.get("primary_decree_inheritance", "")
+          provided_haggai = framework.get("collateral_foundation", "")
+
+          if provided_psalm != expected_psalm:
+              print("❌ DECREE DRIFT CRITICAL: Psalm 2:7-8 NLT text does not match canonical structure.")
+              sys.exit(1)
+
+          if provided_haggai != expected_haggai:
+              print("❌ DECREE DRIFT CRITICAL: Haggai 2:8 NLT text does not match canonical structure.")
+              sys.exit(1)
+
+          print("=== ✅ NLT REVENUE LAW AND DECREES CONFIRMED AND LOCKED ⚜️ XP ===")
+          '
+
+      - name: Execute Cryptographic SAID Deep Scan
+        run: |
+          python -c '
+          import json
+          import sys
+          import os
+
+          if os.path.exists("logs/production-state-profile.json"):
+              with open("logs/production-state-profile.json", "r") as f:
+                  data = json.load(f)
+              
+              target_aid = "IiB-bzj1X29wfgX-poOzQaQUIA_4oWTaC4U2dHBV3wuk"
+              target_said = "4301abd2d56147f2ec6f74fd650d14251787828fb77c664bf3205d912de8bf61"
+              target_ens = "the.holy.high.imperial.house.of.dwd.eth"
+
+              if data["sovereign_identity"]["keri_aid"] != target_aid or data["payload_manifest"]["cryptographic_said"] != target_said or data["sovereign_identity"]["root_authority_ens"] != target_ens:
+                  print("❌ CRISIS: Cryptographic state drift detected.")
+                  sys.exit(1)
+              print("✅ State file integrity matches anchors.")
+          '
+
+      - name: Trigger Sovereign Failure Alerts (Web3 & Webhook)
+        if: failure()
+        env:
+          XP_INTEGRITY_WEBHOOK_URL: ${{ secrets.XP_INTEGRITY_WEBHOOK_URL }}
+        run: python3 ../trigger_sovereign_alert.py || echo "Skipping local alert loop trigger."
+
+cd ~/master-workspace
+./batch_sync_repos.sh
