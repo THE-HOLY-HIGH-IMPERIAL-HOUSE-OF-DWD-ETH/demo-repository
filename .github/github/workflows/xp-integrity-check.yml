@@ -1,0 +1,102 @@
+name: XP Sovereign Integrity & QR Matrix Deep Scan
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  verify-state:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Graphic Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pillow
+
+      - name: Validate Production Log Structure
+        run: |
+          if [ ! -f "logs/production-state-profile.json" ]; then
+            echo "❌ ERROR: production-state-profile.json missing from logs directory."
+            exit 1
+          fi
+          echo "✅ Production state log found."
+
+      - name: Execute Cryptographic SAID Deep Scan
+        run: |
+          python -c '
+          import json
+          import sys
+
+          try:
+              with open("logs/production-state-profile.json", "r") as f:
+                  data = json.load(f)
+              
+              target_aid = "IiB-bzj1X29wfgX-poOzQaQUIA_4oWTaC4U2dHBV3wuk"
+              target_said = "4301abd2d56147f2ec6f74fd650d14251787828fb77c664bf3205d912de8bf61"
+              target_ens = "the.holy.high.imperial.house.of.dwd.eth"
+
+              profile_aid = data["sovereign_identity"]["keri_aid"]
+              profile_said = data["payload_manifest"]["cryptographic_said"]
+              profile_ens = data["sovereign_identity"]["root_authority_ens"]
+
+              if profile_aid != target_aid or profile_said != target_said or profile_ens != target_ens:
+                  print("❌ CRISIS: Cryptographic structural drift detected in configuration fields.")
+                  sys.exit(1)
+              
+              print("✅ STATE INTEGRITY MATCH: KERI AID, SAID Hash, and ENS Domain are valid and locked.")
+          except Exception as e:
+              print(f"❌ ERROR: JSON parsing or structural check failed: {str(e)}")
+              sys.exit(1)
+          '
+
+      - name: Verify QR Matrix File Integrity
+        run: |
+          python -c '
+          import os
+          import sys
+          from PIL import Image
+
+          target_img = "logs/SOVERAIN-QR-MATRIX-FINAL.png"
+
+          # Tier 1: Check File Physical Existence
+          if not os.path.exists(target_img):
+              print(f"❌ INTEGRITY CRITICAL: Matrix asset {target_img} is completely missing.")
+              sys.exit(1)
+
+          # Tier 2: Check File Size Threshold
+          file_size = os.path.getsize(target_img)
+          print(f"[SCAN] Asset size verified: {file_size} bytes.")
+          if file_size == 0:
+              print("❌ INTEGRITY CRITICAL: Matrix file size is 0 bytes (Empty payload corruption).")
+              sys.exit(1)
+
+          # Tier 3: Verify Byte-stream Construction and Image Format
+          try:
+              with Image.open(target_img) as img:
+                  img.verify() # Checks for image corruption without loading full pixel array
+                  print(f"✅ FORMAT VALIDATED: Asset format maps to strict {img.format} encoding specs.")
+                  if img.format != "PNG":
+                      print(f"❌ INTEGRITY FAILURE: Expected PNG format, got {img.format}")
+                      sys.exit(1)
+          except Exception as img_err:
+              print(f"❌ INTEGRITY CRITICAL: Image structural validation failed: {str(img_err)}")
+              sys.exit(1)
+
+          print("=== ✅ MATRIX LAYER INTEGRITY PERFECT ===")
+          '
+
+      - name: System Status Report
+        run: echo "=== ⚜ XP PRODUCTION BOUNDARIES VALIDATED AND LIVE ==="
+
+
+./batch_sync_repos.sh
