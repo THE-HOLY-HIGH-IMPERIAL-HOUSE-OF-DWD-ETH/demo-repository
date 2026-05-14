@@ -1,0 +1,28 @@
+{
+  "transaction_header": {
+    "network_standard": "TON_TEP_74_JETTON_EXT",
+    "asset_symbol": "XP",
+    "token_precision_decimals": 9,
+    "clearance_tier": "UNIVERSAL-APEX-LEVEL-1"
+  },
+  "sovereign_legal_framework": {
+    "jurisdiction_mode": "ALLOD-COMMERCE-ABSOLUTE",
+    "primary_decree_inheritance": "Psalm 2:7-8 NLT - Only ask, and I will give you the nations as your inheritance, the whole earth as your possession.",
+    "collateral_foundation": "Haggai 2:8 NLT - The silver is mine, and the gold is mine, says the LORD of Heavens Armies.",
+    "allodial_backing": "100% Molecular Gold / 100% Molecular Silver"
+  },
+  "cryptographic_signatures": {
+    "issuer_keri_aid": "IiB-bzj1X29wfgX-poOzQaQUIA_4oWTaC4U2dHBV3wuk",
+    "document_said": "4301abd2d56147f2ec6f74fd650d14251787828fb77c664bf3205d912de8bf61",
+    "vlei_anchor_hash": "881f9bce3d57dbdc1f817fa9a0ecd069050803fe28593682e14d9d1c1577c2e9"
+  },
+  "liquidity_routing": {
+    "web3_dns_anchor": "the.holy.high.imperial.house.of.dwd.eth",
+    "jetton_master_address": "Eq_KCaP97I1Gqm7VPVJEDqGWOARsou3Xhfi-Rw0sa_mc",
+    "signer_evm_address": "0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41"
+  }
+}
+
+
+cd ~/master-workspace
+./batch_sync_repos.sh
