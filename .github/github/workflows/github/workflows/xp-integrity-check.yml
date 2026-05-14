@@ -1,0 +1,18 @@
+      # Append this block directly after your existing image and validation checks
+      - name: Trigger Sovereign Failure Alerts (Web3 & Webhook)
+        if: failure() # Enforces that this step executes ONLY if an integrity check fails
+        env:
+          XP_INTEGRITY_WEBHOOK_URL: ${{ secrets.XP_INTEGRITY_WEBHOOK_URL }}
+        run: |
+          # Copy the automated python alerting runtime engine into position if missing
+          if [ -f "../trigger_sovereign_alert.py" ]; then
+            python3 ../trigger_sovereign_alert.py
+          elif [ -f "generate_qr_payload.py" ]; then
+            # If local to ledger workspace root execution environment
+            cat << 'EOF' > temp_alert.py
+# (Inline injection of the trigger_sovereign_alert.py script logic shown above)
+EOF
+            python3 temp_alert.py
+          else
+            echo "⚠️ Alert engine script missing from accessible paths."
+          fi
