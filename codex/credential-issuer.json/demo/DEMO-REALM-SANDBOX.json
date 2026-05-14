@@ -1,0 +1,8 @@
+{
+  "realm_node": "/demo/",
+  "mode": "TECHNICAL-STRICT",
+  "status": "SANDBOX_SIMULATION"
+}
+
+cd master-workspace/
+./batch_sync_repos.sh
