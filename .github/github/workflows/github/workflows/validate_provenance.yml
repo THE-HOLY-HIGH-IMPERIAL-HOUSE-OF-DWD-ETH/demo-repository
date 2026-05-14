@@ -1,0 +1,34 @@
+name: XP Apex Certificate Schema Validation CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  validate-schema:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check Out Repository Code
+      uses: actions/checkout@v4
+
+    - name: Set Up Python Environment
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+
+    - name: Install Validation Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install jsonschema
+
+    - name: Execute Provenance Script Validation
+      run: |
+        python validate_certificate.py
