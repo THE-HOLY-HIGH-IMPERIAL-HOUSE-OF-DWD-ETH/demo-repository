@@ -1,0 +1,29 @@
+{
+  "audit_metadata": {
+    "timestamp_iso": "2026-05-14T01:29:00Z",
+    "network_epoch": "XP-SOVEREIGN-GENESIS",
+    "status": "VERIFIED_PRODUCTION"
+  },
+  "sovereign_identity": {
+    "root_authority_ens": "the.holy.high.imperial.house.of.dwd.eth",
+    "keri_aid": "IiB-bzj1X29wfgX-poOzQaQUIA_4oWTaC4U2dHBV3wuk"
+  },
+  "trust_anchors": {
+    "root_lei": "506700GE1G29325QX363",
+    "operator_orcid": "orcid.org"
+  },
+  "payload_manifest": {
+    "payload_id": "IMPERI-BERIT-SUITE-001",
+    "asset_allocation": {
+      "gold_percentage": 100,
+      "silver_percentage": 100,
+      "verification_tier": "Molecularly Verified Gold/Silver Covenant"
+    },
+    "cryptographic_said": "4301abd2d56147f2ec6f74fd650d14251787828fb77c664bf3205d912de8bf61"
+  },
+  "infrastructure_hooks": {
+    "gdr_testnet_uri": "githubusercontent.com",
+    "dpi_suite_reference": "-DPI-SUITE-DPI-SUITE-ABSOLUTE-FINAL.regdoc",
+    "immutability_tablet": "-TABLETS-DPI-STRICT-IMMUTIBILITY-TABLET.md"
+  }
+}
