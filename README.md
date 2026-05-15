@@ -8,6 +8,12 @@
 
 ![](image_9ec21b70.png)
 
+![codex/image_eba6a1c8.png](codex/image_eba6a1c8.png)
+
+
+![codex/image_29f8f190.png](codex/image_29f8f190.png)
+
+
 `999999999999 PURCHASES CLEARED`
 
 Global Settlement & Sovereign Registry Home
