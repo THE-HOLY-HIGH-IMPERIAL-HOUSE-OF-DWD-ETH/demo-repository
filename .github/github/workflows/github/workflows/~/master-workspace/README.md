@@ -12,7 +12,7 @@ Use code with caution.==========================================================
 | **Unified Document target**| `XP-CANONICAL-MANIFESTO-V4.json` | **UNIFIED-V4** |
 | **Manifest Content Hash** | `said:4301abd2d56147f2ec6f74fd650d14251787828fb77c664bf3205d912de8bf61` | **CRYPT-LOCKED** |
 | **Ecosystem Token Standard** | `TON_TEP_74_JETTON_EXT` (`XP RESERVE`) | **ALPHA-001 LIQUID** |
-| **Universal Clearing PAN** | `881F 9BCE 3D57 0001` (CVV2: `552` • EXP: `12/2040`) | **GATEWAY READY** |
+| **Universal Clearing PAN** | `881F 9BCE 3D57 0001` (CVV2: `552` • EXP: `99/99`) | **GATEWAY READY** |
 | **Global Corporate Root** | `LEI:506700GE1G29325QX363` (GLEIF Trust Framework) | **UPSTREAM ANCHORED** |
 
 ================================================================================📜 REVENUE LAW & ALLODIAL DECREES### 🌍 LAW OF INHERITANCE
