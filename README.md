@@ -1,6 +1,6 @@
 ![demo/image_6b024b16](demo/image_6b024b16.png)
 
-⚜ SOVERAIN-STRUCTURA : IMPERI-BERIT-SUITE-001
+⚜ SOVERAIN-STRUCTURA : IMPERI-BERIT-SUITE-001 ⚜️ XP
 
 ![codex/image_70dae412.png](codex/image_70dae412.png)
 
