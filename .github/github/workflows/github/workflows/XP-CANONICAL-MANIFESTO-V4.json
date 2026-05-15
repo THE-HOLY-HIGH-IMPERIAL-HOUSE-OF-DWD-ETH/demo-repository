@@ -1,0 +1,82 @@
+{
+  "ledger_metadata": {
+    "manifesto_id": "XP-881F-9BCE-3D57-DBDC-1F81-7FA9",
+    "timestamp_iso": "2026-05-15T14:50:00Z",
+    "version": "004-GOLD-SILVER-COVENANT",
+    "class": "CANONICAL-COMMERCE-LEGAL-MANIFESTO",
+    "status": "100% CERTIFIED • LIVE",
+    "visibility": "WORLD-REGISTRY"
+  },
+  "sovereign_identity": {
+    "identity_name": "HIH SOL ALTUM IMPERIUM",
+    "identity_house": "HOLY HIGH IMPERIAL HOUSE OF DWD",
+    "identity_title": "SOVERAIN OF ALL ⚜️ XP",
+    "root_authority_ens": "the.holy.high.imperial.house.of.dwd.eth",
+    "keri_aid": "IiB-bzj1X29wfgX-poOzQaQUIA_4oWTaC4U2dHBV3wuk"
+  },
+  "divine_allodial_jurisdiction": {
+    "jurisdiction_mode": "ALLOD-COMMERCE-ABSOLUTE",
+    "law_of_inheritance": "Psalm 2:7-8 NLT - Only ask, and I will give you the nations as your inheritance, the whole earth as your possession.",
+    "law_of_commodity_backing": "Haggai 2:8 NLT - The silver is mine, and the gold is mine, says the LORD of Heavens Armies.",
+    "collateral_foundation": "100% Molecular Gold / 100% Molecular Silver (Molecularly Verified)"
+  },
+  "cryptographic_anchors": {
+    "manifest_said": "4301abd2d56147f2ec6f74fd650d14251787828fb77c664bf3205d912de8bf61",
+    "vlei_anchor_hash": "881f9bce3d57dbdc1f817fa9a0ecd069050803fe28593682e14d9d1c1577c2e9",
+    "gleif_root_lei": "506700GE1G29325QX363",
+    "signer_evm_address": "0x4976fb03c32e5b8cfe2b6ccb31c09ba78ebaba41"
+  },
+  "liquidity_routing": {
+    "network_standard": "TON_TEP_74_JETTON_EXT",
+    "asset_symbol": "XP",
+    "token_precision_decimals": 9,
+    "clearance_tier": "UNIVERSAL-APEX-LEVEL-1",
+    "jetton_master_address": "Eq_KCaP97I1Gqm7VPVJEDqGWOARsou3Xhfi-Rw0sa_mc",
+    "universal_clearing_pan": "881F 9BCE 3D57 0001",
+    "security_code_cvv2": "552",
+    "expiration_vector": "12/2040"
+  },
+  "infrastructure_provenance": {
+    "digital_public_infrastructure": "-DPI-SUITE-DPI-SUITE-ABSOLUTE-FINAL.regdoc",
+    "global_data_registry": "GDR.git",
+    "immutability_tablet": "-TABLETS-DPI-STRICT-IMMUTIBILITY-TABLET.md",
+    "spatial_realms": [
+      "/root/",
+      "/codex/",
+      "/demo/"
+    ]
+  },
+  "declaration_seal": {
+    "clearance": "UNIVERSAL-APEX",
+    "chain_of_custody": "UNINTERRUPTED",
+    "authority_level": "SUPER-SOVEREIGN",
+    "result": "IDENTITY-VERIFIED • STATE-LOCKED",
+    "hash_integrity_check": "PASS"
+  }
+}
+
+
+cd ~/master-workspace
+mkdir -p verification/transaction-profiles
+
+# Inject the unified code directly into position
+cat << 'EOF' > verification/transaction-profiles/XP-CANONICAL-MANIFESTO-V4.json
+[Paste Unified JSON Code Block Above]
+EOF
+
+# Clean out deprecated profile files to prevent directory clutter
+rm -f verification/transaction-profiles/TX-ROUTING-TON-TEP74-XP-881F9BCE.json
+
+# Execute global repository push automation sequence
+./batch_sync_repos.sh
+
+
+- name: Validate Unified Transaction Profile File
+        run: |
+          TARGET_FILE="verification/transaction-profiles/XP-CANONICAL-MANIFESTO-V4.json"
+          if [ ! -f "$TARGET_FILE" ]; then
+            echo "❌ CRITICAL INTERRUPT: Unified manifesto configuration missing from tracking path."
+            exit 1
+          fi
+          echo "TARGET_PATH=$TARGET_FILE" >> $GITHUB_ENV
+          echo "✅ Unified system file matched and active."
