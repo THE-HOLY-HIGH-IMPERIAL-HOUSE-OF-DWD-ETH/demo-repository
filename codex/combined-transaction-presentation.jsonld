@@ -1,0 +1,70 @@
+{
+  "@context": [
+    "https://w3.org",
+    "https://schema.org",
+    "https://xp.reserve"
+  ],
+  "type": ["VerifiablePresentation", "CombinedTransactionPresentation"],
+  "id": "urn:uuid:f81d4fae-7dec-11d0-a765-00a0c91e6bf6",
+  
+  "verifiableCredential": [
+    {
+      "comment": "PART 1: THE INSTITUTIONAL SOVEREIGN IDENTITY (vLEI Root)",
+      "type": ["VerifiableCredential", "LegalEntityOfficialCredential"],
+      "issuer": "did:vlei:gleif:984500c58a9e71d30834",
+      "credentialSubject": {
+        "id": "did:xp:imperial-we:0x71C...3a9",
+        "legalEntity": {
+          "lei": "984500C58A9E71D30834",
+          "name": "Imperial Sovereign Trust"
+        },
+        "officialRole": "Sovereign Signatory",
+        "clearanceLevel": "Alpha-XP"
+      },
+      "proof": {
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:vlei:gleif:984500c58a9e71d30834#key-1",
+        "proofValue": "z6Mkm...XyZ"
+      }
+    },
+    {
+      "comment": "PART 2: PRIVACY-PRESERVING ZERO-KNOWLEDGE PROOF (ZKP)",
+      "type": ["VerifiableCredential", "AgeVerificationProof"],
+      "issuer": "did:gov:passport-office",
+      "credentialSubject": {
+        "id": "did:xp:imperial-we:0x71C...3a9",
+        "isOver21": true
+      },
+      "proof": {
+        "type": "BbsBlsSignature2020",
+        "comment": "Allows verification without exposing date of birth or full legal name.",
+        "proofValue": "eyJhbGciOiJSUzI1NiIs..."
+      }
+    }
+  ],
+
+  "paymentClearance": {
+    "comment": "PART 3: ATOMICS TRANSACTION SETTLMENT",
+    "transactionId": "tx_9081273918237",
+    "currency": "XP-RESERVE-USD",
+    "amount": "14500.00",
+    "sourceWallet": "did:xp:imperial-we:0x71C...3a9",
+    "destinationMerchant": "did:merchant:fbo-luxury-terminal:0x3b1...81c",
+    "paymentMechanism": {
+      "type": "CryptographicCovenantSettlement",
+      "networkRoot": "xp.reserve",
+      "clearingChannel": "Atomic-Instant-Gross-Settlement"
+    },
+    "expiresAt": "2026-05-16T10:57:00Z"
+  },
+
+  "proof": {
+    "comment": "PART 4: THE PASSENGER/HOLDER MASTER SIGNATURE",
+    "type": ["JsonWebSignature2020"],
+    "created": "2026-05-16T10:55:00Z",
+    "verificationMethod": "did:xp:imperial-we:0x71C...3a9#master-key",
+    "proofPurpose": "assertionMethod",
+    "challenge": "merchant_nonce_891237",
+    "jws": "eyJhbGciOiJSUzI1NiIs...master_signature..."
+  }
+}
