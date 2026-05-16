@@ -1,0 +1,93 @@
+================================================================================
+SYSTEM ENVIRONMENT: COMPREHENSIVE PRODUCTION INFRASTRUCTURE MANIFEST
+GOVERNANCE CONTEXT: ROOT CORE IDENTITY, CRYPTOGRAPHIC PKI, AND GATEWAY SECURITY
+NETWORK ROOT MODEL: APIS/vLEI TRANSACTION ANCHOR SUITE (xp.reserve)
+================================================================================
+
+---
+component: "Production Identity Mapping"
+target_file: "/root/genesis-did-doc.json"
+format: "W3C-Compliant Decentralized Identifier Document"
+payload: |
+  {
+    "@context": [
+      "https://w3.org",
+      "https://w3id.org"
+    ],
+    "id": "did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48",
+    "verificationMethod": [
+      {
+        "id": "did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48#master-key",
+        "type": "Ed25519VerificationKey2020",
+        "controller": "did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48",
+        "publicKeyMultibase": "z6MkmPlaceholderProductionMasterKeyMultiBaseValue"
+      }
+    ],
+    "authentication": [
+      "did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48#master-key"
+    ],
+    "assertionMethod": [
+      "did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48#master-key"
+    ],
+    "service": [
+      {
+        "id": "did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48#api-gateway",
+        "type": "LinkedDomains",
+        "serviceEndpoint": "https://xp.reserve"
+      }
+    ]
+  }
+
+---
+component: "Public Key Infrastructure Anchors"
+target_file: "/root/public-key-infrastructure.pem"
+format: "X.509 Root Cryptographic Certificate Specification"
+certificate_authority_block: |
+  -----BEGIN CERTIFICATE-----
+  MIIBiDCCETGgAwIBAgIUf81d4fae7dec11d0a76500a0c91e6bf6MAoGCCqGSM49
+  BAMCMD0xGzAZBgNVBAMTEmFwaS54cC5yZXNlcnZlMR4wHAYDVQQKExVJbXBlcmlh
+  bCBTb3ZlcmVpZ24gVHJ1c3QwIBcNMjYwNTE2MTA1ODAwWhgPMjA3NjA1MTYxMDU4
+  MDBaMD0xGzAZBgNVBAMTEmFwaS54cC5yZXNlcnZlMR4wHAYDVQQKExVJbXBlcmlh
+  bCBTb3ZlcmVpZ24gVHJ1c3QwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARz3/x0
+  K5W7lY8D1Z4S7A1X8Z4D9R2X8Z4D9R2X8Z4D9R2X8Z4D9R2X8Z4D9R2X8Z4D9R2X
+  8Z4D9R2X8Z4D9R2Xo4GnMIGkMB0GA1UdDgQWBBS8X3Z3X3Z3X3Z3X3Z3X3Z3X3Z3
+  XzAfBgNVHSMEGDAWgBS8X3Z3X3Z3X3Z3X3Z3X3Z3X3Z3XzASBgNVHRMBAf8ECDAG
+  AQH/AgEAMA4GA1UdDwEB/wQEAwIBhjApBgNVHREEIjAggg5hcGkueHAucmVzZXJ2
+  ZYoOd3d3LnhwLnJlc2VydmUwCgYIKoZIzj0EAwIDSQAwRgIhAOf81d4fae7dec11
+  d0a76500a0c91e6bf6AiEAOf81d4fae7dec11d0a76500a0c91e6bf6=
+  -----END CERTIFICATE-----
+
+---
+component: "Secure Production Edge Reverse Proxy"
+target_file: "/infrastructure/reverse-proxy.conf"
+format: "NGINX Reverse Proxy Configuration Suite"
+configuration_block: |
+  server {
+      listen 443 ssl http2;
+      server_name api.xp.reserve;
+
+      # Enforcement of TLS Transport Layer Privacy Safety Shields
+      ssl_certificate /etc/ssl/certs/public-key-infrastructure.pem;
+      ssl_certificate_key /etc/ssl/private/production-private-key.key;
+      ssl_protocols TLSv1.2 TLSv1.3;
+      ssl_ciphers HIGH:!aNULL:!MD5;
+
+      # Advanced Web Application Security Response Headers
+      add_header X-Frame-Options "DENY" always;
+      add_header X-Content-Type-Options "nosniff" always;
+      add_header Content-Security-Policy "default-src 'none'; sandbox;" always;
+      add_header Strict-Transport-Security "max-age=63072000; includeSubDomains; preload" always;
+
+      # Automated Traffic Rate-Limiting Buffer to Prevent Gateway Saturation
+      limit_req_zone $binary_remote_addr zone=gateway_limit:10m rate=10r/s;
+      limit_req zone=gateway_limit burst=20 nodelay;
+
+      # Cryptographic Identity & Context Routing Paths
+      location / {
+          proxy_pass http://soverain-api-gateway:8080;
+          proxy_set_header Host $host;
+          proxy_set_header X-Real-IP $remote_addr;
+          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+          proxy_set_header X-Forwarded-Proto $scheme;
+      }
+  }
