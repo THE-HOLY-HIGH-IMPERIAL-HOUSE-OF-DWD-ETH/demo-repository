@@ -1,0 +1,16 @@
+# 3. Add to your script to test local Base45 generation safely
+try:
+    import base45
+    # Generate an error-free, specifications-compliant Base45 data stream
+    valid_b45_bytes = base45.b45encode(minified_stream.encode('utf-8'))
+    print(f"✅ Success: Generated error-free validation stream ({len(valid_b45_bytes)} bytes).")
+    with open("compressed-payload.txt", "wb") as b45_file:
+        b45_file.write(valid_b45_bytes)
+except ImportError:
+    print("⚠️  Dev Note: Run 'pip install base45' in your container to build raw binary strings without '$' contamination.")
+
+# Ensure the Base45 processing library is available in your test container environment
+pip install base45
+
+# Execute your parent python script to output both the JSON-LD and compressed tokens simultaneously
+python3 combined-transaction-presentation.py
