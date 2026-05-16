@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org",
+  "id": "https://xp.reserve",
+  "title": "Alpha-XP Sovereign Gatekeeping Threshold Policy",
+  "networkRoot": "xp.reserve",
+  "policy": {
+    "targetIdentifier": "did:xp:imperial-we:0x71C3A9",
+    "assetReferenceAnchor": "IMPERI-BERIT-SUITE-001",
+    "signatureThreshold": {
+      "requiredSignatures": 2,
+      "totalAuthorizedNodes": 3,
+      "policyType": "M-of-N-Threshold-Consensus"
+    },
+    "authorizedSigningNodes": [
+      {
+        "nodeId": "node-primary-master",
+        "address": "0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48",
+        "role": "Sovereign Signatory",
+        "weight": 1
+      },
+      {
+        "nodeId": "node-institutional-escrow",
+        "address": "0x3b1C58A9E71D30834BC71D308342371A9E71D3A9",
+        "role": "Institutional Treasurer Custodian",
+        "weight": 1
+      },
+      {
+        "nodeId": "node-oracle-validator",
+        "address": "0x984500C58A9E71D30834000333b090F55Ba7FC48",
+        "role": "Network Covenant Compliance Oracle",
+        "weight": 1
+      }
+    ],
+    "executionConstraints": {
+      "timelockDurationSeconds": 0,
+      "enforceSingleUseNonce": true,
+      "allowOfflineCoSigning": true,
+      "fallbackClearanceRoute": "Escrow-Manual-Override"
+    }
+  }
+}
