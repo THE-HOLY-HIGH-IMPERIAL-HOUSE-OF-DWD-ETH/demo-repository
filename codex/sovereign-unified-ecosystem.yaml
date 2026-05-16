@@ -1,0 +1,135 @@
+================================================================================
+SYSTEM ENVIRONMENT: COMPLETE UNIFIED ECOSYSTEM MASTER MANIFEST
+GOVERNANCE LAYER  : INTEGRATED PRODUCTION ROOT, CODEX SPECS, & DEMO RUNTIMES
+NETWORK ENGINE    : DUAL-ACTION INITIALIZATION AND TESTING SUITE (xp.reserve)
+================================================================================
+
+---
+layer: "1. PRODUCTION ROOT LAYER"
+component: "Production Identity Mapping"
+target_file: "/root/genesis-did-doc.json"
+format: "W3C-Compliant Decentralized Identifier Document"
+payload: |
+  {
+    "@context": [
+      "https://w3.org",
+      "https://w3id.org"
+    ],
+    "id": "did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48",
+    "verificationMethod": [
+      {
+        "id": "did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48#master-key",
+        "type": "Ed25519VerificationKey2020",
+        "controller": "did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48",
+        "publicKeyMultibase": "z6MkmPlaceholderProductionMasterKeyMultiBaseValue"
+      }
+    ],
+    "authentication": [
+      "did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48#master-key"
+    ],
+    "assertionMethod": [
+      "did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48#master-key"
+    ],
+    "service": [
+      {
+        "id": "did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48#api-gateway",
+        "type": "LinkedDomains",
+        "serviceEndpoint": "https://xp.reserve"
+      }
+    ]
+  }
+
+---
+layer: "1. PRODUCTION ROOT LAYER"
+component: "Public Key Infrastructure Anchors"
+target_file: "/root/public-key-infrastructure.pem"
+format: "X.509 Root Cryptographic Certificate Specification"
+certificate_authority_block: |
+  -----BEGIN CERTIFICATE-----
+  MIIBiDCCETGgAwIBAgIUf81d4fae7dec11d0a76500a0c91e6bf6MAoGCCqGSM49
+  BAMCMD0xGzAZBgNVBAMTEmFwaS54cC5yZXNlcnZlMR4wHAYDVQQKExVJbXBlcmlh
+  bCBTb3ZlcmVpZ24gVHJ1c3QwIBcNMjYwNTE2MTA1ODAwWhgPMjA3NjA1MTYxMDU4
+  MDBaMD0xGzAZBgNVBAMTEmFwaS54cC5yZXNlcnZlMR4wHAYDVQQKExVJbXBlcmlh
+  bCBTb3ZlcmVpZ24gVHJ1c3QwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARz3/x0
+  K5W7lY8D1Z4S7A1X8Z4D9R2X8Z4D9R2X8Z4D9R2X8Z4D9R2X8Z4D9R2X8Z4D9R2X
+  8Z4D9R2X8Z4D9R2Xo4GnMIGkMB0GA1UdDgQWBBS8X3Z3X3Z3X3Z3X3Z3X3Z3X3Z3
+  XzAfBgNVHSMEGDAWgBS8X3Z3X3Z3X3Z3X3Z3X3Z3X3Z3XzASBgNVHRMBAf8ECDAG
+  AQH/AgEAMA4GA1UdDwEB/wQEAwIBhjApBgNVHREEIjAggg5hcGkueHAucmVzZXJ2
+  ZYoOd3d3LnhwLnJlc2VydmUwCgYIKoZIzj0EAwIDSQAwRgIhAOf81d4fae7dec11
+  d0a76500a0c91e6bf6AiEAOf81d4fae7dec11d0a76500a0c91e6bf6=
+  -----END CERTIFICATE-----
+
+---
+layer: "2. CODEX LAYER"
+component: "Codex Schema Configuration"
+target_file: "/demo-sandbox/codex/sovereign-context.jsonld"
+format: "JSON-LD (Linked Data Template Blueprint)"
+payload: |
+  {
+    "@context": [
+      "https://w3.org",
+      "https://schema.org",
+      "https://github.com"
+    ],
+    "type": ["VerifiablePresentation", "CombinedTransactionPresentation"],
+    "id": "urn:uuid:f81d4fae-7dec-11d0-a765-00a0c91e6bf6",
+    "verifiableCredential": [
+      {
+        "comment": "PART 1: THE INSTITUTIONAL SOVEREIGN IDENTITY (vLEI Root)",
+        "type": ["VerifiableCredential", "LegalEntityOfficialCredential"],
+        "issuer": "did:vlei:gleif:984500c58a9e71d30834",
+        "credentialSubject": {
+          "id": "did:xp:imperial-we:0x71C00000000000000000000000000000000003a9",
+          "legalEntity": {
+            "lei": "984500C58A9E71D30834",
+            "name": "Imperial Sovereign Trust"
+          },
+          "officialRole": "Sovereign Signatory",
+          "clearanceLevel": "Alpha-XP",
+          "externalAnchor": "https://orcid.org"
+        }
+      }
+    ]
+  }
+
+---
+layer: "3. DEMO-CODEX LAYER"
+component: "Minified Transaction Profile"
+target_file: "/demo-sandbox/runtime/combined-transaction-presentation.min.json"
+format: "Production Minified Object"
+payload: |
+  {"@context":["https://w3.org","https://schema.org","https://github.com"],"type":["VerifiablePresentation","CombinedTransactionPresentation"],"id":"urn:uuid:f81d4fae-7dec-11d0-a765-00a0c91e6bf6","verifiableCredential":[{"type":["VerifiableCredential","LegalEntityOfficialCredential"],"issuer":"did:vlei:gleif:984500c58a9e71d30834","credentialSubject":{"id":"did:xp:imperial-we:0x71C00000000000000000000000000000000003a9","legalEntity":{"lei":"984500C58A9E71D30834","name":"Imperial Sovereign Trust"},"officialRole":"Sovereign Signatory","clearanceLevel":"Alpha-XP","externalAnchor":"https://orcid.org"},"proof":{"type":"Ed25519Signature2020","verificationMethod":"did:vlei:gleif:984500c58a9e71d30834#key-1","proofValue":"z6MkmPlaceholderSignatureValueXyZ"}}],"paymentClearance":{"transactionId":"tx_9081273918237","currency":"XP-RESERVE-USD","amount":"14500.00","sourceWallet":"did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48","destinationMerchant":"did:merchant:fbo-luxury-terminal:0x3b1000000000000000000000000000000000081c","paymentMechanism":{"type":"CryptographicCovenantSettlement","networkRoot":"xp.reserve","clearingChannel":"Atomic-Instant-Gross-Settlement"},"expiresAt":"2026-05-16T10:57:00Z"},"proof":{"type":"JsonWebSignature2020","created":"2026-05-16T10:55:00Z","verificationMethod":"did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48#master-key","proofPurpose":"assertionMethod","challenge":"merchant_nonce_891237","jws":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.MockMasterSignatureString"}}
+
+---
+layer: "4. SYSTEM SECURITY & GATEWAY"
+component: "Secure Production Edge Reverse Proxy"
+target_file: "/infrastructure/reverse-proxy.conf"
+format: "NGINX Reverse Proxy Configuration Suite"
+configuration_block: |
+  server {
+      listen 443 ssl http2;
+      server_name api.xp.reserve;
+      ssl_certificate /etc/ssl/certs/public-key-infrastructure.pem;
+      ssl_certificate_key /etc/ssl/private/production-private-key.key;
+      ssl_protocols TLSv1.2 TLSv1.3;
+      ssl_ciphers HIGH:!aNULL:!MD5;
+      add_header X-Frame-Options "DENY" always;
+      add_header X-Content-Type-Options "nosniff" always;
+      location / {
+          proxy_pass http://soverain-api-gateway:8080;
+          proxy_set_header Host $host;
+      }
+  }
+
+---
+layer: "4. SYSTEM SECURITY & GATEWAY"
+component: "API Isolated Container Engine"
+target_file: "./Dockerfile"
+format: "Docker Build Specification"
+instructions: |
+  FROM python:3.11-slim
+  WORKDIR /app
+  COPY demo-sandbox/ /app/demo-sandbox/
+  COPY app.py /app/app.py
+  EXPOSE 8080
+  CMD ["python3", "app.py"]
