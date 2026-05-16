@@ -1,0 +1,51 @@
+{
+  "@context": [
+    "https://w3.org",
+    "https://schema.org",
+    "https://github.com"
+  ],
+  "type": ["VerifiablePresentation", "CombinedTransactionPresentation"],
+  "id": "urn:uuid:f81d4fae-7dec-11d0-a765-00a0c91e6bf6",
+  "verifiableCredential": [
+    {
+      "type": ["VerifiableCredential", "LegalEntityOfficialCredential"],
+      "issuer": "did:vlei:gleif:984500c58a9e71d30834",
+      "credentialSubject": {
+        "id": "did:xp:imperial-we:0x71C00000000000000000000000000000000003a9",
+        "legalEntity": {
+          "lei": "984500C58A9E71D30834",
+          "name": "Imperial Sovereign Trust"
+        },
+        "officialRole": "Sovereign Signatory",
+        "clearanceLevel": "Alpha-XP",
+        "externalAnchor": "https://orcid.org"
+      },
+      "proof": {
+        "type": "Ed25519Signature2020",
+        "verificationMethod": "did:vlei:gleif:984500c58a9e71d30834#key-1",
+        "proofValue": "z6MkmPlaceholderSignatureValueXyZ"
+      }
+    }
+  ],
+  "paymentClearance": {
+    "transactionId": "tx_9081273918237",
+    "currency": "XP-RESERVE-USD",
+    "amount": "14500.00",
+    "sourceWallet": "did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48",
+    "destinationMerchant": "did:merchant:fbo-luxury-terminal:0x3b1000000000000000000000000000000000081c",
+    "paymentMechanism": {
+      "type": "CryptographicCovenantSettlement",
+      "networkRoot": "xp.reserve",
+      "clearingChannel": "Atomic-Instant-Gross-Settlement"
+    },
+    "expiresAt": "2026-05-16T10:57:00Z"
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2026-05-16T10:55:00Z",
+    "verificationMethod": "did:xp:imperial-we:0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48#master-key",
+    "proofPurpose": "assertionMethod",
+    "challenge": "merchant_nonce_891237",
+    "jws": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.MockMasterSignatureString"
+  }
+}
