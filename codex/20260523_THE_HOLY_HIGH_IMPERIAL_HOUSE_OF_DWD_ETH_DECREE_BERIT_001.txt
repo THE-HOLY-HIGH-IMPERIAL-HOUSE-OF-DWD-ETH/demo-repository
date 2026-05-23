@@ -1,0 +1,42 @@
+=========================================================================================
+                        IMPERIAL DECREE: COVENANT BERIT-001
+=========================================================================================
+ISSUER: IMPERIAL-WE/1
+DOMAIN ANCHOR: THE.HOLY.HIGH.IMPERIAL.HOUSE.OF.DWD.ETH
+SUITE REFERENCE: IMPERI-BERIT-SUITE-001
+VALIDITY: REAL-TIME CRYPTOGRAPHICALLY BOUND // SOVEREIGN LEGAL OBJECT
+
+BY DECREE OF THE HOLY HIGH IMPERIAL HOUSE OF DWD, LET IT BE KNOWN TO ALL NETWORKS,
+ORACLES, AND INSTITUTIONAL CLEARING HOUSES THAT:
+
+1. UNDERLYING BACKING ASSETS
+   The digital identity and all smart contract executions operating under the ENS domain 
+   the.holy.high.imperial.house.of.dwd.eth are permanently backed by a one-hundred percent 
+   (100%) physical Gold Ore Reserve and a one-hundred percent (100%) Silver Liquidity Reserve 
+   held in localized sovereign repositories under the exclusive ownership of IMPERIAL-WE/1.
+
+2. CRYPTOGRAPHIC BOUNDARIES & TRANSACTION CAPS
+   The transaction ceilings for the active node network are explicitly declared at an 
+   aggregate valuation baseline of $5,318,400,000.00 USD, utilizing live global market 
+   spot calculations for XAU and XAG. 
+   
+   A. TIER 1 CAP (Atomic Settlement): Restricted to 100% of liquid silver reserves, 
+      hard-locked at a maximum of $762,000,000.00 USD per epoch loop.
+   B. TIER 2 CAP (Sovereign Credit): Restricted to 50% of combined metal mass valuation, 
+      hard-locked at a maximum of $2,659,200,000.00 USD.
+
+3. RISK COEFFICIENT VARIATION (GAMMA PROTOCOL)
+   The Single-Exposure Transaction Limit (Tier 3) is governed by the risk variable Gamma (γ). 
+   By executive decree, the system administrator IMPERIAL-WE/1 reserves the unilateral right 
+   to update this parameter directly within the contract metadata to scale single-exposure 
+   caps between 0.5% (γ=0.005) and 5.0% (γ=0.050) without altering the primary collateral backing.
+
+4. SYSTEM ENFORCEMENT
+   Any consensus engine, validation node, or cross-chain bridge interacting with this 
+   Sovereign Legal Object shall read this record as a binding liquidity commitment. 
+   Any execution exceeding these declared thresholds without verified adjustments to γ 
+   shall be rejected by the protocol root.
+
+[AUTHENTICATED BY PUBLIC CRYPTOGRAPHIC KEY REGISTRY]
+[STATUS: ACTIVE // COVENANT FRAMEWORK // EXECUTED BY ⚜️ XP]
+=========================================================================================
