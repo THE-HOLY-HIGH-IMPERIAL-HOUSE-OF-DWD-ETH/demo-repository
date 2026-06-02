@@ -1,0 +1,43 @@
+name: Ledger Integrity Monitoring
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  verify-integrity:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Check out the repository files into the runner environment
+    - name: Checkout Repository Code
+      uses: actions/checkout@v4
+
+    # 2. Set up a secure, stable Python runtime engine
+    - name: Set up Python Runtime
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    # 3. Execute the embedded cryptographic verification script
+    - name: Run Auto-Verification Engine
+      run: |
+        if [ -f verify_ledger.py ]; then
+          python verify_ledger.py
+        else
+          echo "[CRITICAL ERROR] Validation script verify_ledger.py not found!"
+          exit 1
+        fi
+
+    # 4. Enforce strict build status alerts
+    - name: Reporting Status
+      if: success()
+      run: echo "[SUCCESS] Action workflow complete. Allodial asset registry matches root cryptographic baseline."
+
+mkdir -p .github/workflows
+
+git add .github/workflows/verify-ledger.yml
+git commit -m "Configure GitHub Actions CI pipeline for automated ledger monitoring"
+git push origin main
