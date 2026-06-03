@@ -1,0 +1,7 @@
+[TRACE:001] ROOT_INIT  -> did:ion:EiAn_XP_Sovereign_Root_Authority_2026_v1
+[TRACE:002] KEY_BIND   -> Public Key Derived: 0x534f5645524549474e5f5850
+[TRACE:003] ATTESTATION-> Subject: did:key:z6Mki6puBSmjTUMfV6yJpnVZny5evAYk13JZK7TFXZ2NrrJU
+[TRACE:004] LEI_BIND   -> Target Embedded: 506700GE1G29325QX363
+[TRACE:005] INTEGRITY  -> Crest-Stable Status: 100% Coherent
+[TRACE:006] MERKLE_ROOT -> 0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[STATUS]    AUDIT COMPLETE: Linkage validated under Root Authority execution.
