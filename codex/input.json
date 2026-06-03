@@ -1,0 +1,7 @@
+{
+  "secretKey": "777",
+  "leiMarkerNumeric": "50670029325363",
+  "crestIntegrityValue": "100",
+  "expectedCrestIntegrity": "100",
+  "rootIdentityCommitment": "0x7a6e9f8b7c6d5e4f3a2b1c0e9d8c7b6a5f4e3d2c1b0a9f8e7d6c5b4a3f2e1d0c"
+}
