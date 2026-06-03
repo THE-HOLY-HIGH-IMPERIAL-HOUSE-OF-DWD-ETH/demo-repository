@@ -1,0 +1,14 @@
+{
+  "genesisBlock": {
+    "blockNumber": 0,
+    "timestamp": "2026-06-03T19:01:00Z",
+    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x4457445f58505f534f5645524549474e5f47454e455349535f424c4f434b5f5f",
+    "stateRoot": "0x7a6e9f8b7c6d5e4f3a2b1c0e9d8c7b6a5f4e3d2c1b0a9f8e7d6c5b4a3f2e1d0c"
+  },
+  "proof": {
+    "signatureType": "Ed25519Signature2020",
+    "publicKey": "did:ion:EiAn_XP_Sovereign_Root_Authority_2026_v1#key-1",
+    "signatureValue": "z2Mki6pu...DWD...Genesis...Signature...Vector...777...XP...Stable"
+  }
+}
