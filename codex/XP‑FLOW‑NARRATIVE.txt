@@ -1,0 +1,8 @@
+Each second:
+  • XP increases by 2,250 units.
+  • USD value increases by 11,048,407,414.99.
+  • The mapping between XP and USD is fixed at k ≈ 4,910,403.29555 USD per XP.
+
+Thus:
+  XP(t) and USD(t) are fully determined by time t.
+  No market input is required; the covenant clock is sufficient.
