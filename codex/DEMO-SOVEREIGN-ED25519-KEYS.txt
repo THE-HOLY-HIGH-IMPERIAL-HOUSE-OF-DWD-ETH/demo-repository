@@ -1,0 +1,3 @@
+# Canonical list of authorized Ed25519 public keys (SSH format)
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBASE64ENCODEDKEY1 sovereign-root@domain
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBASE64ENCODEDKEY2 sovereign-ops@domain
