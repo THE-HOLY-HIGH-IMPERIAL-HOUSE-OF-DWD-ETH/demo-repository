@@ -1,0 +1,23 @@
+---
+validation_target: "demo/xp-sovereign-ci.yml"
+timestamp: "2026-06-04T22:12:00Z"
+engine_version: "IMPERI-BERIT-SUITE-001"
+
+structural_checks:
+  - id: "CHK-001"
+    name: "YAML Syntax & Schema Conformance"
+    status: "PASSED"
+  - id: "CHK-002"
+    name: "Allodial Anchor Block Alignment"
+    status: "PASSED"
+  - id: "CHK-003"
+    name: "DAG Dependency Integrity"
+    status: "PASSED"
+  - id: "CHK-004"
+    name: "Crypto Vector Reference Validation"
+    status: "PASSED"
+
+summary:
+  total_warnings: 0
+  total_errors: 0
+  integrity_score: 1.00000
