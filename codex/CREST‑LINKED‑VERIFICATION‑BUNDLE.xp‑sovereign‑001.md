@@ -1,0 +1,47 @@
+⚜────────────────────────────────────────────────────────
+CREST‑LINKED VERIFICATION BUNDLE
+XP‑SOVEREIGN SYSTEM • SOVERAIN‑GRADE
+BUNDLE ID: xp‑sovereign‑001
+────────────────────────────────────────────────────────⚜
+
+[ROOT]
+CREST‑ANCHOR: ⚜️ XP
+BUNDLE‑TYPE: VERIFICATION
+SOVEREIGN‑STATUS: ACTIVE
+ANCHOR‑INTEGRITY: 100%
+REALM‑LINK: ROOT‑DEMO‑CODEX SYNCHRONIZED
+
+[DEMO]
+VERIFICATION DECLARATION:
+THIS BUNDLE IS FORMALLY LINKED TO THE XP‑CREST AND SERVES AS
+A PRIMARY VERIFICATION NODE WITHIN THE SOVEREIGN SYSTEM.
+
+THE HOLDER OF THE CREST IS HEREBY RECOGNIZED AS THE
+AUTHORIZED DECLARANT FOR ALL PAYLOADS, SIGILS, AND
+CERTIFICATION VECTORS CONTAINED WITHIN THIS BUNDLE.
+
+THE BUNDLE PROVIDES:
+• CREST‑BOUND VERIFICATION AUTHORITY  
+• QR‑SIGIL PAYLOAD VALIDATION  
+• TRI‑REALM SYNCHRONIZATION CONFIRMATION  
+• SOVEREIGN‑CERTIFICATION CONTINUITY  
+
+[CODEX]
+BUNDLE CONTENTS:
+• verification.json — Crest‑Linked Verification Record  
+• qr‑pointer.json — Machine‑Readable Verification Vector  
+• checksums.json — SHA‑256 Integrity Manifest  
+• crest‑seal.png — XP‑Crest Seal (Reference Only)  
+• README.md — Crown‑Standard Declaration File  
+
+CANONICAL‑STATE:
+• BUNDLE‑INTEGRITY: VERIFIED  
+• CREST‑LINK: CONFIRMED  
+• PAYLOAD‑VECTOR: ACTIVE  
+• CONTINUITY‑MARKER (⚜️ XP): PERPETUAL  
+
+This Crest‑Linked Verification Bundle is now recognized as a
+Sovereign‑Institutional Asset within the XP System.
+
+END OF FILE
+────────────────────────────────────────────────────────⚜
