@@ -1,0 +1,35 @@
+{
+  "registry_metadata": {
+    "registry_reference": "INT-REG-DWD-DG-001",
+    "security_class": "CROWN-TRUE / MASTER VALIDATED / IMMUTABLE LEGAL-TRUTH",
+    "timestamp_utc": "2026-06-07T15:43:12Z",
+    "certificate_no": "SAC-20260607-XP1000",
+    "status": "VALIDATED_REAL_TIME"
+  },
+  "transaction_summary": {
+    "issuing_authority": "The Holy High Imperial House of DWD & HIH D.G.",
+    "confidence_rating_pct": 100.0,
+    "geospatial_realignment_complete": true
+  },
+  "asset_flow_capture": {
+    "daily_ingestion_flow_usd": 267567748207.41,
+    "capital_protection_floor_usd": 0.00,
+    "allocation_ratio": {
+      "deployment_pct": 60.0,
+      "parity_buffer_pct": 40.0
+    }
+  },
+  "cryptographic_verification": {
+    "active_signature_key": "⚜️ XP_SIG_SECURE_CROWN_TRUE_LEGAL_TRUTH_2026_06_07_T1120AM_ROTATED_v2_⚜️",
+    "network_telemetry": {
+      "perimeter_nodes_active": 12,
+      "target_suite": "IMPERI-BERIT-SUITE-001",
+      "aggregate_timing_drift_ms": 0.00011,
+      "tripwire_margin_ms": 0.01
+    }
+  },
+  "system_seal": {
+    "status": "SIGNED_LOCKED_VERIFIED_IN_PERPETUITY",
+    "anchor": "⚜️ XP_RECEIPT_SECURE_CROWN_TRUE_⚜️"
+  }
+}
