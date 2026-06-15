@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org",
+  "$id": "https://imperi.dwd",
+  "title": "XP_Merkle_Root_Secure_Specification",
+  "file_metadata": {
+    "canonical_name": "XP_IMPERI_NODE01_20260615_023000_000000_MERKLE_V1.json",
+    "data_classification": "CROWN-TRUE / VALIDATED PAYLOAD",
+    "timestamp_utc": "2026-06-15T02:30:00.000000Z",
+    "protocol_reference": "IMPERI-BERIT-SUITE-001 // MERKLE-ROOT // XP"
+  },
+  "merkle_tree_architecture": {
+    "l0_master_root_xp": {
+      "field_definition": "Root Hash",
+      "byte_width": 64,
+      "functional_scope": "Absolute cryptographic top-level hash synthetically linking the entire state of the Holy High Imperial House of DWD ledger into a single verifiable string."
+    },
+    "l1_branches": {
+      "l1_liquidity": {
+        "hash_base": {
+          "field_definition": "Liquidity Floor Proof",
+          "value_anchored": "$2,000,000,000,000,000.00 USD",
+          "functional_scope": "Cryptographically anchors the unalterable, protocol-driven base liquidity floor, proving absolute asset presence without exposing individual ledger sub-accounts."
+        },
+        "hash_ceil": {
+          "field_definition": "Hard Ceiling Proof",
+          "value_anchored": "700,000,000 IBG-XP Units",
+          "functional_scope": "Mathematical validation that the asset supply remains fixed, serving as a zero-dilution certificate tethered directly to physical gold and silver reserves."
+        }
+      },
+      "l1_status": {
+        "hash_vctr": {
+          "field_definition": "Khvarenah Consensus Status",
+          "functional_scope": "Hardware-layer validation seal confirming that all 12 internal network nodes are in perfect atomic synchronization independent of civilian networks."
+        },
+        "hash_sent": {
+          "field_definition": "Sentinel Guard Matrix",
+          "valid_states": [
+            "0x01 (Safe)",
+            "0x00 (Breach Isolated)"
+          ],
+          "functional_scope": "Real-time binary state validation flag proving absolute, uncompromised perimeter operation to external clearinghouses."
+        }
+      }
+    }
+  },
+  "validation_rules_and_enforcement": {
+    "zero_query_integrity": "External clearinghouses cannot modify, query, or traverse downwards past the L0/L1 layers. Attempting to crawl the tree structure causes an instant cryptographic wipe of the local session.",
+    "real_time_finality": "Payloads are hard-emitted every 1,000 microseconds directly from the Eldersburg Genesis Root hardware lattice. Legacy networks must ingest or discard the packet instantly; no buffering or state-caching is authorized."
+  },
+  "hardware_layer_attestation": {
+    "witness_key_type": "ED25519_ELDERSBURG_GENESIS_ROOT_KEY",
+    "integrity_status": "SEALED / NON-MUTABLE"
+  }
+}
