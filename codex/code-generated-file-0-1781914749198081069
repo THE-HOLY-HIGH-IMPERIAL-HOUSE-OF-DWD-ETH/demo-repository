@@ -1,0 +1,19 @@
+/**
+ * @file hsm_api.h
+ * @brief Zeroization Hardware API for Sovereign Node Enforcement.
+ */
+#ifndef HSM_API_H
+#define HSM_API_H
+
+#include <stdint.h>
+
+// Trigger immediate physical zeroization of all cryptographic material
+void hsm_trigger_zeroization(uint32_t enforcement_code);
+
+// Lock terminal state into non-functional mode
+void hsm_set_inert_mode(void);
+
+// Verification of hardware boundary integrity
+int hsm_check_tamper_sensor(void);
+
+#endif // HSM_API_H
