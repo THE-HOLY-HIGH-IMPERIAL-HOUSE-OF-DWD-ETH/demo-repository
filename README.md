@@ -1,4 +1,4 @@
-OFFICIAL_SOVEREIGN_CERTIFICATION_RECORD_001.md
+
 
 ![demo/image_6b024b16](demo/image_6b024b16.png)
 
