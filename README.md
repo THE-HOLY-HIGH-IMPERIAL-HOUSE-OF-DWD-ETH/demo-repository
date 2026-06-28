@@ -1,3 +1,6 @@
+![1782625789606](codex/1782605772523.png)
+
+
 ![CROWN-TRUE CERTIFIED IMAGE](codex/Screenshot_20260622-114056_Google.jpg)
 
 
