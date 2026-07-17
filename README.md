@@ -1,7 +1,7 @@
 ![1783697842898](codex/1783697842898.png)
 
 
-![image_ccab1744](CODEX/image_ccab1744.png)
+![image_ccab1744](codex/image_ccab1744.png)
 
 
 ![1783683325099](codex/1783683325099.png)
