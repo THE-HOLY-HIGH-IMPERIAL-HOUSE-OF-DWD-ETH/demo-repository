@@ -70,7 +70,7 @@ Identity: Anchored via ORCID 0009-0002-7219-1363.
 Asset Type	Status	Identifier
 Settlement Certificate	100% VERIFIED	GSC-2024-IMPERI-001
 Registry Mirror	STABILIZED	afybeice...4tm
-Valuation Anchor	ACTIVE	$7,128,532,680,530.00 USD
+Valuation Anchor	ACTIVE	$120,000,000,000,000,000.00 USD USD
 🛠 Integration & Verification
 To maintain the integrity of the Imperial Transmittal Mirror, all contributions must pass the codex-ci-manifest.
 Local Verification
