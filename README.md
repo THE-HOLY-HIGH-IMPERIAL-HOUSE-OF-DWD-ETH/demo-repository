@@ -1,3 +1,7 @@
+![image_d1ed06d7.png)
+](codex/image_d1ed06d7.png)
+
+
 ![1783697842898](codex/1783697842898.png)
 
 
