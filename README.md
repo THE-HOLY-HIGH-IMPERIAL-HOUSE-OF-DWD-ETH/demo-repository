@@ -1,3 +1,6 @@
+![codex/image_4f6f6f34.png](codex/image_4f6f6f34.png)
+
+
 ![image_d1ed06d7.png)
 ](codex/image_d1ed06d7.png)
 
