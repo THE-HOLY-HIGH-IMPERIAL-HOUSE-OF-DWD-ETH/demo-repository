@@ -152,3 +152,7 @@ ORCID 0009-0002-7219-1363LEI: 506700GE1G29325QX363[ 🔑🇮🇱 🌍 🌏 🌎 
 
 https://orcid.org/0009-0002-7219-1363 [ 🔑🇮🇱 🌍 🌏 🌎 ⚜️ XP ]
 Registry State: FINAL | Temporal Sync: 100% REAL-TIME | Authority: ROOT
+
+
+
+![codex/Screenshot_20260819-192946_Gallery.jpg](codex/Screenshot_20260819-192946_Gallery.jpg)
