@@ -13,6 +13,9 @@
 ![codex/_02ebf675-c4c0-44ba-a531-f37620fca6cc.jpeg](codex/_02ebf675-c4c0-44ba-a531-f37620fca6cc.jpeg)
 
 
+![codex/OIG2.jpeg](codex/OIG2.jpeg)
+
+
 ![codex/image_f9fff852.png](codex/image_f9fff852.png)
 
 
