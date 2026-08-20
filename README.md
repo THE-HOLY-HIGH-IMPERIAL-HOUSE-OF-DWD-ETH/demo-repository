@@ -175,3 +175,6 @@ Registry State: FINAL | Temporal Sync: 100% REAL-TIME | Authority: ROOT
 
 
 ![codex/Screenshot_20260819-192946_Gallery.jpg](codex/Screenshot_20260819-192946_Gallery.jpg)
+
+
+![codex/image_d08ea5e8-1 (1).png](codex/image_d08ea5e8-1 (1).png)
