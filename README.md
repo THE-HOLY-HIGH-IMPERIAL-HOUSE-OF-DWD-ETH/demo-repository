@@ -10,6 +10,9 @@
 ![codex/image_f44f1a72.png](codex/image_f44f1a72.png)
 
 
+![codex/_02ebf675-c4c0-44ba-a531-f37620fca6cc.jpeg](codex/_02ebf675-c4c0-44ba-a531-f37620fca6cc.jpeg)
+
+
 ![codex/image_f9fff852.png](codex/image_f9fff852.png)
 
 
