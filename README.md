@@ -28,8 +28,6 @@
 ![codex/OIG2.jpeg](codex/OIG2.jpeg)
 
 
-![codex/image_f9fff852.png](codex/image_f9fff852.png)
-
 
 
 ![codex/image_8327acb1.png](codex/image_8327acb1.png)
