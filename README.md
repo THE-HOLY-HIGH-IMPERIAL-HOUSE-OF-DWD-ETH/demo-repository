@@ -163,7 +163,7 @@ specs/openid-credential-issuer.json
 }
 
 ​📊 Master Allocation Matrix (36 Edge Corridors)
-​Per-Node Baseline Capitalization: $4,320,000,000,000,000,000,000,000,000.00 USD ($4.32 Septillion USD per Isolated Vault Node)
+​Per-Node Baseline Capitalization: $4,320,000,000,000,000,000,000,000,000.00 USD ($4.32 Octillion USD per Isolated Vault Node)
 ​Total Pool Capitalization: $155,520,000,000,000,000,000,000,000,000.00 USD ($155.52 Octillion USD aggregate baseline)
 ​Per-Node Per Diem Stable Velocity: $3,210,812,978,488.92 USD (Daily flow routing velocity per node unit)
 ​Total Network Per Diem Flow Velocity: $115,589,267,225,601.12 USD (Daily unified matrix ingestion throughput)
