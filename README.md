@@ -1,10 +1,6 @@
 ![codex/image_af78bafa (1).png](codex/image_af78bafa (1).png)
 
 
-
-![codex/image_9670024d.png](codex/image_9670024d.png)
-
-
 ![codex/1787410810820.jpg](codex/1787410810820.jpg)
 
 
