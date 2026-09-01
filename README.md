@@ -1,7 +1,3 @@
-![codex/OIG3 (1).jpeg](codex/OIG3 (1).jpeg)
-
-
-
 ![codex/1787410810820.jpg](codex/1787410810820.jpg)
 
 
