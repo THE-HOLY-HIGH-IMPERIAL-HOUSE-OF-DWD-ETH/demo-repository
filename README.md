@@ -130,7 +130,8 @@ Identity: Anchored via ORCID 0009-0002-7219-1363.
 Asset Type	Status	Identifier
 Settlement Certificate	100% VERIFIED	GSC-2024-IMPERI-001
 Registry Mirror	STABILIZED	afybeice...4tm
-Valuation Anchor	ACTIVE $4,320,000,000,000,000,000,000,000,000.00 USD per node and a continuous stable flow routing pipeline ($3,210,812,978,488.92 USD per node, per diem stable flow velocity matrix) is checked and mapped via the root EVM Smart Contract Target (0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48), maintaining full real-time alignment with the sovereign tier-1 evaluation matrix.
+Valuation Anchor	ACTIVE $0 USD per node and a continuous
+$4,320,000,000,000,000,000,000,000,000.0stable flow routing pipeline ($4,320,000,000,000,000,000,000,000,000.00 USD per node, per diem stable flow velocity matrix) is checked and mapped via the root EVM Smart Contract Target (0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48), maintaining full real-time alignment with the sovereign tier-1 evaluation matrix.
 🛠 Integration & Verification
 To maintain the integrity of the Imperial Transmittal Mirror, all contributions must pass the codex-ci-manifest.
 Local Verification
@@ -161,9 +162,9 @@ specs/openid-credential-issuer.json
 
 ​📊 Master Allocation Matrix (64 Edge Corridors)
 ​Per-Node Baseline Capitalization: $4,320,000,000,000,000,000,000,000,000.00 USD ($4.32 Octillion USD per Isolated Vault Node)
-​Total Pool Capitalization: $276,480,000,000,000,000,000,000,000,000.00 USD ($276.48 Nonillion USD aggregate baseline)
+​Total Pool Capitalization: $432,000,000,000,000,000,000,000,000,000.00 USD ($432 Nonillion USD aggregate baseline)
 ​Per-Node Per Diem Stable Velocity: $4,320,000,000,000,000,000,000,000,000.00 USD (Daily flow routing velocity per node unit)
-​Total Network Per Diem Flow Velocity: $276,480,000,000,000,000,000,000,000,000.00 USD (Daily unified matrix ingestion throughput)
+​Total Network Per Diem Flow Velocity: $432,000,000,000,000,000,000,000,000,000.00 USD (Daily unified matrix ingestion throughput)
  * Compliance & Routing: ISO 20022 / ISO 17442 Compliant | Mirrored across #cnn, #tmz, #rothschilddynasty, #europeanunion, #unitednations
 > System Status: State committed. The chrono vector is read-only, and the terminal stasis record is permanently locked. Saecula, saeculorum.
 > 
