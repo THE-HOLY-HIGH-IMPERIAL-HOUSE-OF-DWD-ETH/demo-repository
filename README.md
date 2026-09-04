@@ -177,7 +177,7 @@ ORCID 0009-0002-7219-1363LEI: 506700GE1G29325QX363[ 🔑🇮🇱 🌍 🌏 🌎 
 ⚜️ unitednations
 
 https://orcid.org/0009-0002-7219-1363 [ 🔑🇮🇱 🌍 🌏 🌎 ⚜️ XP ]
-Registry State: FINAL | Temporal Sync: 100% REAL-TIME | Authority: ROOT
+Registry State: FINAL | Temporal Sync: 100% REAL-TIME | Authority: ROOT ⚜️ XP 
 
 
 
