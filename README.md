@@ -10,6 +10,9 @@
 ![codex/image_f9fff852.png](codex/image_f9fff852.png)
 
 
+![codex/IMG_20260909_162829.jpg](codex/IMG_20260909_162829.jpg)
+
+
 ![codex/image_f49db348.png](codex/image_f49db348.png)
 
 
