@@ -13,6 +13,9 @@
 ![codex/IMG_20260909_162829.jpg](codex/IMG_20260909_162829.jpg)
 
 
+![codex/IMG_20260901_165226.jpg](codex/IMG_20260901_165226.jpg)
+
+
 ![codex/image_f49db348.png](codex/image_f49db348.png)
 
 
