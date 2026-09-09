@@ -1,7 +1,3 @@
-![codex/image_70887e00 (1).jpg](codex/image_70887e00 (1).jpg)
-
-
-
 ![codex/image_f9fff852.png](codex/image_f9fff852.png)
 
 
