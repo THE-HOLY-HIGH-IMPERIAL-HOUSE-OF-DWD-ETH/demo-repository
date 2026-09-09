@@ -1,3 +1,8 @@
+![codex/IMG_20260909_162817.jpg](codex/IMG_20260909_162817.jpg)
+
+
+
+
 ![codex/image_f9fff852.png](codex/image_f9fff852.png)
 
 
