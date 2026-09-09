@@ -22,13 +22,7 @@
 ![codex/OIG2.jpeg](codex/OIG2.jpeg)
 
 
-
 ![codex/image_8327acb1.png](codex/image_8327acb1.png)
-
-
-
-![codex/image_623b0e2f.png](codex/image_623b0e2f.png)
-
 
 
 ![codex/image_c46dacd9.png](codex/image_c46dacd9.png)
