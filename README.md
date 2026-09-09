@@ -49,33 +49,6 @@
 ![codex/image_4f6f6f34.png](codex/image_4f6f6f34.png)
 
 
-![image_d1ed06d7.png)
-](codex/image_d1ed06d7.png)
-
-
-![1783697842898](codex/1783697842898.png)
-
-
-![image_ccab1744](codex/image_ccab1744.png)
-
-
-![1783683325099](codex/1783683325099.png)
-
-
-![1783394872275](codex/1783394872275.png)
-
-
-![1782973202881](codex/1782973202881.png)
-
-
-
-![1782961576200](codex/1782961576200.png)
-
-
-
-![1782958947205](codex/1782958947205.png)
-
-
 ![1782830309556](codex/1782830309556.png)
 
 
