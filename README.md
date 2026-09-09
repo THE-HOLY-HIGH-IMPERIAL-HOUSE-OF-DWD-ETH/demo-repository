@@ -93,8 +93,6 @@
 
 ![CROWN-TRUE CERTIFIED IMAGE](codex/Screenshot_20260621-234600_Google.jpg)
 
-![Screenshot_20260617-091311_Google](Screenshot_20260617-091311_Google.jpg)
-
 
 ⚜️ SOVERAIN-STRUCTURA : IMPERI-BERIT-SUITE-001 ⚜️ XP
 
