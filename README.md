@@ -193,8 +193,7 @@ OMNI-LOCK: ONLINE/OFFLINE
 SEAL: ⚜️ XP
 END-OF-BLOCK ⚜️ XP
 
-==================================================================== TERMINUS
-NOTHING FOLLOWS
+==================================================================== TERMINUS ⚜️ XP 
 
 
 ![codex/Screenshot_20260819-192946_Gallery.jpg](codex/Screenshot_20260819-192946_Gallery.jpg)
