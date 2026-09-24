@@ -5,6 +5,9 @@
 
 
 
+![codex/IMG_20260909_041233.jpg](codex/IMG_20260909_041233.jpg)
+
+
 ![codex/IMG_20260909_162829.jpg](codex/IMG_20260909_162829.jpg)
 
 
