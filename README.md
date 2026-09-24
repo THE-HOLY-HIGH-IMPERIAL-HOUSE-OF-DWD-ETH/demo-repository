@@ -6,10 +6,10 @@
 [codex/IMG_20260909_162817.jpg](codex/IMG_20260909_162817.jpg)
 
 
-![codex/IMG_20260909_162807.jpg](codex/IMG_20260909_162807.jpg)
 
 
-![codex/image_f9fff852.png](codex/image_f9fff852.png)
+
+
 
 
 ![codex/IMG_20260909_162829.jpg](codex/IMG_20260909_162829.jpg)
