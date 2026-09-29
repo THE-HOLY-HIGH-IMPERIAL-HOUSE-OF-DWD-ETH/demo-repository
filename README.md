@@ -1,3 +1,7 @@
+![codex/IMG_20260928_192007.jpg](codex/IMG_20260928_192007.jpg)
+
+
+
 ![codex/IMG_20260924_011957.jpg](codex/IMG_20260924_011957.jpg)
 
 
