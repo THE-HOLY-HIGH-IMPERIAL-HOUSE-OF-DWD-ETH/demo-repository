@@ -1,4 +1,4 @@
-![codex/IMG_20260928_192007.jpg](codex/IMG_20260928_192007.jpg)
+!codex/image_b0b790b2 (1).jpg)
 
 
 
