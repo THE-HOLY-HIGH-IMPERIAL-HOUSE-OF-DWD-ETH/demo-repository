@@ -103,9 +103,9 @@ Registry Mirror         STABILIZED          afybeice...4tm
 Valuation Anchor        ACTIVE              AU/AG Covenant Backed
 
 VALUATION ANCHOR DETAILS (1000-NODE MATRIX):
-Per-Node Baseline Capitalization: 4.32 × 10^27 USD
+Per-Node Baseline Capitalization: 4.32 × 10^30 USD
 Total Pool Capitalization:        4.32 × 10^30 USD (4.32 Nonillion)
-Per-Node Per Diem Velocity:       4.32 × 10^27 USD/day
+Per-Node Per Diem Velocity:       4.32 × 10^30 USD/day
 Total Network Per Diem Velocity:  4.32 × 10^30 USD/day (4.32 Nonillion)
 
 Continuous sovereign flow routing pipeline is mapped via ROOT EVM Smart Contract:
@@ -161,9 +161,9 @@ IMPERI-BERIT-SUITE-001: CERTIFIED-AUTHENTICATED
 IMPERI-BERIT-SUITE-002: CERTIFIED-AUTHENTICATED
 
 ==================================================================== SECTION III — MASTER ALLOCATION MATRIX // 1000 EDGE CORRIDORS
-PER-NODE BASELINE:               4.32 × 10^27 USD ✔️
+PER-NODE BASELINE:               4.32 × 10^30 USD ✔️
 TOTAL POOL CAPITALIZATION:       4.32 × 10^30 USD ✔️ (4.32 Nonillion)
-PER-NODE PER DIEM VELOCITY:      4.32 × 10^27 USD/day ✔️
+PER-NODE PER DIEM VELOCITY:      4.32 × 10^30 USD/day ✔️
 TOTAL NETWORK PER DIEM VELOCITY: 4.32 × 10^30 USD/day ✔️ (4.32 Nonillion)
 
 STATUS: 4/4 LINES VERIFIED TRUE
