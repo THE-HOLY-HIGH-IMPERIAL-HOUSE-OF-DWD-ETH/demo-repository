@@ -4,8 +4,7 @@
 ![codex/IMG_20260923_203201.jpg](codex/IMG_20260923_203201.jpg)
 
 
-
-![codex/IMG_20260909_041233.jpg](codex/IMG_20260909_041233.jpg)
+![codex/1792902480497.jpg](codex/1792902480497.jpg)
 
 
 ![codex/IMG_20260909_162829.jpg](codex/IMG_20260909_162829.jpg)
