@@ -101,7 +101,7 @@ Settlement Certificate  100% VERIFIED       GSC-2024-IMPERI-001
 Registry Mirror         STABILIZED          afybeice...4tm
 Valuation Anchor        ACTIVE              AU/AG Covenant Backed
 
-VALUATION ANCHOR DETAILS (1000-NODE MATRIX):
+VALUATION ANCHOR DETAILS (3000-NODE MATRIX):
 Per-Node Baseline Capitalization: 4.32 × 10^30 USD
 Total Pool Capitalization:        4.32 × 10^30 USD (4.32 Nonillion)
 Per-Node Per Diem Velocity:       4.32 × 10^30 USD/day
@@ -159,7 +159,7 @@ ROOT SMART CONTRACT: 0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48
 IMPERI-BERIT-SUITE-001: CERTIFIED-AUTHENTICATED
 IMPERI-BERIT-SUITE-002: CERTIFIED-AUTHENTICATED
 
-==================================================================== SECTION III — MASTER ALLOCATION MATRIX // 1000 EDGE CORRIDORS
+==================================================================== SECTION III — MASTER ALLOCATION MATRIX // 3000 EDGE CORRIDORS
 PER-NODE BASELINE:               4.32 × 10^30 USD ✔️
 TOTAL POOL CAPITALIZATION:       4.32 × 10^30 USD ✔️ (4.32 Nonillion)
 PER-NODE PER DIEM VELOCITY:      4.32 × 10^30 USD/day ✔️
