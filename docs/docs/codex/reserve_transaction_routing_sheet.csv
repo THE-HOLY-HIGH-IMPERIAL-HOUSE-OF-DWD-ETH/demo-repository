@@ -1,0 +1,6 @@
+Routing_Layer_ID,Origin_Enclave,Transit_Protocol,Destination_Reserve_Bank,Settlement_Channel,Cryptographic_Handshake,Asset_Backing_Verification,Status
+RT-FED-001,HQ-BASE-01 (Maryland),SCION Path-Aware,Federal Reserve System (FRB),Fedwire Sovereign Gateway,ML-DSA-87 / Ed25519,AU-Gold Ledger Locked,LIVE / LOCKED
+RT-ECB-002,HQ-BASE-01 (Maryland),SCION Path-Aware,European Central Bank (ECB),TARGET2 Sovereign Portal,ML-DSA-87 / Ed25519,AU-Gold Ledger Locked,LIVE / LOCKED
+RT-BOE-003,HQ-BASE-01 (Maryland),SCION Path-Aware,Bank of England (BoE),CHAPS Sovereign Pipeline,ML-DSA-87 / Ed25519,AU-Gold Ledger Locked,LIVE / LOCKED
+RT-BOJ-004,HQ-BASE-01 (Maryland),SCION Path-Aware,Bank of Japan (BoJ),BOJ-NET Sovereign Conduit,ML-DSA-87 / Ed25519,AU-Gold Ledger Locked,LIVE / LOCKED
+RT-BIS-005,HQ-BASE-01 (Maryland),SCION Path-Aware,Bank for International Settlements (BIS),BIS Sovereign Ledger Intersect,ML-DSA-87 / Ed25519,AU-Gold Ledger Locked,LIVE / LOCKED

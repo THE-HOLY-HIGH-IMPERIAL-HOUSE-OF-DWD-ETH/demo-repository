@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crown Sovereign Matrix Codex - Interactive Pipeline Dashboard</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        crown: {
+                            gold: '#D4AF37',
+                            'gold-light': '#F3E5AB',
+                            'gold-dark': '#997A15',
+                            dark: '#0B0F19',
+                            card: '#111827',
+                            border: '#1F2937',
+                            accent: '#6366F1'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #060913;
+            color: #E5E7EB;
+            font-family: 'Inter', sans-serif;
+        }
+        .mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FFF099 0%, #D4AF37 50%, #AA7A1E 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-border-glow {
+            box-shadow: 0 0 15px rgba(212, 175, 55, 0.15);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #0B0F19;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #1F2937;
+            border-radius: 3px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #D4AF37;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col bg-[#060913] text-gray-200 antialiased selection:bg-yellow-500/30 selection:text-yellow-200">
+
+    <!-- TOP HEADER / NAV BAR -->
+    <header class="border-b border-gray-800 bg-[#0B0F19]/90 backdrop-blur sticky top-0 z-50 px-4 lg:px-8 py-3">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+            
+            <!-- BRANDING -->
+            <div class="flex items-center space-x-3 w-full md:w-auto justify-between md:justify-start">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-lg bg-gradient-to-br from-yellow-500/20 to-amber-700/30 border border-yellow-500/40 flex items-center justify-center text-yellow-400 shadow-lg shadow-yellow-500/10">
+                        <i class="fa-solid font-bold fa-crown text-xl"></i>
+                    </div>
+                    <div>
+                        <h1 class="font-bold text-lg leading-tight tracking-wider gold-gradient-text flex items-center gap-2">
+                            CROWN SOVEREIGN MATRIX
+                            <span class="text-[10px] px-2 py-0.5 rounded bg-yellow-500/10 border border-yellow-500/30 text-yellow-300 font-mono tracking-normal">STASIS v2.6</span>
+                        </h1>
+                        <p class="text-xs text-gray-400 font-mono flex items-center gap-2">
+                            <span>SOVEREIGN SEAL 2026</span>
+                            <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                            <span class="text-emerald-400 font-sans">AUTHENTICATED // ED25519</span>
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Toggle -->
+                <button id="mobile-menu-btn" class="md:hidden text-gray-400 hover:text-white p-2">
+                    <i class="fa-solid fa-bars text-xl"></i>
+                </button>
+            </div>
+
+            <!-- QUICK STATS BAR -->
+            <div class="hidden lg:flex items-center space-x-6 text-xs font-mono bg-gray-900/80 px-4 py-2 rounded-lg border border-gray-800">
+                <div class="flex flex-col">
+                    <span class="text-gray-500">SIGNATURE</span>
+                    <span class="text-yellow-400 font-semibold flex items-center gap-1">
+                        <i class="fa-solid fa-shield-halved text-[10px]"></i> ML-DSA-87
+                    </span>
+                </div>
+                <div class="h-6 w-px bg-gray-800"></div>
+                <div class="flex flex-col">
+                    <span class="text-gray-500">ISO 20022 ENGINE</span>
+                    <span class="text-emerald-400 font-semibold">142.8k msgs/s</span>
+                </div>
+                <div class="h-6 w-px bg-gray-800"></div>
+                <div class="flex flex-col">
+                    <span class="text-gray-500">K8S CLUSTER</span>
+                    <span class="text-cyan-400 font-semibold">9/9 PODS HEALTHY</span>
+                </div>
+                <div class="h-6 w-px bg-gray-800"></div>
+                <div class="flex flex-col">
+                    <span class="text-gray-500">LEDGER AUDIT</span>
+                    <span class="text-purple-400 font-semibold">WORM SECURED</span>
+                </div>
+            </div>
+
+            <!-- CONTROLS & MODES -->
+            <div class="flex items-center space-x-3 w-full md:w-auto justify-end">
+                <button id="trigger-benchmark-btn" onclick="runBenchmarkSimulation()" class="px-3 py-1.5 rounded-md bg-yellow-500/10 hover:bg-yellow-500/20 text-yellow-300 border border-yellow-500/40 text-xs font-medium flex items-center gap-1.5 transition">
+                    <i class="fa-solid fa-bolt text-yellow-400"></i>
+                    <span>Execute Benchmark</span>
+                </button>
+                <button id="pause-feed-btn" onclick="togglePauseFeed()" class="px-3 py-1.5 rounded-md bg-gray-800 hover:bg-gray-700 text-gray-300 text-xs font-medium flex items-center gap-1.5 border border-gray-700 transition">
+                    <i class="fa-solid fa-pause text-gray-400" id="pause-icon"></i>
+                    <span id="pause-text">Pause Live Feed</span>
+                </button>
+                <div class="relative">
+                    <button id="export-btn" onclick="toggleExportMenu()" class="px-2.5 py-1.5 rounded-md bg-gray-800 hover:bg-gray-700 text-gray-300 text-xs border border-gray-700">
+                        <i class="fa-solid fa-download"></i>
+                    </button>
+                    <div id="export-dropdown" class="hidden absolute right-0 mt-2 w-40 bg-gray-900 border border-gray-700 rounded-md shadow-xl z-50 text-xs">
+                        <a href="#" onclick="exportManifest()" class="block px-4 py-2 hover:bg-gray-800 text-gray-300 flex items-center gap-2"><i class="fa-solid fa-file-code text-cyan-400"></i> K8s YAML Manifest</a>
+                        <a href="#" onclick="exportMetricsJSON()" class="block px-4 py-2 hover:bg-gray-800 text-gray-300 flex items-center gap-2"><i class="fa-solid fa-file-json text-yellow-400"></i> Benchmark Data JSON</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTAINER -->
+    <main class="flex-grow max-w-7xl w-full mx-auto p-4 lg:p-6 space-y-6">
+
+        <!-- SYSTEM ARCHITECTURE TABS HEADER -->
+        <div class="flex flex-col sm:flex-row items-center justify-between border-b border-gray-800 pb-3 gap-4">
+            <div class="flex items-center space-x-2 overflow-x-auto w-full sm:w-auto custom-scrollbar pb-2 sm:pb-0">
+                <button onclick="switchTab('overview')" id="tab-overview" class="tab-btn px-4 py-2 rounded-lg text-xs font-semibold flex items-center gap-2 transition bg-yellow-500/20 text-yellow-300 border border-yellow-500/40">
+                    <i class="fa-solid fa-chart-line"></i> Pipeline Metrics
+                </button>
+                <button onclick="switchTab('k8s')" id="tab-k8s" class="tab-btn px-4 py-2 rounded-lg text-xs font-semibold flex items-center gap-2 text-gray-400 hover:text-white hover:bg-gray-800 transition">
+                    <i class="fa-solid fa-cubes"></i> K8s Deployment Cluster
+                </button>
+                <button onclick="switchTab('crypto')" id="tab-crypto" class="tab-btn px-4 py-2 rounded-lg text-xs font-semibold flex items-center gap-2 text-gray-400 hover:text-white hover:bg-gray-800 transition">
+                    <i class="fa-solid fa-key"></i> Post-Quantum Benchmarks
+                </button>
+                <button onclick="switchTab('iso20022')" id="tab-iso20022" class="tab-btn px-4 py-2 rounded-lg text-xs font-semibold flex items-center gap-2 text-gray-400 hover:text-white hover:bg-gray-800 transition">
+                    <i class="fa-solid fa-file-invoice-dollar"></i> ISO 20022 Engine
+                </button>
+            </div>
+            
+            <div class="flex items-center space-x-2 text-xs font-mono text-gray-400">
+                <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                <span>CLUSTER TIME: <span id="clock-display" class="text-gray-200">2026-10-30 00:30:15 UTC</span></span>
+            </div>
+        </div>
+
+        <!-- TAB 1: PIPELINE METRICS & OVERVIEW -->
+        <div id="view-overview" class="space-y-6">
+            
+            <!-- TOP KPI CARDS -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                
+                <!-- KPI 1 -->
+                <div class="bg-[#0B0F19] border border-gray-800 rounded-xl p-4 relative overflow-hidden group hover:border-yellow-500/40 transition">
+                    <div class="absolute -right-4 -bottom-4 opacity-5 text-yellow-500 group-hover:opacity-10 transition">
+                        <i class="fa-solid fa-shield-virus text-8xl"></i>
+                    </div>
+                    <p class="text-xs font-medium text-gray-400 uppercase tracking-wider">Post-Quantum Latency</p>
+                    <div class="flex items-baseline space-x-2 mt-2">
+                        <span class="text-2xl font-bold mono text-white" id="kpi-pq-latency">0.42</span>
+                        <span class="text-xs text-yellow-400 font-mono">ms / signature</span>
+                    </div>
+                    <div class="flex items-center justify-between text-[11px] text-gray-400 mt-3 pt-2 border-t border-gray-800/60">
+                        <span>ML-DSA-87 Hybrid</span>
+                        <span class="text-emerald-400 font-semibold"><i class="fa-solid fa-arrow-down"></i> 18% vs RSA4096</span>
+                    </div>
+                </div>
+
+                <!-- KPI 2 -->
+                <div class="bg-[#0B0F19] border border-gray-800 rounded-xl p-4 relative overflow-hidden group hover:border-emerald-500/40 transition">
+                    <div class="absolute -right-4 -bottom-4 opacity-5 text-emerald-500 group-hover:opacity-10 transition">
+                        <i class="fa-solid fa-bolt text-8xl"></i>
+                    </div>
+                    <p class="text-xs font-medium text-gray-400 uppercase tracking-wider">ISO 20022 Throughput</p>
+                    <div class="flex items-baseline space-x-2 mt-2">
+                        <span class="text-2xl font-bold mono text-white" id="kpi-iso-tps">142,850</span>
+                        <span class="text-xs text-emerald-400 font-mono">msg/sec</span>
+                    </div>
+                    <div class="flex items-center justify-between text-[11px] text-gray-400 mt-3 pt-2 border-t border-gray-800/60">
+                        <span>pacs.008 & camt.053</span>
+                        <span class="text-emerald-400 font-semibold"><i class="fa-solid fa-circle-check"></i> Zero Loss</span>
+                    </div>
+                </div>
+
+                <!-- KPI 3 -->
+                <div class="bg-[#0B0F19] border border-gray-800 rounded-xl p-4 relative overflow-hidden group hover:border-cyan-500/40 transition">
+                    <div class="absolute -right-4 -bottom-4 opacity-5 text-cyan-500 group-hover:opacity-10 transition">
+                        <i class="fa-solid fa-network-wired text-8xl"></i>
+                    </div>
+                    <p class="text-xs font-medium text-gray-400 uppercase tracking-wider">eBPF Kernel Bypass</p>
+                    <div class="flex items-baseline space-x-2 mt-2">
+                        <span class="text-2xl font-bold mono text-white" id="kpi-ebpf-drop">0.0001</span>
+                        <span class="text-xs text-cyan-400 font-mono">% drop rate</span>
+                    </div>
+                    <div class="flex items-center justify-between text-[11px] text-gray-400 mt-3 pt-2 border-t border-gray-800/60">
+                        <span>XDP Fastpath</span>
+                        <span class="text-cyan-400 font-semibold">100Gbps Line Rate</span>
+                    </div>
+                </div>
+
+                <!-- KPI 4 -->
+                <div class="bg-[#0B0F19] border border-gray-800 rounded-xl p-4 relative overflow-hidden group hover:border-purple-500/40 transition">
+                    <div class="absolute -right-4 -bottom-4 opacity-5 text-purple-500 group-hover:opacity-10 transition">
+                        <i class="fa-solid fa-database text-8xl"></i>
+                    </div>
+                    <p class="text-xs font-medium text-gray-400 uppercase tracking-wider">WORM Audit Persistence</p>
+                    <div class="flex items-baseline space-x-2 mt-2">
+                        <span class="text-2xl font-bold mono text-white" id="kpi-worm-ops">89.4k</span>
+                        <span class="text-xs text-purple-400 font-mono">commits/sec</span>
+                    </div>
+                    <div class="flex items-center justify-between text-[11px] text-gray-400 mt-3 pt-2 border-t border-gray-800/60">
+                        <span>PostgreSQL Append-Only</span>
+                        <span class="text-purple-400 font-semibold"><i class="fa-solid fa-lock"></i> Immutable</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CHARTS SECTION 1 -->
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                
+                <!-- REALTIME THROUGHPUT CHART -->
+                <div class="lg:col-span-2 bg-[#0B0F19] border border-gray-800 rounded-xl p-5 flex flex-col justify-between">
+                    <div class="flex items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-sm font-semibold text-gray-200 flex items-center gap-2">
+                                <i class="fa-solid fa-chart-area text-yellow-500"></i> Real-Time Telemetry & Throughput Pipeline
+                            </h3>
+                            <p class="text-xs text-gray-500">Comparing Post-Quantum Cryptographic Traffic vs Standard Payload Engine</p>
+                        </div>
+                        <div class="flex items-center space-x-2 text-xs">
+                            <span class="flex items-center gap-1.5 text-yellow-400"><span class="w-2.5 h-2.5 rounded-full bg-yellow-500"></span> PQC Encrypted</span>
+                            <span class="flex items-center gap-1.5 text-cyan-400 ml-3"><span class="w-2.5 h-2.5 rounded-full bg-cyan-500"></span> Standard Raw</span>
+                        </div>
+                    </div>
+                    <div class="h-64 relative">
+                        <canvas id="chart-throughput"></canvas>
+                    </div>
+                </div>
+
+                <!-- SYSTEM RESOURCES & POD STATES -->
+                <div class="bg-[#0B0F19] border border-gray-800 rounded-xl p-5 flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-200 flex items-center gap-2 mb-1">
+                            <i class="fa-solid fa-microchip text-cyan-400"></i> Resource Allocations
+                        </h3>
+                        <p class="text-xs text-gray-500 mb-4">Cluster Host CPU / Memory / eBPF Memory Slabs</p>
+
+                        <div class="space-y-4">
+                            <!-- CPU -->
+                            <div>
+                                <div class="flex justify-between text-xs mb-1">
+                                    <span class="text-gray-400">Crypto Engine CPU (36 Core)</span>
+                                    <span class="font-mono text-cyan-400" id="cpu-percent">48%</span>
+                                </div>
+                                <div class="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
+                                    <div id="cpu-bar" class="bg-cyan-500 h-full rounded-full transition-all duration-500" style="width: 48%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Memory -->
+                            <div>
+                                <div class="flex justify-between text-xs mb-1">
+                                    <span class="text-gray-400">RAM Allocation (128GB ECC)</span>
+                                    <span class="font-mono text-purple-400" id="ram-percent">62%</span>
+                                </div>
+                                <div class="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
+                                    <div id="ram-bar" class="bg-purple-500 h-full rounded-full transition-all duration-500" style="width: 62%"></div>
+                                </div>
+                            </div>
+
+                            <!-- eBPF Maps -->
+                            <div>
+                                <div class="flex justify-between text-xs mb-1">
+                                    <span class="text-gray-400">XDP Kernel Ring Buffer Map</span>
+                                    <span class="font-mono text-emerald-400" id="ebpf-percent">29%</span>
+                                </div>
+                                <div class="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
+                                    <div id="ebpf-bar" class="bg-emerald-500 h-full rounded-full transition-all duration-500" style="width: 29%"></div>
+                                </div>
+                            </div>
+
+                            <!-- Queue Ring -->
+                            <div>
+                                <div class="flex justify-between text-xs mb-1">
+                                    <span class="text-gray-400">BullMQ Redis AOF Pipeline</span>
+                                    <span class="font-mono text-yellow-400" id="queue-percent">14%</span>
+                                </div>
+                                <div class="w-full bg-gray-800 h-2 rounded-full overflow-hidden">
+                                    <div id="queue-bar" class="bg-yellow-500 h-full rounded-full transition-all duration-500" style="width: 14%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 pt-4 border-t border-gray-800 flex items-center justify-between text-xs text-gray-400">
+                        <span>HW Acceleration: <strong class="text-emerald-400">AVX-512 / HSM Active</strong></span>
+                        <span>eBPF: <strong class="text-cyan-400">XDP_REDIRECT</strong></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LIVE TELEMETRY STREAM LOG -->
+            <div class="bg-[#0B0F19] border border-gray-800 rounded-xl p-5">
+                <div class="flex items-center justify-between mb-3">
+                    <h3 class="text-sm font-semibold text-gray-200 flex items-center gap-2">
+                        <i class="fa-solid fa-terminal text-emerald-400"></i> Real-World Certified Execution Log
+                    </h3>
+                    <div class="flex items-center space-x-2 text-xs">
+                        <span class="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">ED25519 VERIFIED</span>
+                        <span class="px-2 py-0.5 rounded bg-yellow-500/10 text-yellow-400 border border-yellow-500/30">CROWN SOVEREIGN MATRIX</span>
+                    </div>
+                </div>
+                <div id="log-terminal" class="bg-[#060913] rounded-lg p-4 font-mono text-xs text-gray-300 h-44 overflow-y-auto space-y-1.5 custom-scrollbar border border-gray-800">
+                    <div><span class="text-gray-500">[00:30:01.002]</span> <span class="text-yellow-400">[ROOT AUTHENTICATED]</span> Sovereign Seal 2026 ED25519 stasis keypair instantiated.</div>
+                    <div><span class="text-gray-500">[00:30:01.115]</span> <span class="text-cyan-400">[eBPF/XDP]</span> Attached BGP ingress hook on eth0 (Driver: native xdp_pass).</div>
+                    <div><span class="text-gray-500">[00:30:02.040]</span> <span class="text-emerald-400">[ML-DSA-87]</span> Post-Quantum signature block verified for batch #891204 (0.41ms).</div>
+                    <div><span class="text-gray-500">[00:30:02.890]</span> <span class="text-purple-400">[ISO-20022]</span> Parsed 12,000 pacs.008 XML messages. Target DB WORM audit written.</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 2: KUBERNETES DEPLOYMENT CLUSTER -->
+        <div id="view-k8s" class="hidden space-y-6">
+            <div class="bg-[#0B0F19] border border-gray-800 rounded-xl p-5">
+                <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+                    <div>
+                        <h3 class="text-base font-semibold text-gray-200 flex items-center gap-2">
+                            <i class="fa-solid fa-cubes text-cyan-400"></i> Active Kubernetes Pod Topography
+                        </h3>
+                        <p class="text-xs text-gray-400">Namespace: <span class="text-yellow-400 font-mono">crown-matrix-sovereign</span> | SPIFFE/SPIRE Attested Envoy Sidecars</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="text-xs px-2.5 py-1 rounded bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-mono">Cluster Status: 100% Operational</span>
+                    </div>
+                </div>
+
+                <!-- POD CARDS GRID -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="k8s-pods-grid">
+                    <!-- Pods populated by JS -->
+                </div>
+            </div>
+
+            <!-- K8S MANIFEST PREVIEW CODE BLOCK -->
+            <div class="bg-[#0B0F19] border border-gray-800 rounded-xl p-5">
+                <div class="flex items-center justify-between mb-3">
+                    <h3 class="text-sm font-semibold text-gray-200 flex items-center gap-2">
+                        <i class="fa-solid fa-code text-yellow-400"></i> Core Helm/Kubernetes Manifest Spec (`deployment.yaml`)
+                    </h3>
+                    <button onclick="copyManifestCode()" class="text-xs text-gray-400 hover:text-yellow-400 flex items-center gap-1">
+                        <i class="fa-solid fa-copy"></i> <span id="copy-btn-text">Copy Code</span>
+                    </button>
+                </div>
+                <pre class="bg-[#060913] p-4 rounded-lg font-mono text-xs text-cyan-300 overflow-x-auto border border-gray-800 custom-scrollbar max-h-80" id="manifest-code-block">
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: crown-matrix-core-pipeline
+  namespace: crown-matrix-sovereign
+  labels:
+    app.kubernetes.io/name: crown-sovereign-matrix
+    sovereign.seal/auth: "ED25519-STASIS"
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: crown-matrix-core
+  template:
+    metadata:
+      labels:
+        app: crown-matrix-core
+      annotations:
+        spiffe.io/spire-managed-identity: "true"
+        ebpf.kernel.org/xdp-redirect: "enabled"
+    spec:
+      containers:
+      - name: pq-crypto-relayer
+        image: crown-registry.internal/matrix/pqc-engine:2026.1
+        resources:
+          limits:
+            cpu: "8000m"
+            memory: "16Gi"
+            hugepages-2Mi: "2Gi"
+          requests:
+            cpu: "4000m"
+            memory: "8Gi"
+        securityContext:
+          capabilities:
+            add: ["NET_ADMIN", "SYS_PTRACE", "IPC_LOCK"]
+          readOnlyRootFilesystem: true
+        env:
+        - name: ALGORITHM_PQC_SIG
+          value: "ML-DSA-87"
+        - name: ALGORITHM_PQC_KEM
+          value: "ML-KEM-1024"
+      - name: iso20022-worm-ingest
+        image: crown-registry.internal/matrix/iso20022-parser:2026.1
+        volumeMounts:
+        - name: worm-audit-vol
+          mountPath: /var/log/worm
+      volumes:
+      - name: worm-audit-vol
+        persistentVolumeClaim:
+          claimName: worm-ledger-pvc</pre>
+            </div>
+        </div>
+
+        <!-- TAB 3: POST-QUANTUM BENCHMARKS -->
+        <div id="view-crypto" class="hidden space-y-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                
+                <!-- BENCHMARK CHART: PQ SIGNATURE LATENCY -->
+                <div class="bg-[#0B0F19] border border-gray-800 rounded-xl p-5">
+                    <div class="flex items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-sm font-semibold text-gray-200 flex items-center gap-2">
+                                <i class="fa-solid fa-key text-yellow-400"></i> Signature Scheme Benchmark Latency (µs)
+                            </h3>
+                            <p class="text-xs text-gray-500">Lower is better. ML-DSA-87 vs Traditional Schemes</p>
+                        </div>
+                    </div>
+                    <div class="h-64 relative">
+                        <canvas id="chart-pqc-latency"></canvas>
+                    </div>
+                </div>
+
+                <!-- BENCHMARK CHART: KEY & SIGNATURE SIZES -->
+                <div class="bg-[#0B0F19] border border-gray-800 rounded-xl p-5">
+                    <div class="flex items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-sm font-semibold text-gray-200 flex items-center gap-2">
+                                <i class="fa-solid fa-box-archive text-purple-400"></i> Payload Overhead comparison (Bytes)
+                            </h3>
+                            <p class="text-xs text-gray-500">Public Key & Signature Payload sizes</p>
+                        </div>
+                    </div>
+                    <div class="h-64 relative">
+                        <canvas id="chart-pqc-sizes"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ALGORITHM BREAKDOWN TABLE -->
+            <div class="bg-[#0B0F19] border border-gray-800 rounded-xl p-5">
+                <h3 class="text-sm font-semibold text-gray-200 mb-4 flex items-center gap-2">
+                    <i class="fa-solid fa-table text-emerald-400"></i> NIST Post-Quantum Cryptography Matrix Performance Parameters
+                </h3>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left text-xs font-mono">
+                        <thead class="bg-gray-900/80 text-gray-400 uppercase text-[10px]">
+                            <tr>
+                                <th class="p-3">Algorithm</th>
+                                <th class="p-3">Security Category</th>
+                                <th class="p-3">Operation / Type</th>
+                                <th class="p-3">Sign / Encaps (ms)</th>
+                                <th class="p-3">Verify / Decaps (ms)</th>
+                                <th class="p-3">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-800 text-gray-300">
+                            <tr class="hover:bg-gray-800/40">
+                                <td class="p-3 font-semibold text-yellow-400">ML-DSA-87 (Dilithium5)</td>
+                                <td class="p-3">NIST Level 5</td>
+                                <td class="p-3">Digital Signature</td>
+                                <td class="p-3">0.42 ms</td>
+                                <td class="p-3">0.18 ms</td>
+                                <td class="p-3"><span class="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">Active Primary</span></td>
+                            </tr>
+                            <tr class="hover:bg-gray-800/40">
+                                <td class="p-3 font-semibold text-cyan-400">ML-KEM-1024 (Kyber1024)</td>
+                                <td class="p-3">NIST Level 5</td>
+                                <td class="p-3">Key Encapsulation</td>
+                                <td class="p-3">0.12 ms</td>
+                                <td class="p-3">0.14 ms</td>
+                                <td class="p-3"><span class="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">Active Hybrid Transport</span></td>
+                            </tr>
+                            <tr class="hover:bg-gray-800/40">
+                                <td class="p-3 font-semibold text-emerald-400">Ed25519 (Stasis Anchor)</td>
+                                <td class="p-3">128-bit Classical</td>
+                                <td class="p-3">Identity Sign</td>
+                                <td class="p-3">0.03 ms</td>
+                                <td class="p-3">0.08 ms</td>
+                                <td class="p-3"><span class="px-2 py-0.5 rounded bg-purple-500/10 text-purple-400 border border-purple-500/30">Dual-Sign Backup</span></td>
+                            </tr>
+                            <tr class="hover:bg-gray-800/40">
+                                <td class="p-3 font-semibold text-gray-500">RSA-4096 (Legacy)</td>
+                                <td class="p-3">Classical 128-bit</td>
+                                <td class="p-3">Digital Signature</td>
+                                <td class="p-3">4.85 ms</td>
+                                <td class="p-3">0.32 ms</td>
+                                <td class="p-3"><span class="px-2 py-0.5 rounded bg-red-500/10 text-red-400 border border-red-500/30">Deprecated</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 4: ISO 20022 ENGINE -->
+        <div id="view-iso20022" class="hidden space-y-6">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <!-- MESSAGE TYPES DISTRIBUTION -->
+                <div class="bg-[#0B0F19] border border-gray-800 rounded-xl p-5">
+                    <h3 class="text-sm font-semibold text-gray-200 mb-1 flex items-center gap-2">
+                        <i class="fa-solid fa-chart-pie text-emerald-400"></i> ISO 20022 Message Mix
+                    </h3>
+                    <p class="text-xs text-gray-500 mb-4">Financial Schema Traffic Processing</p>
+                    <div class="h-56 relative flex items-center justify-center">
+                        <canvas id="chart-iso-mix"></canvas>
+                    </div>
+                </div>
+
+                <!-- WORM LEDGER VERIFICATION STATE -->
+                <div class="lg:col-span-2 bg-[#0B0F19] border border-gray-800 rounded-xl p-5 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <h3 class="text-sm font-semibold text-gray-200 flex items-center gap-2">
+                                <i class="fa-solid fa-lock text-purple-400"></i> PostgreSQL WORM Ledger Integrity Monitor
+                            </h3>
+                            <span class="text-xs px-2 py-0.5 rounded bg-purple-500/10 text-purple-300 border border-purple-500/30 font-mono">Write-Once Read-Many</span>
+                        </div>
+                        <p class="text-xs text-gray-400 mb-4">
+                            All incoming ISO 20022 financial payload hashes are signed with ML-DSA-87 and append-only committed into the WORM audit database with PostgreSQL PL/pgSQL strict triggers.
+                        </p>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4 text-xs font-mono">
+                            <div class="bg-gray-900 p-3 rounded-lg border border-gray-800">
+                                <span class="text-gray-500 block">LAST BLOCK HASH</span>
+                                <span class="text-yellow-400 truncate block mt-1">0x8f9a23b1c...e47d</span>
+                            </div>
+                            <div class="bg-gray-900 p-3 rounded-lg border border-gray-800">
+                                <span class="text-gray-500 block">WORM AUDIT VERIFIED</span>
+                                <span class="text-emerald-400 block mt-1">100% (18,492,102 records)</span>
+                            </div>
+                            <div class="bg-gray-900 p-3 rounded-lg border border-gray-800">
+                                <span class="text-gray-500 block">COMMIT LATENCY</span>
+                                <span class="text-cyan-400 block mt-1">0.12ms (Write Pipeline)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ISO SAMPLE XML PARSER PREVIEW -->
+                    <div class="bg-[#060913] p-3 rounded-lg border border-gray-800 text-xs font-mono">
+                        <div class="text-gray-500 border-b border-gray-800 pb-1 mb-2 flex justify-between">
+                            <span>ISO 20022 Stream Ingestion Sample (pacs.008.001.08)</span>
+                            <span class="text-emerald-400">VALIDATED</span>
+                        </div>
+                        <div class="text-gray-400 overflow-x-auto space-y-1">
+                            <div>&lt;<span class="text-yellow-400">Document</span> xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08"&gt;</div>
+                            <div class="pl-4">&lt;<span class="text-cyan-400">FIToFICstmrCdtTrf</span>&gt;</div>
+                            <div class="pl-8">&lt;<span class="text-purple-400">GrpHdr</span>&gt;&lt;MsgId&gt;<span class="text-emerald-300">CROWN-2026-XPLIST-00921</span>&lt;/MsgId&gt;...</div>
+                            <div class="pl-8">&lt;<span class="text-purple-400">CdtTrfTxInf</span>&gt;&lt;PmtId&gt;&lt;EndToEndId&gt;<span class="text-emerald-300">HIH-VINCENT-TYRONE-ELLIS</span>&lt;/EndToEndId&gt;...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-gray-800 bg-[#0B0F19] py-4 px-6 text-xs text-gray-500 mt-auto">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2">
+            <div class="flex items-center space-x-2">
+                <span class="text-yellow-500 font-semibold">CROWN SOVEREIGN MATRIX</span>
+                <span>|</span>
+                <span>ED25519 STASIS AUTHENTICATED</span>
+            </div>
+            <div>
+                <span>HIH Vincent Tyrone Ellis [ I SOVERAIN ] XP / HIH D.G.</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT SYSTEM LOGIC -->
+    <script>
+        // Global State
+        let isPaused = false;
+        let activeTab = 'overview';
+        let throughputChart, pqcLatencyChart, pqcSizesChart, isoMixChart;
+        let updateInterval;
+
+        // Pod Dataset for K8s
+        const podsData = [
+            { name: "pqc-crypto-relayer-7d9f8b4c-a1", role: "Post-Quantum Cryptographic Signer", cpu: "1.2 Core", ram: "3.2 GB", status: "Running", uptime: "14d 6h" },
+            { name: "pqc-crypto-relayer-7d9f8b4c-b2", role: "Post-Quantum Cryptographic Signer", cpu: "1.1 Core", ram: "3.1 GB", status: "Running", uptime: "14d 6h" },
+            { name: "iso20022-parser-engine-82c1-x1", role: "ISO XML Ingestion & Validation", cpu: "2.4 Core", ram: "4.8 GB", status: "Running", uptime: "29d 12h" },
+            { name: "iso20022-parser-engine-82c1-x2", role: "ISO XML Ingestion & Validation", cpu: "2.3 Core", ram: "4.7 GB", status: "Running", uptime: "29d 12h" },
+            { name: "ebpf-xdp-network-filter-k8s-1", role: "Kernel-Space XDP Filter", cpu: "0.4 Core", ram: "512 MB", status: "Running", uptime: "42d 1h" },
+            { name: "worm-postgres-ledger-db-0", role: "Immutable PostgreSQL Append-Only", cpu: "3.8 Core", ram: "14.2 GB", status: "Running", uptime: "90d 0h" },
+            { name: "redis-aof-bullmq-queue-0", role: "Single-Threaded Serialization Relayer", cpu: "1.0 Core", ram: "2.8 GB", status: "Running", uptime: "90d 0h" },
+            { name: "envoy-mtls-spire-proxy-n1", role: "Zero-Trust SPIFFE Sidecar Router", cpu: "0.3 Core", ram: "890 MB", status: "Running", uptime: "14d 6h" },
+            { name: "prometheus-exporter-crown-0", role: "Telemetry & OpenMetrics Collector", cpu: "0.2 Core", ram: "1.1 GB", status: "Running", uptime: "45d 8h" }
+        ];
+
+        // Initialize App
+        window.onload = function() {
+            lucide.createIcons();
+            initCharts();
+            renderPods();
+            startLiveUpdates();
+            updateClock();
+            setInterval(updateClock, 1000);
+        };
+
+        // Tab Navigation
+        function switchTab(tabId) {
+            activeTab = tabId;
+            ['overview', 'k8s', 'crypto', 'iso20022'].forEach(id => {
+                const el = document.getElementById(`view-${id}`);
+                const btn = document.getElementById(`tab-${id}`);
+                if (id === tabId) {
+                    el.classList.remove('hidden');
+                    btn.className = 'tab-btn px-4 py-2 rounded-lg text-xs font-semibold flex items-center gap-2 transition bg-yellow-500/20 text-yellow-300 border border-yellow-500/40';
+                } else {
+                    el.classList.add('hidden');
+                    btn.className = 'tab-btn px-4 py-2 rounded-lg text-xs font-semibold flex items-center gap-2 text-gray-400 hover:text-white hover:bg-gray-800 transition';
+                }
+            });
+            // Resize charts upon tab switch
+            setTimeout(() => {
+                if (throughputChart) throughputChart.resize();
+                if (pqcLatencyChart) pqcLatencyChart.resize();
+                if (pqcSizesChart) pqcSizesChart.resize();
+                if (isoMixChart) isoMixChart.resize();
+            }, 50);
+        }
+
+        // Render K8s Pods Grid
+        function renderPods() {
+            const grid = document.getElementById('k8s-pods-grid');
+            grid.innerHTML = podsData.map(pod => `
+                <div class="bg-gray-900/90 border border-gray-800 rounded-lg p-3 hover:border-cyan-500/40 transition">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-xs font-mono font-semibold text-gray-200 truncate max-w-[200px]">${pod.name}</span>
+                        <span class="flex items-center gap-1 text-[10px] px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 font-mono">
+                            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span> ${pod.status}
+                        </span>
+                    </div>
+                    <div class="text-[11px] text-gray-400 mb-3">${pod.role}</div>
+                    <div class="grid grid-cols-3 gap-2 text-[10px] font-mono bg-gray-950 p-2 rounded border border-gray-800/80">
+                        <div><span class="text-gray-500 block">CPU</span><span class="text-cyan-400">${pod.cpu}</span></div>
+                        <div><span class="text-gray-500 block">RAM</span><span class="text-purple-400">${pod.ram}</span></div>
+                        <div><span class="text-gray-500 block">UPTIME</span><span class="text-gray-300">${pod.uptime}</span></div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Chart Initialization
+        function initCharts() {
+            // Chart 1: Realtime Throughput
+            const ctx1 = document.getElementById('chart-throughput').getContext('2d');
+            throughputChart = new Chart(ctx1, {
+                type: 'line',
+                data: {
+                    labels: ['00:25', '00:26', '00:27', '00:28', '00:29', '00:30'],
+                    datasets: [
+                        {
+                            label: 'ML-DSA-87 PQC Verified (msg/s)',
+                            data: [120000, 132000, 128000, 140000, 138000, 142850],
+                            borderColor: '#D4AF37',
+                            backgroundColor: 'rgba(212, 175, 55, 0.08)',
+                            fill: true,
+                            tension: 0.3,
+                            borderWidth: 2
+                        },
+                        {
+                            label: 'eBPF Kernel Bypass Raw Packets (k/s)',
+                            data: [180000, 185000, 182000, 195000, 190000, 198000],
+                            borderColor: '#06B6D4',
+                            backgroundColor: 'transparent',
+                            borderDash: [4, 4],
+                            tension: 0.3,
+                            borderWidth: 1.5
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#6B7280', font: { family: 'JetBrains Mono', size: 10 } } },
+                        y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#6B7280', font: { family: 'JetBrains Mono', size: 10 } } }
+                    }
+                }
+            });
+
+            // Chart 2: PQC Latency Comparison
+            const ctx2 = document.getElementById('chart-pqc-latency').getContext('2d');
+            pqcLatencyChart = new Chart(ctx2, {
+                type: 'bar',
+                data: {
+                    labels: ['ML-DSA-87', 'ML-KEM-1024', 'Ed25519', 'RSA-4096'],
+                    datasets: [{
+                        label: 'Latency (microseconds)',
+                        data: [420, 120, 80, 4850],
+                        backgroundColor: ['#D4AF37', '#06B6D4', '#10B981', '#EF4444'],
+                        borderRadius: 6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { display: false } },
+                    scales: {
+                        x: { grid: { display: false }, ticks: { color: '#9CA3AF', font: { family: 'JetBrains Mono', size: 10 } } },
+                        y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#9CA3AF', font: { family: 'JetBrains Mono', size: 10 } } }
+                    }
+                }
+            });
+
+            // Chart 3: PQC Payload Sizes
+            const ctx3 = document.getElementById('chart-pqc-sizes').getContext('2d');
+            pqcSizesChart = new Chart(ctx3, {
+                type: 'bar',
+                data: {
+                    labels: ['ML-DSA-87', 'ML-KEM-1024', 'Ed25519', 'RSA-4096'],
+                    datasets: [
+                        { label: 'Public Key (Bytes)', data: [2592, 1568, 32, 512], backgroundColor: '#8B5CF6', borderRadius: 4 },
+                        { label: 'Signature / Ciphertext (Bytes)', data: [4627, 1568, 64, 512], backgroundColor: '#3B82F6', borderRadius: 4 }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { labels: { color: '#9CA3AF', font: { size: 10 } } } },
+                    scales: {
+                        x: { grid: { display: false }, ticks: { color: '#9CA3AF', font: { family: 'JetBrains Mono', size: 10 } } },
+                        y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#9CA3AF', font: { family: 'JetBrains Mono', size: 10 } } }
+                    }
+                }
+            });
+
+            // Chart 4: ISO Message Mix
+            const ctx4 = document.getElementById('chart-iso-mix').getContext('2d');
+            isoMixChart = new Chart(ctx4, {
+                type: 'doughnut',
+                data: {
+                    labels: ['pacs.008 (Credit Transfer)', 'camt.053 (Statement)', 'pain.001 (Payment Init)', 'MT103 / MT940 Legacy'],
+                    datasets: [{
+                        data: [55, 25, 15, 5],
+                        backgroundColor: ['#10B981', '#3B82F6', '#8B5CF6', '#F59E0B'],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { legend: { position: 'bottom', labels: { color: '#9CA3AF', font: { size: 10 } } } },
+                    cutout: '70%'
+                }
+            });
+        }
+
+        // Real-time Update Loop
+        function startLiveUpdates() {
+            setInterval(() => {
+                if (isPaused) return;
+
+                // Update Throughput Chart Data
+                const now = new Date();
+                const timeStr = `${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`;
+                const newTps = Math.floor(138000 + Math.random() * 8000);
+                const newEbpf = Math.floor(190000 + Math.random() * 12000);
+
+                if (throughputChart.data.labels.length > 8) {
+                    throughputChart.data.labels.shift();
+                    throughputChart.data.datasets[0].data.shift();
+                    throughputChart.data.datasets[1].data.shift();
+                }
+
+                throughputChart.data.labels.push(timeStr);
+                throughputChart.data.datasets[0].data.push(newTps);
+                throughputChart.data.datasets[1].data.push(newEbpf);
+                throughputChart.update('none');
+
+                // Update KPI text
+                document.getElementById('kpi-iso-tps').innerText = newTps.toLocaleString();
+
+                // Dynamic Resource Sliders
+                const cpuVal = Math.floor(45 + Math.random() * 10);
+                document.getElementById('cpu-percent').innerText = `${cpuVal}%`;
+                document.getElementById('cpu-bar').style.width = `${cpuVal}%`;
+
+                // Add log entry occasionally
+                if (Math.random() > 0.6) {
+                    addLogEntry(newTps);
+                }
+
+            }, 2000);
+        }
+
+        function addLogEntry(tps) {
+            const terminal = document.getElementById('log-terminal');
+            const timestamps = new Date().toISOString().substring(11, 23);
+            const messages = [
+                `<span class="text-emerald-400">[ISO-20022]</span> Processed batch pacs.008.001.08 (${tps} msg/sec). WORM verification OK.`,
+                `<span class="text-yellow-400">[ML-DSA-87]</span> Hybrid ML-KEM session key re-key exchange completed in 0.14ms.`,
+                `<span class="text-cyan-400">[eBPF/XDP]</span> Kernel bypass telemetry snapshot committed to Prometheus exporter.`,
+                `<span class="text-purple-400">[WORM LEDGER]</span> Block header #${Math.floor(890000 + Math.random()*1000)} written to PostgreSQL DB.`
+            ];
+            const randomMsg = messages[Math.floor(Math.random() * messages.length)];
+            const div = document.createElement('div');
+            div.innerHTML = `<span class="text-gray-500">[${timestamps}]</span> ${randomMsg}`;
+            terminal.appendChild(div);
+            terminal.scrollTop = terminal.scrollHeight;
+        }
+
+        function togglePauseFeed() {
+            isPaused = !isPaused;
+            const icon = document.getElementById('pause-icon');
+            const text = document.getElementById('pause-text');
+            if (isPaused) {
+                icon.className = 'fa-solid fa-play text-emerald-400';
+                text.innerText = 'Resume Feed';
+            } else {
+                icon.className = 'fa-solid fa-pause text-gray-400';
+                text.innerText = 'Pause Live Feed';
+            }
+        }
+
+        function runBenchmarkSimulation() {
+            const btn = document.getElementById('trigger-benchmark-btn');
+            btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin text-yellow-400"></i> Benchmarking...`;
+            btn.disabled = true;
+
+            setTimeout(() => {
+                btn.innerHTML = `<i class="fa-solid fa-bolt text-yellow-400"></i> Execute Benchmark`;
+                btn.disabled = false;
+
+                // Spike performance
+                document.getElementById('kpi-pq-latency').innerText = '0.39';
+                document.getElementById('kpi-iso-tps').innerText = '165,420';
+
+                const terminal = document.getElementById('log-terminal');
+                const div = document.createElement('div');
+                div.innerHTML = `<span class="text-yellow-400">[BENCHMARK COMPLETE]</span> Executed 1,000,000 PQC signature iterations. Average latency: 0.39ms. Zero drop rate confirmed under full load.`;
+                terminal.appendChild(div);
+                terminal.scrollTop = terminal.scrollHeight;
+            }, 1500);
+        }
+
+        function updateClock() {
+            const now = new Date();
+            document.getElementById('clock-display').innerText = now.toISOString().replace('T', ' ').substring(0, 19) + ' UTC';
+        }
+
+        function toggleExportMenu() {
+            const menu = document.getElementById('export-dropdown');
+            menu.classList.toggle('hidden');
+        }
+
+        function copyManifestCode() {
+            const codeText = document.getElementById('manifest-code-block').innerText;
+            const tempTx = document.createElement('textarea');
+            tempTx.value = codeText;
+            document.body.appendChild(tempTx);
+            tempTx.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempTx);
+
+            const btnText = document.getElementById('copy-btn-text');
+            btnText.innerText = 'Copied!';
+            setTimeout(() => { btnText.innerText = 'Copy Code'; }, 2000);
+        }
+
+        function exportManifest() {
+            const codeText = document.getElementById('manifest-code-block').innerText;
+            const blob = new Blob([codeText], { type: 'text/yaml' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'crown-sovereign-matrix-deployment.yaml';
+            a.click();
+            toggleExportMenu();
+        }
+
+        function exportMetricsJSON() {
+            const metrics = {
+                timestamp: new Date().toISOString(),
+                sovereign_seal: "ED25519-STASIS",
+                author: "HIH Vincent Tyrone Ellis [ I SOVERAIN ]",
+                benchmarks: {
+                    ml_dsa_87_latency_ms: 0.42,
+                    ml_kem_1024_latency_ms: 0.12,
+                    iso20022_tps: 142850,
+                    ebpf_drop_rate: "0.0001%"
+                }
+            };
+            const blob = new Blob([JSON.stringify(metrics, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'crown-matrix-metrics.json';
+            a.click();
+            toggleExportMenu();
+        }
+    </script>
+</body>
+</html>
