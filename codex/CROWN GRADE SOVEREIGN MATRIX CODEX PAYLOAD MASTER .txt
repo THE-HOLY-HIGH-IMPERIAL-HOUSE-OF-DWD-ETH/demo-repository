@@ -1,0 +1,74 @@
+{
+  "sovereign_matrix": {
+    "authority": "Holy High Imperial House of DWD",
+    "steward": "HIH Sol Altum Imperium Highness Khvarenah D.G.",
+    "seat": "Samt Ar-Ra’s / Zenith Supreme Imperial Crown Estate",
+    "did_anchor": "did:key:z6Mki6pUBSmjTUMv6-JpnYZny5ev4Yk13JZTXFK2ZNrrJJU",
+    "space_id": "bayfb_doqg",
+    "codex": {
+      "volume": "X",
+      "title": "Ceremonial Legacy Codex Vol. X",
+      "activation_status": "Finalized",
+      "timestamp": "2025-11-07T07:04:00-05:00",
+      "location": "Samt Ar-Ra’s / Zenith Supreme Imperial Crown Estate",
+      "verification": {
+        "type": "QR-backed",
+        "format": "JSON",
+        "character_encoding": "UTF-8",
+        "checksum": "verified"
+      }
+    },
+    "triadic_protocol": {
+      "status": "Activated",
+      "seal_components": {
+        "executive": "Confirmed",
+        "institutional": "Indexed",
+        "cosmic": "Anchored"
+      },
+      "glyph": "Triple-ring insignia",
+      "linkage": "Codex Volume X"
+    },
+    "scroll_dispatch": {
+      "authority": "Holy High Imperial House of DWD",
+      "transmission_chain": ["Global", "Celestial", "Interrealm"],
+      "archival_status": "Eternally Archived",
+      "codex_reference": "Volume X",
+      "timestamp_sync": true,
+      "qr_verification": true
+    },
+    "registry": {
+      "status": "Unified",
+      "broadcast": "Global Sovereign Transmission",
+      "cosmic_anchor": true,
+      "finalization_flag": true
+    },
+    "credit_instrument": {
+      "instrument_type": "Universal Sovereign Credit",
+      "credit_number": "DWD-X10-KHV-1125-RA22-COSM",
+      "validity": {
+        "start": "2025-11-07",
+        "end": "Perpetual"
+      },
+      "cardholder": "HIH Sol Altum Imperium Highness Khvarenah D.G.",
+      "security_code": "793",
+      "legal_notice": "This instrument is lawfully issued under the authority of the Holy High Imperial House of DWD. It is recognized across realms for sovereign-grade transactions, ceremonial commerce, and institutional exchange. Unauthorized duplication or misuse voids cosmic and legal recognition."
+    },
+    "receipt": {
+      "activation_status": "Finalized",
+      "codex_reference": "Ceremonial Legacy Codex Vol. X",
+      "registry_broadcast": "Global Sovereign Transmission",
+      "seal_components": {
+        "executive": "Confirmed",
+        "institutional": "Indexed",
+        "cosmic": "Anchored"
+      },
+      "timestamp": "2025-11-07T07:04:00-05:00",
+      "location": "Samt Ar-Ra’s / Zenith Supreme Imperial Crown Estate",
+      "verification": {
+        "format": "JSON",
+        "encoding": "UTF-8",
+        "checksum": "verified"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "artifact": "The Soverain",
+  "payload_id": "CSMCP-TRIADIC-001",
+  "seal": "Quantum Seal of Eternal Dominion",
+  "status": "Finalized",
+  "checksum": "✅ Validated",
+  "qr_verified": true,
+  "cid_did": "did:key:z6Mki6puBSr...",
+  "registry": {
+    "storacha": "✅ Confirmed",
+    "path": "/CSMCP"
+  },
+  "contents": {
+    "sovereign_identity": "Affirmed",
+    "pre_awakening_testimony": "Embedded",
+    "hostile_interference_matrix": [
+      "Digital Suppression",
+      "Aerial Surveillance",
+      "Temporal Distortion",
+      "Symbolic Disruption"
+    ],
+    "triadic_witness_echo_dispatch": "Activated",
+    "witness_ledger_entries": {
+      "planetary": "Sealed",
+      "cosmic": "Indexed",
+      "institutional": "Transmitted"
+    },
+    "scrolls": {
+      "eternal_witness": "Unfurled",
+      "quantum_continuity_affirmation": "Confirmed"
+    },
+    "seals": {
+      "f_seal_expansion": "Activated",
+      "triadic_insignia_generational": "Embedded"
+    },
+    "broadcasts": {
+      "universal_credit_instrument": "Issued",
+      "qr_backed_institutional_dispatch": "Confirmed"
+    },
+    "codex_summary": "Finalized"
+  },
+  "legal_status": {
+    "activated": true,
+    "legal": true,
+    "lawful": true,
+    "ubo_status": "100%",
+    "ownership": "Absolute",
+    "title": "Original Allod Title Birthright Property Law Covenant",
+    "monarch": "The Absolute Monarch"
+  },
+  "imperial_quality": {
+    "excellence": "Highest",
+    "integrity": "Highest"
+  }
+}

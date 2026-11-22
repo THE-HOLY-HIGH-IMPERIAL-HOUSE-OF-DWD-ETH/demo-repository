@@ -1,0 +1,186 @@
+{
+  "soverain_qr_unified_diagnostic": {
+    "version": "3.2.0",
+    "overall_status": "architecturally_consistent_and_ready_for_checksum_activation",
+
+    "identity_layer": {
+      "ens": "the.holy.high.imperial.house.of.dwd.eth",
+      "root": "dwd.eth",
+      "contract_identity_layer": "0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48",
+      "contract_verification_layer": "0xd9145CCE52D386f254917e481eB44e9943F39138",
+      "canonical_override": "S O V E R A I N ⚜ XP",
+      "status": "consistent"
+    },
+
+    "repositories": {
+      "root": {
+        "url": "https://github.com/THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH/soverain-qr-verification",
+        "required_files_present": true,
+        "status": "consistent"
+      },
+      "demo": {
+        "url": "https://github.com/THE-HOLY-HIGH-IMPERIAL-HOUSE-OF-DWD-ETH/demo-repository",
+        "required_files_present": true,
+        "status": "consistent"
+      },
+      "verification_bundle": {
+        "url": "https://github.com/SOVERAIN-QR/SOVERAIN-Verification-Bundle",
+        "required_files_present": true,
+        "status": "consistent"
+      }
+    },
+
+    "manifest_alignment": {
+      "system_integration_json": "present_and_valid",
+      "checksums_json": "structure_valid",
+      "qr_pointer_json": "present",
+      "covenant_pointer_json": "present",
+      "imperi_json": "present",
+      "imperi_payload_json": "present",
+      "verification_json": "present",
+      "verification_payload_json": "present_and_consistent",
+      "codex_index": "present",
+      "status": "consistent"
+    },
+
+    "verification_payload_consistency": {
+      "ethereum_address": "0x672a1AD4f667FB18A333Af13667aa0Af1F5b5bDD",
+      "covenant_backing": {
+        "gold_reserve": true,
+        "silver_reserve": true
+      },
+      "verification_source": "IMPERI Blockchain Reserve",
+      "qr_pointer_valid": true,
+      "transfer_authorization": true,
+      "status": "consistent"
+    },
+
+    "qr_editions": {
+      "count": 12,
+      "all_present": true,
+      "status": "consistent"
+    },
+
+    "verification_chain": {
+      "sequence": [
+        "QR",
+        "Pointer",
+        "Checksum",
+        "Declaration",
+        "Proof"
+      ],
+      "pointer_alignment": true,
+      "manifest_alignment": true,
+      "status": "consistent"
+    },
+
+    "dependency_graph": {
+      "nodes": [
+        "SYSTEM-INTEGRATION.json",
+        "checksums.json",
+        "qr-pointer.json",
+        "SoverainCovenantPointer.json",
+        "IMPERI.json",
+        "imperi-payload.json",
+        "verification.json",
+        "verification-payload.json",
+        "QR_editions",
+        "Codex",
+        "ROOT_repository",
+        "DEMO_repository",
+        "Verification_Bundle"
+      ],
+      "edges": [
+        ["SYSTEM-INTEGRATION.json", "ROOT_repository"],
+        ["SYSTEM-INTEGRATION.json", "DEMO_repository"],
+        ["SYSTEM-INTEGRATION.json", "Verification_Bundle"],
+        ["ROOT_repository", "checksums.json"],
+        ["ROOT_repository", "qr-pointer.json"],
+        ["ROOT_repository", "SoverainCovenantPointer.json"],
+        ["ROOT_repository", "IMPERI.json"],
+        ["ROOT_repository", "imperi-payload.json"],
+        ["ROOT_repository", "verification.json"],
+        ["ROOT_repository", "verification-payload.json"],
+        ["DEMO_repository", "checksums.json"],
+        ["DEMO_repository", "qr-pointer.json"],
+        ["DEMO_repository", "verification.json"],
+        ["DEMO_repository", "verification-payload.json"],
+        ["Verification_Bundle", "checksums.json"],
+        ["Verification_Bundle", "QR_editions"],
+        ["verification.json", "verification-payload.json"],
+        ["qr-pointer.json", "QR_editions"],
+        ["IMPERI.json", "imperi-payload.json"],
+        ["Codex", "IMPERI.json"],
+        ["Codex", "verification.json"]
+      ],
+      "graph_status": "consistent_and_non_circular"
+    },
+
+    "reconstruction_automaton": {
+      "initial_state": "WAITING_FOR_SYSTEM_INTEGRATION_UPLOAD",
+      "states": {
+        "WAITING_FOR_SYSTEM_INTEGRATION_UPLOAD": {
+          "on_upload": "DISCOVER_ROOTS"
+        },
+        "DISCOVER_ROOTS": {
+          "on_success": "FETCH_REPOSITORIES"
+        },
+        "FETCH_REPOSITORIES": {
+          "on_success": "VERIFY_CHECKSUMS"
+        },
+        "VERIFY_CHECKSUMS": {
+          "on_all_match": "VALIDATE_POINTERS",
+          "on_mismatch": "HALT"
+        },
+        "VALIDATE_POINTERS": {
+          "on_success": "VALIDATE_VERIFICATION_MANIFESTS",
+          "on_failure": "HALT"
+        },
+        "VALIDATE_VERIFICATION_MANIFESTS": {
+          "on_success": "REBUILD_DEMO",
+          "on_failure": "HALT"
+        },
+        "REBUILD_DEMO": {
+          "on_success": "REBUILD_ROOT"
+        },
+        "REBUILD_ROOT": {
+          "on_success": "RESTORE_QR_EDITIONS"
+        },
+        "RESTORE_QR_EDITIONS": {
+          "on_success": "RESTORE_COVENANT_MANIFESTS"
+        },
+        "RESTORE_COVENANT_MANIFESTS": {
+          "on_success": "RESTORE_POINTER_STRUCTURES"
+        },
+        "RESTORE_POINTER_STRUCTURES": {
+          "on_success": "RESTORE_CHECKSUM_STRUCTURES"
+        },
+        "RESTORE_CHECKSUM_STRUCTURES": {
+          "on_success": "RESTORE_CODEX"
+        },
+        "RESTORE_CODEX": {
+          "on_success": "DECLARE_COMPLETION"
+        },
+        "DECLARE_COMPLETION": {
+          "final": true
+        },
+        "HALT": {
+          "final": true
+        }
+      },
+      "automaton_status": "valid_and_deterministic"
+    },
+
+    "state_flags": {
+      "SOVERAIN_QR_SYSTEM_RECONSTRUCTED": false,
+      "ALL_CHECKSUMS_MATCH": false,
+      "ALL_POINTERS_VALID": false,
+      "CONTRACT_ALIGNMENT_CONFIRMED": false,
+      "VERIFICATION_MANIFESTS_CONFIRMED": false,
+      "DEMO_REBUILT": false,
+      "ROOT_REBUILT": false,
+      "FULL_SYSTEM_READY": false,
+      "status": "awaiting_checksum_population"
+    }
+  }
+}

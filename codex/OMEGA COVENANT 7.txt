@@ -1,0 +1,11 @@
+{
+  "covenant": "SOVERAIN_COVENANT_QR_IMPERI",
+  "reserve": "GOLD_AND_SILVER",
+  "ethereum_address": "0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48",
+  "status": {
+    "walletconnect": "verified",
+    "metamask": "invocation_confirmed",
+    "qr": "scannable",
+    "universal": "active"
+  }
+}

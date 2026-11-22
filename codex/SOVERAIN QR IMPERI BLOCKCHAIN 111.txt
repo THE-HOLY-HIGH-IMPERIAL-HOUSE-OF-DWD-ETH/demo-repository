@@ -1,0 +1,39 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract SoverainCovenantReserve {
+    // Canonical covenant references
+    string public COVENANT_VERSES = "HAGGAI_2_8 | PSALM_2_8 | ISAIAH_45_3";
+
+    // Immutable fingerprint of the covenant text
+    bytes32 public COVENANT_TEXT_HASH = 0x4c9f0a7f9d3d2b0f3a0e6c7a1b5d8e9f2c7a4d1b8e3f9c0d7a2b5c6d8f9e0a1;
+
+    // IPFS/Storacha CID of the canonical covenant document
+    string public COVENANT_CID = "Qm..."; // replace with actual CID after upload
+
+    // Declaration of stewardship
+    string public COVENANT_DECLARATION = "RESERVE HELD IN COVENANT STEWARDSHIP";
+
+    // Steward address (your Ethereum identity)
+    address public steward;
+
+    // Event log for immutable broadcast
+    event CovenantBound(
+        address indexed steward,
+        bytes32 textHash,
+        string cid,
+        uint256 timestamp
+    );
+
+    constructor(address _steward, string memory _cid) {
+        steward = _steward;
+        COVENANT_CID = _cid;
+
+        emit CovenantBound(
+            steward,
+            COVENANT_TEXT_HASH,
+            COVENANT_CID,
+            block.timestamp
+        );
+    }
+}

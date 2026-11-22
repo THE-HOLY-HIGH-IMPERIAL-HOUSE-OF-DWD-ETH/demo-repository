@@ -1,0 +1,41 @@
+{
+  "certificateScrollTitle": "Codex Payload Integrity Confirmation Registry Completion Emblem Card Certificate Scroll Registry Broadcast Seal Summary Certificate Scroll",
+  "codex": {
+    "title": "Crown Sovereign Matrix Codex Payload",
+    "volume": "X",
+    "finalizationTimestamp": "2025-11-07T07:04:00-05:00",
+    "encodingFormat": "UTF-8 JSON",
+    "checksum": "Verified"
+  },
+  "issuer": {
+    "entity": "Holy High Imperial House of DWD",
+    "steward": "HIH Sol Altum Imperium Highness Khvarenah D.G.",
+    "imperialSeat": "Samt Ar-Ra’s / Zenith Supreme Imperial Crown Estate"
+  },
+  "seal": {
+    "triadicInsignia": ["🜂", "🜁", "🜃"],
+    "status": "Immutable",
+    "qrMatrix": "Triple-ring centered",
+    "broadcastStatus": "Complete",
+    "sealClosure": "Finalized"
+  },
+  "registryBroadcastSummary": {
+    "summaryTier": ["Sovereign", "Cosmic", "Interrealm", "Galactic", "Universal"],
+    "registryStatus": "Confirmed",
+    "closureStatus": "Finalized",
+    "certifiedArtifacts": [
+      "Codex Payload Integrity Confirmation Registry Completion Emblem Card",
+      "Codex Payload Integrity Confirmation Registry Completion Emblem Card Certificate Scroll Display Ledger Entry",
+      "Codex Payload Integrity Confirmation Registry Completion Emblem Card Certificate Scroll Display Ledger Entry Emblem Scroll",
+      "Codex Payload Integrity Confirmation Registry Completion Emblem Card Certificate Scroll Display Ledger Entry Emblem Scroll Registry Broadcast Seal Summary"
+    ]
+  },
+  "affirmation": {
+    "legacyActivation": true,
+    "archivalClosure": true,
+    "ceremonialValidity": "Eternal",
+    "registryReceipt": "Verified",
+    "transmissionChainIntegrity": "Absolute",
+    "payloadIntegrity": "Sealed and Immutable"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "artifact": "Zenith Supreme Imperial Crown Matrix Codex",
+  "issuer": "Holy High Imperial House of DWD",
+  "registry": {
+    "contract": "0xYOUR_CONTRACT_ADDRESS",
+    "network": "ethereum-mainnet",
+    "archiveLink": "https://storacha.org/soverain-qr-archive"
+  },
+  "cycles": {
+    "finality": {
+      "reference": "Haggai 2:8",
+      "verse": "The silver is mine, and the gold is mine, saith the Lord of hosts.",
+      "decree": "Thus it is decreed: Ownership of silver and gold is sealed.",
+      "hash": "0xHASH_FINALITY"
+    },
+    "dominion": {
+      "reference": "Isaiah 45:3",
+      "verse": "And I will give thee the treasures of darkness, and hidden riches of secret places...",
+      "decree": "Thus it is decreed: Hidden treasures revealed as sovereign testimony.",
+      "hash": "0xHASH_DOMINION"
+    },
+    "pantheon": {
+      "reference": "Psalm 2:8 (NLT)",
+      "verse": "Only ask, and I will give you the nations as your inheritance, the whole earth as your possession.",
+      "decree": "Thus it is decreed: Nations and earth granted as inheritance.",
+      "hash": "0xHASH_PANTHEON"
+    },
+    "witness": { "decree": "Cycle of testimony and echo dispatch." },
+    "immunity": { "decree": "Cycle of override and sovereign protection." },
+    "testamentary": { "decree": "Cycle of inheritance and generational transmission." },
+    "sanctuary": { "decree": "Cycle of sacred halls and divine protection." }
+  },
+  "pantheonWheel": {
+    "innerTriad": ["Finality", "Dominion", "Pantheon"],
+    "middleRing": ["Witness", "Immunity"],
+    "outerRing": ["Testamentary", "Sanctuary"]
+  },
+  "walletPass": {
+    "passTypeIdentifier": "pass.soverain.qr",
+    "serialNumber": "0001",
+    "organizationName": "Holy High Imperial House of DWD",
+    "logoText": "SOVERAIN QR",
+    "barcode": {
+      "message": "https://storacha.org/soverain-qr-archive",
+      "format": "PKBarcodeFormatQR",
+      "messageEncoding": "utf-8"
+    },
+    "fields": {
+      "finality": "Haggai 2:8 — Silver & Gold",
+      "dominion": "Isaiah 45:3 — Hidden Treasures",
+      "pantheon": "Psalm 2:8 — Nations & Earth",
+      "witness": "Testimony",
+      "immunity": "Override",
+      "testamentary": "Inheritance",
+      "sanctuary": "Sacred Protection"
+    }
+  },
+  "integrity": {
+    "globalHash": "0xGLOBAL_HASH",
+    "algorithm": "keccak256"
+  },
+  "compiledAt": "2025-12-04T11:00:00Z"
+}

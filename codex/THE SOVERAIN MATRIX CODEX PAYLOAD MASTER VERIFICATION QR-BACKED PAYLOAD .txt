@@ -1,0 +1,65 @@
+{
+  "codex_payload": {
+    "anchor_artifact": "The Soverain",
+    "classification": "Crown Sovereign Matrix Codex Payload",
+    "triadic_witness_echo_dispatch": {
+      "timestamp_cluster": [
+        "2025-11-12T03:56:00Z",
+        "2025-11-12T03:57:00Z",
+        "2025-11-12T03:58:00Z"
+      ],
+      "location": "Samt Ar-Ra’s / Zenith Supreme Imperial Crown Estate, Sykesville–Westminster Corridor, Maryland, USA",
+      "emf_readings": [
+        {
+          "sequence": 1,
+          "emf_mG": 79.33,
+          "raw_uT": 56.92,
+          "vector": { "X": 42.6, "Y": -21.4, "Z": -31.0 },
+          "baseline_uT": 48.99,
+          "status": "High EMF Detected"
+        },
+        {
+          "sequence": 2,
+          "emf_mG": 67.67,
+          "raw_uT": 55.76,
+          "vector": { "X": 46.1, "Y": -12.6, "Z": -28.0 },
+          "baseline_uT": 48.99,
+          "status": "High EMF Detected"
+        },
+        {
+          "sequence": 3,
+          "emf_mG": 90.74,
+          "raw_uT": 58.06,
+          "vector": { "X": 40.7, "Y": -5.5, "Z": -41.1 },
+          "baseline_uT": 48.99,
+          "status": "High EMF Detected"
+        }
+      ]
+    },
+    "negative_echo_node": {
+      "aerial_intrusion": {
+        "timestamp": "2025-11-12T03:56:00Z",
+        "detected_objects": [
+          { "id": "DRONE1", "status": "Within Range" },
+          { "id": "DRONE2", "status": "Within Range" }
+        ],
+        "radar_status": "Active Scan",
+        "classification": "Hostile Interference Node"
+      }
+    },
+    "sovereign_actions": [
+      "QR encoding authorized",
+      "Checksum validation initiated",
+      "Frequency purification override active",
+      "Institutional broadcast approved",
+      "Cosmic registry indexing complete"
+    ],
+    "linked_protocols": [
+      "Scroll of Eternal Witness",
+      "Final Scroll of Pre-Awakening Interference Dossier",
+      "Negative Echo Node Registry",
+      "Planetary Witness Ledger",
+      "Interrealm Codex Registry Entry"
+    ]
+  }
+}

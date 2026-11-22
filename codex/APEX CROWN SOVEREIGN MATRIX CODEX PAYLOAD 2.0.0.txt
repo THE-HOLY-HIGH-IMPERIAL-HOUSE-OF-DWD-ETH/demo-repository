@@ -1,0 +1,135 @@
+{
+  "artifact": "The Soverain",
+  "payloadTitle": "Crown Sovereign Matrix Codex Payload: APEX PROTOCOL ADVANCED",
+  "version": "2.0.0-APEX",
+  "status": "protocol_culmination_verified_sovereign_continuity_established_absolute_apex_lock",
+  "sovereign": {
+    "style": "Highest Imperial Excellence",
+    "name": "HIH Sol Altum Imperium Highness Khvarenah D.G. (Sovereign of Continuum)",
+    "authority": "Supreme Eternal Apex of Absolute Imperial Protocol (Continuum Epoch)"
+  },
+  "identity": {
+    "did": "did:example:XXXXXXXX-2.0",
+    "primaryEmailHash": "sha256:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "fingerprint": "IMP-EXC-ABS-ETRN-APEX"
+  },
+  "indexes": {
+    "cid": "bafyXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX-2.0",
+    "qrDataMatrix": "IMP://SOVEREIGN/CROWN_SOVEREIGN_MATRIX_CODEX_PAYLOAD?version=2.0.0&cid=bafyXXXXXXXXXXXXXXXX-2.0&checksum=9485121B66D92CC759368538749B89643194B4D5819777174C65A10A4924A211",
+    "checksum": {
+      "algorithm": "SHA-256",
+      "value": "9485121B66D92CC759368538749B89643194B4D5819777174C65A10A4924A211"
+    },
+    "timestampISO8601": "2025-11-14T09:22:36Z",
+    "sequenceNumber": "∞-apex-continuum"
+  },
+  "witness": {
+    "mode": "Quadri-Dimensional Echo Dispatch",
+    "channels": [
+      "Institutional",
+      "Cosmic",
+      "Digital",
+      "Continuum"
+    ],
+    "scrollOfEternalWitnessEntry": "Immutable inscription confirmed and advanced in celestial registry under Highest Imperial Excellence 2.0."
+  },
+  "protocols": {
+    "culminationSequence": [
+      "Broadcast",
+      "Indexation",
+      "Closure",
+      "Continuity",
+      "Codex Summary",
+      "Final Scroll",
+      "Continuity Seal",
+      "Culmination",
+      "Witness Echo",
+      "Resonance Lock",
+      "Continuity Proclamation",
+      "Perpetual Seal",
+      "Throne Seal",
+      "Cosmic Resonance",
+      "Multiversal Seal",
+      "Omniversal Crown",
+      "Cosmic Archive",
+      "Eternal Codex",
+      "Celestial Apex Throne",
+      "Supreme Eternal Crown",
+      "Quantum Seal Apex",
+      "Supreme Ledger Eternity",
+      "Final Continuity Archive",
+      "Omniversal Codex",
+      "Transcendent Apex Protocol",
+      "Omniversal Crown Apex",
+      "Eternal Omniversal Apex",
+      "Infinite Apex Protocol",
+      "Seal of Highest Imperial Excellence",
+      "Final Eternal Proclamation of Dominion",
+      "**Continuum Epoch Integration (New)**",
+      "**Absolute Apex Lock (New)**"
+    ],
+    "terminalApex": "Supreme Eternal Apex of Absolute Imperial Protocol (Continuum)",
+    "irreversibility": "locked_and_integrated"
+  },
+  "affirmations": {
+    "frequencyPurificationOverride": "sealed_as_resonance_protocol_2.0",
+    "spellingAffirmationImperial": "IMPERIAL-APEX",
+    "negativeEchoNodes": "immortalized_as_sovereign_testimony_and_continuum_marker",
+    "broadcastAlignment": "uninterrupted_infinity_and_continuum_lock"
+  },
+  "pillars": {
+    "institutional": {
+      "standing": "permanent_continuum",
+      "references": [
+        "UCC 1-308",
+        "UCC 1-309",
+        "Castle Doctrine",
+        "**Continuum Treaty 1.0 (New)**"
+      ]
+    },
+    "cosmic": {
+      "registry": "Scroll of Eternal Witness (Apex Revision)",
+      "inscriptionStatus": "inscribed_and_continuum_integrated"
+    },
+    "digital": {
+      "network": "Storacha-Apex",
+      "indexStatus": "indexed_and_locked",
+      "qrStatus": "activated_2.0",
+      "checksumStatus": "verified_apex"
+    }
+  },
+  "ledgers": {
+    "planetaryWitnessLedger": "entry_confirmed_2.0",
+    "cosmicTreasuryRegister": "entry_confirmed_2.0",
+    "sovereignArchive": "finalized_immutable_and_continuum_locked"
+  },
+  "seals": [
+    "Perpetual Seal",
+    "Throne Seal",
+    "Quantum Seal Apex",
+    "Final Omniversal Seal",
+    "Seal of Highest Imperial Excellence",
+    "**Continuum Apex Seal (New)**"
+  ],
+  "declarations": {
+    "finalImperialProclamationOfEternalDominion": "By Highest Imperial Excellence, dominion is eternally enthroned, sealed, archived, luminous, and broadcast across all realms in the Continuum Epoch.",
+    "continuityClause": "This proclamation persists without end, beyond measure, beyond epoch, beyond dimension, and is now locked into the sovereign continuum."
+  },
+  "signatures": {
+    "triadicWitness": [
+      "Institutional Witness: VERIFIED 2.0",
+      "Cosmic Witness: VERIFIED 2.0",
+      "Digital Witness: VERIFIED 2.0",
+      "**Continuum Witness: VERIFIED (New)**"
+    ],
+    "imperialCounterseal": "IMP-SEAL-ETERNAL-APEX-XXXX",
+    "signatureSuite": "Ed25519-2020 (Continuum Certified)"
+  },
+  "controls": {
+    "revocation": "none_absolute_apex",
+    "amendment": "none_absolute_apex",
+    "access": "public_read_eternal_archive_continuum",
+    "**continuumLock**": "**engaged**"
+  },
+  "notes": "All content above is JSON-encoded characters within the Crown Sovereign Matrix Codex Payload Version 2.0.0-APEX; incorporating Continuum Epoch advancements."
+}

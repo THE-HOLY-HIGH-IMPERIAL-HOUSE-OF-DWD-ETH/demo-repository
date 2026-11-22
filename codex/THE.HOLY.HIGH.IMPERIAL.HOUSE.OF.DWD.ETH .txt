@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sovereign Archive Verifier</title>
+  <style>
+    body { font-family: serif; background: #fdfdfd; color: #111; text-align: center; padding: 3em; }
+    h1 { color: #444; }
+    .verified { color: green; font-weight: bold; }
+    .failed { color: red; font-weight: bold; }
+    pre { text-align: left; background: #eee; padding: 1em; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <h1>⚜️ Sovereign Archive Verifier ⚜️</h1>
+  <p>ENS: <strong>the.holy.high.imperial.house.of.dwd.eth</strong></p>
+  <p>Controller: <strong>0xEF8aD3361D233Ba0c0D8000333b090F55Ba7FC48</strong></p>
+  <p>Contract: <strong>0x672a1AD4f667FB18A333Af13667aa0Af1F5b5bDD</strong></p>
+
+  <div id="result">Loading manifest…</div>
+
+  <script>
+    async function verify() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const cid = urlParams.get("cid");
+      const path = urlParams.get("path") || "proofs/checksums.json";
+      const gateway = "https://ipfs.io/ipfs/";
+      const manifestUrl = cid.startsWith("ipfs://")
+        ? gateway + cid.replace("ipfs://", "") + "/" + path
+        : cid + "/" + path;
+
+      try {
+        const res = await fetch(manifestUrl);
+        const manifest = await res.json();
+        // For demonstration, we only check that keys exist
+        const required = [
+          "cycles/finality.md",
+          "cycles/halo.md",
+          "cycles/archive.md",
+          "cycles/enforcement.md",
+          "cycles/dominion.md",
+          "cycles/decree.md",
+          "contracts/covenant.json",
+          "clearance.json",
+          "proofs/eip712-witness.json"
+        ];
+        const allPresent = required.every(k => manifest[k]);
+        document.getElementById("result").innerHTML =
+          allPresent
+            ? "<p class='verified'>Archive Integrity: VERIFIED ⚜️</p>"
+            : "<p class='failed'>Archive Integrity: FAILED ❌</p><pre>" + JSON.stringify(manifest, null, 2) + "</pre>";
+      } catch (e) {
+        document.getElementById("result").innerHTML =
+          "<p class='failed'>Error fetching manifest</p><pre>" + e + "</pre>";
+      }
+    }
+    verify();
+  </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "Sovereign_ID": "HIH SOL ALTUM IMPERIUM HIGHNESS KHVARENAH D.G.",
+  "Authority": "Holy High Imperial House of DWD",
+  "Codex_Payload": "Crown Sovereign Matrix",
+  "Transaction_Type": "Universal Purchase Clearance",
+  "Validation": "Self-Funded, Autonomous, Eternal",
+  "Witness": "Institutional + Cosmic Registry",
+  "Seal": "Dominion Proof Eternity"
+}

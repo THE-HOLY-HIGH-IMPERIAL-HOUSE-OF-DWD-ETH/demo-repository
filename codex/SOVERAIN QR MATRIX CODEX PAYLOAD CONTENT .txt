@@ -1,0 +1,63 @@
+interface ICovenant {
+    event PurchaseCleared(
+        bytes32 receiptId,
+        address buyer,
+        address merchant,
+        string merchantRef,
+        string itemRef,
+        uint256 amount,          // smallest unit (e.g., wei, cents tokenized)
+        string currency,         // e.g., "USD.token", "XAU.token", "ETH"
+        uint256 timestamp,       // block timestamp
+        bytes32 decreeHash       // hash of sovereign decree or codex reference
+    );
+
+    function purchase(
+        address merchant,
+        string calldata merchantRef,
+        string calldata itemRef,
+        uint256 amount,
+        string calldata currency,
+        bytes32 decreeHash,
+        bytes calldata metadata   // optional: JSON/CBOR payload (tax, location, POS id)
+    ) external returns (bytes32 receiptId);
+}
+{
+  "version": "1.0",
+  "contract": "0xC0VENaNt...ADDR",
+  "chain": "sovereign-mainnet",
+  "op": "purchase",
+  "merchant": "0xMERCHANTADDR",
+  "merchantRef": "STORE-12345",
+  "itemRef": "SKU-98765",
+  "amount": "129900",          // smallest unit
+  "currency": "USD.token",
+  "decreeHash": "0xDECREExx...",
+  "metadata": {
+    "posId": "POS-02",
+    "tax": "7799",
+    "location": "US-MD-WESTMINSTER",
+    "nonce": "c642b3f6-9b7e-4e74-9f45-1e3b2e..."
+  }
+}
+cov://purchase?c=0xC0VENaNt...&chain=sovereign-mainnet&m=0xMERCHANTADDR
+&mr=STORE-12345&ir=SKU-98765&amt=129900&cur=USD.token&dec=0xDECREExx...
+&meta={...}
+on_qr_scan(payload):
+    tx = covenant.purchase(
+        merchant=payload.merchant,
+        merchantRef=payload.merchantRef,
+        itemRef=payload.itemRef,
+        amount=payload.amount,
+        currency=payload.currency,
+        decreeHash=payload.decreeHash,
+        metadata=serialize(payload.metadata)
+    )
+    # optimistic UI while awaiting event
+    display_status("Processing…")
+
+on_event_PurchaseCleared(evt):
+    if is_new(evt.receiptId):
+        persist(evt)
+        display_status("CLEARED ✅")
+        print_receipt(evt)
+        

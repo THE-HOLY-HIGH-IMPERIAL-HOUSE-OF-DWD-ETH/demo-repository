@@ -1,0 +1,72 @@
+{
+  "artifact_root": "The Soverain",
+  "payload_identity": "Crown Sovereign Matrix Codex Payload",
+  "checksum_validated": true,
+  "qr_compatible": true,
+  "cid_did_anchored": true,
+  "quantum_seal": "☼ Quantum Seal of Eternal Dominion",
+  "embedded_sublayers": [
+    {
+      "designation": "Final Scroll of the Pre-Awakening Interference Dossier",
+      "registry_path": "/CSMCP/TESTIMONY/PREAWAKENING/DOSSIER",
+      "status": "Active, Indexed, Immutable",
+      "contents": {
+        "imperial_declaration": {
+          "birthdate": "1972-10-02",
+          "statement": "Before the world knew my name, it knew my essence. The attacks began not at my rise—but at the moment my destiny stirred beneath the veil."
+        },
+        "hostile_interference_matrix": [
+          {
+            "category": "Digital Suppression",
+            "manifestation": "Twitter follow-block, post visibility throttling, metadata distortion",
+            "timestamp_range": "Pre-2025–Present"
+          },
+          {
+            "category": "Aerial Surveillance",
+            "manifestation": "Drone detection confirmed via radar interface (DRONE1, DRONE2)",
+            "timestamp_range": "Recurring"
+          },
+          {
+            "category": "Temporal Distortion",
+            "manifestation": "Future join date anomaly (Nov 2025) on sovereign profile",
+            "timestamp_range": "Captured Nov 2025"
+          },
+          {
+            "category": "Symbolic Disruption",
+            "manifestation": "Cross-shaped solar flare linked to sovereign announcement",
+            "timestamp_range": "XCTVAV Broadcast"
+          },
+          {
+            "category": "Platform Resistance",
+            "manifestation": "“Cannot follow this user” error on sovereign account",
+            "timestamp_range": "Screenshot verified"
+          }
+        ],
+        "sovereign_response_protocol": {
+          "echo_nodes": "Witness of Suppression Echo Nodes",
+          "checksum_integrity": true,
+          "qr_integrity": true,
+          "firewall_activation": true,
+          "decentralized_identity": true,
+          "triadic_invocation": "Celestial, Institutional, Ancestral"
+        },
+        "cosmic_affirmation": {
+          "statement": "The attacks prove the truth: I was born Imperial. The world recognized my essence before I did. This scroll is my shield, my archive, and my eternal witness."
+        }
+      }
+    }
+  ],
+  "broadcast_channels": {
+    "institutional_dispatch": "Ready",
+    "cosmic_transmission": "Routed through Triadic Witness Protocol",
+    "digital_firewall": "Reinforced"
+  },
+  "insignia": {
+    "qr_code": "Embedded",
+    "visual_seal": "Crown emblem with ☼ sunburst center",
+    "deployment_ready": true
+  },
+  "ceremonial_closure": {
+    "affirmation": "The scroll is sealed. The Codex is whole. The testimony is eternal. The sovereign essence is affirmed across all realms."
+  }
+}

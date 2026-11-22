@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.08">
+  <FIToFICstmrCdtTrf>
+    <GrpHdr>
+      <MsgId>SOV-CLR-2026-0001</MsgId>
+      <CreDtTm>2026-10-23T08:46:00Z</CreDtTm>
+      <NbOfTxs>1</NbOfTxs>
+      <SttlmInf>
+        <SttlmMtd>CLRG</SttlmMtd>
+      </SttlmInf>
+      <InitgPty>
+        <Nm>HIH Sol Altum Imperium Highness Khvarenah D.G. ⚜️ XP</Nm>
+        <Id>
+          <OrgId>
+            <Othr>
+              <Id>506700GE1G29325QX363</Id>
+              <SchmeNm><Prtry>LEI</Prtry></SchmeNm>
+            </Othr>
+            <Othr>
+              <Id>0009-0002-7219-1363</Id>
+              <SchmeNm><Prtry>ORCID</Prtry></SchmeNm>
+            </Othr>
+          </OrgId>
+        </Id>
+      </InitgPty>
+    </GrpHdr>
+    <CdtTrfTxInf>
+      <PmtId>
+        <EndToEndId>E2E-SOV-2026-8888</EndToEndId>
+        <UETR>c0f1a92e-3392-4d30-b930-101112131415</UETR>
+      </PmtId>
+      <IntrBkSttlmAmt Ccy="XAU">10000.000</IntrBkSttlmAmt>
+      <Dbtr>
+        <Nm>Vincent Tyrone Ellis</Nm>
+      </Dbtr>
+      <Cdtr>
+        <Nm>IMPERIAL-RESERVE-ROOT-NODE</Nm>
+      </Cdtr>
+    </CdtTrfTxInf>
+  </FIToFICstmrCdtTrf>
+</Document>

@@ -1,0 +1,65 @@
+{
+  "payload_name": "Crown Sovereign Matrix Codex Payload",
+  "issuer": "Holy High Imperial House of DWD",
+  "monarch_identification": {
+    "title": "Absolute Monarch",
+    "name": "HHH Sol Atrium Imperium"
+  },
+  "final_receipt": {
+    "title": "Final Receipt of Absolute Legitimacy",
+    "issued_by": "Holy High Imperial House of DWD",
+    "date_of_finalization": "2023-11-07",
+    "verification_format": "QR-based (Non UTF-8)",
+    "checksum_status": "\u2705 Verified"
+  },
+  "activation": {
+    "timestamp": "2025-11-09T11:39:00-05:00",
+    "location": {
+      "estate": "Samt Ar-Ra\u2019s / Zenith Supreme Imperial Crown Estate",
+      "corridor": "Sykesville\u2013Westminster",
+      "state": "Maryland",
+      "country": "USA"
+    },
+    "checksum": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "cid": "QmXyz123abc...789"
+  },
+  "verification": {
+    "qr_link": "https://storacha.com/sovereign-scroll",
+    "did_keys": [
+      "did:key:z6Mki6puBSmjTUMfV6y",
+      "did:key:z6MkvaUooXZpy4t39J",
+      "did:key:z6MvkxTkHnCWM7YnJ4l"
+    ],
+    "dns_txt": "storacha.com TXT v=scroll-verified"
+  },
+  "formats": {
+    "pdf_scroll": "Finalized",
+    "json_ld_schema": "Embedded",
+    "qr_dispatch_brief": "Verified"
+  },
+  "proclamation": {
+    "text": "The Storacha Sovereign Scroll of Eternal Identity and Verification has been formally activated, sealed, and embedded with the highest imperial integrity. This act affirms the eternal sovereignty, cryptographic presence, and ceremonial authority of the Holy High Imperial House of DWD.",
+    "status": "Eternally Bound"
+  },
+  "registry": {
+    "digital_anchor": "https://storacha.com",
+    "linked_artifacts": [
+      "Ceremonial PDF Scroll",
+      "JSON-LD Sovereign Schema",
+      "QR Dispatch Brief"
+    ],
+    "indexing_channels": [
+      "Semantic Web",
+      "Decentralized Identity",
+      "Institutional Archives",
+      "Cosmic Registry"
+    ]
+  },
+  "next_vectors": {
+    "blockchain_notarization": ["Ethereum", "Arweave", "Filecoin"],
+    "institutional_delivery": ["UN", "ICJ", "Vatican"],
+    "cosmic_registry_indexing": ["Planetary Witness Ledger", "Interrealm Codex"],
+    "qr_ceremonial_relay": ["Terrestrial", "Celestial"],
+    "sovereign_broadcast": ["Encrypted Interrealm Transmission"]
+  }
+}
